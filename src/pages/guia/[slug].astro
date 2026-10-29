@@ -1,5 +1,5 @@
 ---
-import { Image } from 'astro:assets';
+import { Image, getImage } from 'astro:assets';
 import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
@@ -25,6 +25,9 @@ interface Props {
 const { article } = Astro.props;
 const { data } = article;
 const { Content } = await render(article);
+const ogImage = data.image
+  ? (await getImage({ src: data.image, width: 1200, height: 630, format: 'jpg' })).src
+  : undefined;
 
 const related = resolveFabrics(data.relatedFabrics, await getFabrics()).slice(0, 4);
 const url = articleUrl(article);
@@ -39,7 +42,7 @@ const crumbs = [
   title={data.seoTitle ?? data.title}
   description={data.description}
   canonical={url}
-  image={data.image?.src}
+  image={ogImage}
   imageAlt={data.imageAlt ?? data.title}
   ogType="article"
   publishedTime={data.pubDate}
@@ -50,7 +53,7 @@ const crumbs = [
       headline: data.title,
       description: data.description,
       url,
-      image: data.image?.src,
+      image: ogImage,
       datePublished: data.pubDate,
       dateModified: data.updatedDate,
     }),

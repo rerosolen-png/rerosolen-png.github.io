@@ -32,6 +32,10 @@ npm run build      # gera o site estático em dist/
 npm run preview    # serve o build local para conferência
 npm run lint       # checagem de tipos (astro check) + formatação (prettier --check)
 npm run format     # formata todos os arquivos
+npm run content:check   # valida frontmatter, descrições, slugs e links internos do conteúdo
+npm run images:optimize # redimensiona/comprime as fotos de src/assets (máx. 1600 px, JPEG q80)
+npm run images:link     # vincula fotos de src/assets ao frontmatter (image, imageAlt, imageCredit)
+npm run og              # regenera public/og-default.jpg a partir de src/assets/hero.jpg
 ```
 
 ## Estrutura do projeto
@@ -145,7 +149,7 @@ Para outro host estático (Netlify, Vercel, Cloudflare Pages): comando de build 
 
 ## Fluxo de trabalho no GitHub
 
-- `main` é a branch de produção. Ative a proteção de branch (exigir CI verde e pull request) em *Settings → Branches* assim que o repositório for público ou tiver plano GitHub Pro; em repositório privado gratuito o GitHub não permite.
+- `main` é a branch de produção. Ative a proteção de branch (exigir CI verde e pull request) em _Settings → Branches_ assim que o repositório for público ou tiver plano GitHub Pro; em repositório privado gratuito o GitHub não permite.
 - Crie branches curtas a partir de `main`: `feat/...`, `fix/...`, `content/...`, `chore/...`.
 - Commits seguem [Conventional Commits](https://www.conventionalcommits.org/pt-br/): `feat:`, `fix:`, `content:`,
   `docs:`, `chore:`, `ci:`, `refactor:`.

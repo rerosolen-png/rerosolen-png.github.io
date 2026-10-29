@@ -1,5 +1,5 @@
 ---
-import { Image } from 'astro:assets';
+import { Image, getImage } from 'astro:assets';
 import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
@@ -27,6 +27,9 @@ interface Props {
 const { category } = Astro.props;
 const { data } = category;
 const { Content } = await render(category);
+const ogImage = data.image
+  ? (await getImage({ src: data.image, width: 1200, height: 630, format: 'jpg' })).src
+  : undefined;
 
 const fabrics = fabricsInCategory(await getFabrics(), category.id);
 const url = categoryUrl(category);
@@ -48,7 +51,7 @@ const whatsappMessage = `Olá! Estou procurando ${data.title.toLowerCase()} e go
   title={data.seoTitle ?? `${data.title} por Metro em Ribeirão Preto`}
   description={data.description}
   canonical={url}
-  image={data.image?.src}
+  image={ogImage}
   imageAlt={data.imageAlt ?? data.title}
   jsonLd={jsonLd}
 >

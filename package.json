@@ -18,7 +18,8 @@
     "astro": "astro",
     "images:link": "node scripts/link-images.mjs",
     "og": "node scripts/make-og.mjs",
-    "content:check": "node scripts/check-content.mjs"
+    "content:check": "node scripts/check-content.mjs",
+    "images:optimize": "node scripts/optimize-assets.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",

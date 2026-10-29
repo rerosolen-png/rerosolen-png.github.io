@@ -1,5 +1,5 @@
 ---
-import { Image } from 'astro:assets';
+import { Image, getImage } from 'astro:assets';
 import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
@@ -31,6 +31,9 @@ interface Props {
 const { fabric } = Astro.props;
 const { data } = fabric;
 const { Content } = await render(fabric);
+const ogImage = data.image
+  ? (await getImage({ src: data.image, width: 1200, height: 630, format: 'jpg' })).src
+  : undefined;
 
 const fabrics = await getFabrics();
 const categories = categoryMap(await getCategories());
@@ -78,7 +81,7 @@ const jsonLd = [
     name: data.title,
     description: data.description,
     url,
-    image: data.image?.src,
+    image: ogImage,
     category: category?.data.title,
     material: data.composition,
     width: data.width,
@@ -92,7 +95,7 @@ const jsonLd = [
   title={title}
   description={data.description}
   canonical={url}
-  image={data.image?.src}
+  image={ogImage}
   imageAlt={data.imageAlt ?? `Tecido ${data.title}`}
   ogType="product"
   jsonLd={jsonLd}
