@@ -5,6 +5,7 @@ const TITLE_SUFFIX = `${site.name} | Loja de Tecidos em Ribeirão Preto`;
 /** Monta o título da página: "Título da página | Rosolen Textil". */
 export function pageTitle(title?: string): string {
   if (!title) return TITLE_SUFFIX;
+  if (title.endsWith(site.name)) return title;
   return `${title} | ${site.name}`;
 }
 

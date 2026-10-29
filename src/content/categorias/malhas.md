@@ -1,7 +1,7 @@
 ---
 title: 'Malhas por Metro'
 shortName: 'Malhas'
-seoTitle: 'Malhas por Metro em Ribeirão Preto | Rosolen Têxtil'
+seoTitle: 'Malhas por Metro em Ribeirão Preto'
 description: 'Malhas por metro em Ribeirão Preto: helanquinha, malha PV, canelada, viscolycra, neoprene e ribana na Rosolen Têxtil, com preço de atacado para confecções.'
 intro: 'Malhas são tecidos de meia-malha, com elasticidade natural e toque confortável, usados em camisetas, vestidos, leggings, pijamas e roupas infantis. Na Rosolen Têxtil você encontra malhas por metro, nacionais e importadas: helanquinha, malha PV, malha penteada, canelada, viscolycra lisa e estampada, neoprene, ribana e muito mais. Atendemos costureiras no varejo e confecções de Ribeirão Preto e região no atacado, com corte na hora e orientação sobre composição, largura e elasticidade.'
 keywords: ['malha por metro', 'tecido de malha', 'malha ribeirão preto', 'malha para camiseta']
