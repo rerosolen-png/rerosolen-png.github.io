@@ -12,23 +12,21 @@ const { items, title = 'Perguntas frequentes', headingLevel = 'h2' } = Astro.pro
 const Heading = headingLevel;
 ---
 
-{
-  items.length > 0 && (
-    <section class="faq-section" aria-labelledby="faq-title">
-      <Heading id="faq-title">{title}</Heading>
-      <div class="faq">
-        {items.map((item) => (
-          <details>
-            <summary>{item.question}</summary>
-            <div>
-              <p>{item.answer}</p>
-            </div>
-          </details>
-        ))}
-      </div>
-    </section>
-  )
-}
+{items.length > 0 && (
+  <section class="faq-section" aria-labelledby="faq-title">
+    <Heading id="faq-title">{title}</Heading>
+    <div class="faq">
+      {items.map((item) => (
+        <details>
+          <summary>{item.question}</summary>
+          <div>
+            <p>{item.answer}</p>
+          </div>
+        </details>
+      ))}
+    </div>
+  </section>
+)}
 
 <style>
   .faq-section {

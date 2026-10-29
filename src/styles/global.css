@@ -21,8 +21,7 @@
   --color-whatsapp: #25d366;
   --color-whatsapp-dark: #1da851;
 
-  --font-sans:
-    'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-sans: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif;
   --font-serif: Georgia, 'Times New Roman', 'Noto Serif', serif;
 
   --radius-sm: 6px;

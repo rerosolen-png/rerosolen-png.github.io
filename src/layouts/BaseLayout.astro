@@ -62,7 +62,11 @@ const schemas = [localBusinessSchema(), websiteSchema(), ...jsonLd];
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
-    {noindex ? <meta name="robots" content="noindex, nofollow" /> : <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />}
+    {noindex ? (
+      <meta name="robots" content="noindex, nofollow" />
+    ) : (
+      <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    )}
 
     <meta name="theme-color" content="#1f3a5f" />
     <meta name="author" content={site.name} />
@@ -80,7 +84,9 @@ const schemas = [localBusinessSchema(), websiteSchema(), ...jsonLd];
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:alt" content={imageAlt} />
-    {publishedTime && <meta property="article:published_time" content={publishedTime.toISOString()} />}
+    {publishedTime && (
+      <meta property="article:published_time" content={publishedTime.toISOString()} />
+    )}
     {modifiedTime && <meta property="article:modified_time" content={modifiedTime.toISOString()} />}
 
     <!-- Twitter / X -->
@@ -97,10 +103,14 @@ const schemas = [localBusinessSchema(), websiteSchema(), ...jsonLd];
 
     <link rel="sitemap" href="/sitemap-index.xml" />
 
-    {schemas.map((schema) => <script type="application/ld+json" set:html={JSON.stringify(schema)} />)}
+    {schemas.map((schema) => (
+      <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    ))}
   </head>
   <body>
-    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <a class="skip-link" href="#conteudo">
+      Pular para o conteúdo
+    </a>
     <Header />
     <main id="conteudo">
       <slot />

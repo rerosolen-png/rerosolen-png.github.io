@@ -26,11 +26,18 @@ const {
       <p>{text}</p>
     </div>
     <div class="cta__actions">
-      <a class="btn btn--whatsapp btn--lg" href={whatsappLink(message)} target="_blank" rel="noopener noreferrer">
+      <a
+        class="btn btn--whatsapp btn--lg"
+        href={whatsappLink(message)}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <IconWhatsApp />
         <span>Pedir orçamento no WhatsApp</span>
       </a>
-      <a class="btn btn--light" href={telLink()}>Ligar {site.phoneDisplay}</a>
+      <a class="btn btn--light" href={telLink()}>
+        Ligar {site.phoneDisplay}
+      </a>
     </div>
   </div>
 </section>

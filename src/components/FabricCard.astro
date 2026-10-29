@@ -17,25 +17,27 @@ const href = `/tecidos/${fabric.id}/`;
 
 <article class="card">
   <div class="card__media">
-    {
-      image ? (
-        <Image
-          src={image}
-          alt={imageAlt ?? `Tecido ${title}`}
-          width={640}
-          height={480}
-          loading={eager ? 'eager' : 'lazy'}
-          decoding="async"
-          format="webp"
-        />
-      ) : (
-        <FabricPlaceholder name={shortName ?? title} />
-      )
-    }
+    {image ? (
+      <Image
+        src={image}
+        alt={imageAlt ?? `Tecido ${title}`}
+        width={640}
+        height={480}
+        loading={eager ? 'eager' : 'lazy'}
+        decoding="async"
+        format="webp"
+      />
+    ) : (
+      <FabricPlaceholder name={shortName ?? title} />
+    )}
   </div>
   <div class="card__body">
-    <Heading class="card__title"><a href={href}>{shortName ?? title}</a></Heading>
-    <p class="card__meta">{composition} · Largura {width}</p>
+    <Heading class="card__title">
+      <a href={href}>{shortName ?? title}</a>
+    </Heading>
+    <p class="card__meta">
+      {composition} · Largura {width}
+    </p>
     <p class="card__text">Ideal para {uses.slice(0, 3).join(', ').toLowerCase()}.</p>
   </div>
 </article>

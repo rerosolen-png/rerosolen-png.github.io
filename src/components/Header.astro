@@ -28,20 +28,20 @@ const isActive = (href: string) => (href === '/' ? current === '/' : current.sta
       aria-controls="menu-principal"
       aria-label="Abrir menu"
     >
-      <span></span><span></span><span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </button>
 
     <nav class="header__nav" id="menu-principal" aria-label="Navegação principal">
       <ul>
-        {
-          nav.map((item) => (
-            <li>
-              <a href={item.href} aria-current={isActive(item.href) ? 'page' : undefined}>
-                {item.label}
-              </a>
-            </li>
-          ))
-        }
+        {nav.map((item) => (
+          <li>
+            <a href={item.href} aria-current={isActive(item.href) ? 'page' : undefined}>
+              {item.label}
+            </a>
+          </li>
+        ))}
       </ul>
       <a
         class="btn btn--whatsapp header__cta"
@@ -123,7 +123,9 @@ const isActive = (href: string) => (href === '/' ? current === '/' : current.sta
     width: 22px;
     height: 2px;
     background: var(--color-primary-dark);
-    transition: transform var(--transition), opacity var(--transition);
+    transition:
+      transform var(--transition),
+      opacity var(--transition);
   }
   .header__toggle[aria-expanded='true'] span:nth-child(1) {
     transform: translateY(7px) rotate(45deg);

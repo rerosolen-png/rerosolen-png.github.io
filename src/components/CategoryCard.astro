@@ -15,25 +15,29 @@ const href = `/categorias/${category.id}/`;
 
 <article class="card">
   <div class="card__media">
-    {
-      image ? (
-        <Image
-          src={image}
-          alt={imageAlt ?? title}
-          width={640}
-          height={480}
-          loading={eager ? 'eager' : 'lazy'}
-          decoding="async"
-          format="webp"
-        />
-      ) : (
-        <FabricPlaceholder name={shortName ?? title} />
-      )
-    }
+    {image ? (
+      <Image
+        src={image}
+        alt={imageAlt ?? title}
+        width={640}
+        height={480}
+        loading={eager ? 'eager' : 'lazy'}
+        decoding="async"
+        format="webp"
+      />
+    ) : (
+      <FabricPlaceholder name={shortName ?? title} />
+    )}
   </div>
   <div class="card__body">
-    <h3 class="card__title"><a href={href}>{title}</a></h3>
-    {count !== undefined && <p class="card__meta">{count} {count === 1 ? 'tecido' : 'tecidos'}</p>}
+    <h3 class="card__title">
+      <a href={href}>{title}</a>
+    </h3>
+    {count !== undefined && (
+      <p class="card__meta">
+        {count} {count === 1 ? 'tecido' : 'tecidos'}
+      </p>
+    )}
     <p class="card__text">{description}</p>
   </div>
 </article>
