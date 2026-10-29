@@ -1,0 +1,55 @@
+---
+/**
+ * Imagem substituta gerada em SVG (textura de trama) para tecidos ainda sem foto.
+ * A cor é derivada do nome, para que cada tecido tenha um tom diferente.
+ */
+export interface Props {
+  name: string;
+}
+const { name } = Astro.props;
+
+let hash = 0;
+for (const ch of name) hash = (hash * 31 + ch.charCodeAt(0)) % 360;
+const hue = hash;
+const bg = `hsl(${hue} 32% 86%)`;
+const line = `hsl(${hue} 30% 70%)`;
+const text = `hsl(${hue} 35% 28%)`;
+const id = `weave-${hue}`;
+---
+
+<svg
+  class="placeholder"
+  viewBox="0 0 640 480"
+  role="img"
+  aria-label={`Ilustração do tecido ${name}`}
+  preserveAspectRatio="xMidYMid slice"
+>
+  <defs>
+    <pattern id={id} width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill={bg}></rect>
+      <path d="M0 8h16M8 0v16" stroke={line} stroke-width="2.5" opacity="0.8"></path>
+      <path d="M0 0h8v8H0z" fill={line} opacity="0.25"></path>
+    </pattern>
+  </defs>
+  <rect width="640" height="480" fill={`url(#${id})`}></rect>
+  <rect x="40" y="180" width="560" height="120" rx="16" fill="white" opacity="0.82"></rect>
+  <text
+    x="320"
+    y="252"
+    text-anchor="middle"
+    font-family="Georgia, serif"
+    font-size="42"
+    font-weight="700"
+    fill={text}
+  >
+    {name}
+  </text>
+</svg>
+
+<style>
+  .placeholder {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+</style>

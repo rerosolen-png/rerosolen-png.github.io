@@ -1,0 +1,189 @@
+---
+import { site, whatsappLink } from '../data/site';
+import Logo from './Logo.astro';
+import IconWhatsApp from './icons/IconWhatsApp.astro';
+
+const nav = [
+  { href: '/tecidos/', label: 'Tecidos' },
+  { href: '/categorias/', label: 'Categorias' },
+  { href: '/guia/', label: 'Guia de Tecidos' },
+  { href: '/sobre/', label: 'Sobre' },
+  { href: '/contato/', label: 'Contato' },
+];
+
+const current = Astro.url.pathname;
+const isActive = (href: string) => (href === '/' ? current === '/' : current.startsWith(href));
+---
+
+<header class="header">
+  <div class="container header__inner">
+    <a href="/" class="header__brand" aria-label={`${site.name} - página inicial`}>
+      <Logo />
+    </a>
+
+    <button
+      class="header__toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="menu-principal"
+      aria-label="Abrir menu"
+    >
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="header__nav" id="menu-principal" aria-label="Navegação principal">
+      <ul>
+        {
+          nav.map((item) => (
+            <li>
+              <a href={item.href} aria-current={isActive(item.href) ? 'page' : undefined}>
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      <a
+        class="btn btn--whatsapp header__cta"
+        href={whatsappLink()}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <IconWhatsApp />
+        <span>Pedir orçamento</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgb(255 255 255 / 0.92);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--color-border);
+  }
+  .header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    min-height: 72px;
+  }
+  .header__brand {
+    display: inline-flex;
+    text-decoration: none;
+    flex: none;
+  }
+  .header__nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .header__nav ul {
+    display: flex;
+    gap: 0.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .header__nav li + li {
+    margin: 0;
+  }
+  .header__nav a:not(.btn) {
+    display: inline-block;
+    padding: 0.5rem 0.8rem;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--color-primary-dark);
+  }
+  .header__nav a:not(.btn):hover,
+  .header__nav a[aria-current='page'] {
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+  }
+  .header__toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+  }
+  .header__toggle span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: var(--color-primary-dark);
+    transition: transform var(--transition), opacity var(--transition);
+  }
+  .header__toggle[aria-expanded='true'] span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  .header__toggle[aria-expanded='true'] span:nth-child(2) {
+    opacity: 0;
+  }
+  .header__toggle[aria-expanded='true'] span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  @media (max-width: 900px) {
+    .header__toggle {
+      display: inline-flex;
+    }
+    .header__nav {
+      display: none;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 100%;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0.75rem;
+      padding: 1rem var(--gutter) 1.25rem;
+      background: #fff;
+      border-bottom: 1px solid var(--color-border);
+      box-shadow: var(--shadow);
+    }
+    .header__nav.is-open {
+      display: flex;
+    }
+    .header__nav ul {
+      flex-direction: column;
+      gap: 0;
+    }
+    .header__nav a:not(.btn) {
+      display: block;
+      padding: 0.75rem 0.5rem;
+      border-bottom: 1px solid var(--color-border);
+      border-radius: 0;
+    }
+    .header__cta {
+      width: 100%;
+    }
+  }
+</style>
+
+<script>
+  const toggle = document.querySelector<HTMLButtonElement>('.header__toggle');
+  const nav = document.getElementById('menu-principal');
+  if (toggle && nav) {
+    toggle.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      toggle.setAttribute('aria-label', open ? 'Abrir menu' : 'Fechar menu');
+      nav.classList.toggle('is-open', !open);
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && nav.classList.contains('is-open')) toggle.click();
+    });
+  }
+</script>

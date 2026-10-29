@@ -1,0 +1,200 @@
+---
+import { getCollection } from 'astro:content';
+import { site, formatAddress, whatsappLink, telLink } from '../data/site';
+import Logo from './Logo.astro';
+import IconInstagram from './icons/IconInstagram.astro';
+import IconFacebook from './icons/IconFacebook.astro';
+import IconWhatsApp from './icons/IconWhatsApp.astro';
+
+const categorias = (await getCollection('categorias')).sort((a, b) => a.data.order - b.data.order);
+const destaques = (await getCollection('tecidos'))
+  .filter((t) => t.data.featured)
+  .sort((a, b) => a.data.order - b.data.order)
+  .slice(0, 8);
+
+const year = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__col footer__col--brand">
+        <Logo light />
+        <p>{site.description}</p>
+        <div class="footer__social">
+          <a href={site.social.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram da Rosolen Textil">
+            <IconInstagram />
+          </a>
+          <a href={site.social.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook da Rosolen Textil">
+            <IconFacebook />
+          </a>
+          <a href={whatsappLink()} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp da Rosolen Textil">
+            <IconWhatsApp />
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer__col" aria-label="Categorias de tecidos">
+        <h2 class="footer__title">Categorias</h2>
+        <ul>
+          {categorias.map((c) => <li><a href={`/categorias/${c.id}/`}>{c.data.shortName ?? c.data.title}</a></li>)}
+          <li><a href="/tecidos/">Todos os tecidos</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer__col" aria-label="Tecidos mais procurados">
+        <h2 class="footer__title">Mais procurados</h2>
+        <ul>
+          {destaques.map((t) => <li><a href={`/tecidos/${t.id}/`}>{t.data.shortName ?? t.data.title}</a></li>)}
+          <li><a href="/guia/">Guia de tecidos</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__col">
+        <h2 class="footer__title">Visite a loja</h2>
+        <address>
+          <p>{formatAddress()}</p>
+          <p>
+            <a href={telLink()}>{site.phoneDisplay}</a><br />
+            <a href={whatsappLink()} target="_blank" rel="noopener noreferrer">WhatsApp {site.whatsappDisplay}</a><br />
+            <a href={`mailto:${site.email}`}>{site.email}</a>
+          </p>
+        </address>
+        <h3 class="footer__subtitle">Horário de atendimento</h3>
+        <ul class="footer__hours">
+          {site.openingHours.map((h) => <li><span>{h.label}</span> <span>{h.opens} às {h.closes}</span></li>)}
+        </ul>
+        <a class="footer__map" href={site.mapsUrl} target="_blank" rel="noopener noreferrer">Como chegar</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© {year} {site.legalName}. Todos os direitos reservados. Loja de tecidos em {site.address.city} - {site.address.state}.</p>
+      <ul class="footer__legal">
+        <li><a href="/sobre/">Sobre</a></li>
+        <li><a href="/perguntas-frequentes/">Perguntas frequentes</a></li>
+        <li><a href="/politica-de-privacidade/">Privacidade</a></li>
+        <li><a href="/creditos-de-imagens/">Créditos de imagens</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background: var(--color-primary-dark);
+    color: #cfd8e6;
+    padding-block: 3.5rem 2rem;
+    margin-top: var(--section-y);
+    font-size: 0.95rem;
+  }
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    color: #f3c7b3;
+    text-decoration: underline;
+  }
+  .footer__grid {
+    display: grid;
+    gap: 2.5rem 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  }
+  .footer__col--brand {
+    grid-column: span 1;
+  }
+  @media (min-width: 1000px) {
+    .footer__grid {
+      grid-template-columns: 1.4fr 1fr 1fr 1.3fr;
+    }
+  }
+  .footer__col p {
+    margin-top: 1rem;
+  }
+  .footer__title {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #f3c7b3;
+    margin-bottom: 1rem;
+  }
+  .footer__subtitle {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #f3c7b3;
+    margin: 1.25rem 0 0.5rem;
+  }
+  .footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer li + li {
+    margin-top: 0.45rem;
+  }
+  address {
+    font-style: normal;
+  }
+  address p {
+    margin-top: 0;
+  }
+  .footer__hours li {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    border-bottom: 1px dashed rgb(255 255 255 / 0.15);
+    padding-bottom: 0.3rem;
+  }
+  .footer__map {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+  .footer__social {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+  .footer__social a {
+    display: inline-flex;
+    width: 42px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgb(255 255 255 / 0.08);
+    transition: background var(--transition);
+  }
+  .footer__social a:hover {
+    background: rgb(255 255 255 / 0.18);
+  }
+  .footer__social :global(svg) {
+    width: 20px;
+    height: 20px;
+  }
+  .footer__bottom {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgb(255 255 255 / 0.12);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 0.85rem;
+  }
+  .footer__bottom p {
+    margin: 0;
+  }
+  .footer__legal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .footer__legal li + li {
+    margin: 0;
+  }
+</style>

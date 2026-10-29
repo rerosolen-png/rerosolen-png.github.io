@@ -1,0 +1,37 @@
+---
+/**
+ * Lista de perguntas e respostas usando <details>, sem JavaScript.
+ * O schema FAQPage correspondente deve ser enviado ao layout via `jsonLd`.
+ */
+export interface Props {
+  items: { question: string; answer: string }[];
+  title?: string;
+  headingLevel?: 'h2' | 'h3';
+}
+const { items, title = 'Perguntas frequentes', headingLevel = 'h2' } = Astro.props;
+const Heading = headingLevel;
+---
+
+{
+  items.length > 0 && (
+    <section class="faq-section" aria-labelledby="faq-title">
+      <Heading id="faq-title">{title}</Heading>
+      <div class="faq">
+        {items.map((item) => (
+          <details>
+            <summary>{item.question}</summary>
+            <div>
+              <p>{item.answer}</p>
+            </div>
+          </details>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .faq-section {
+    margin-top: 3rem;
+  }
+</style>

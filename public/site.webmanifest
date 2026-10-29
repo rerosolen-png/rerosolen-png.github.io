@@ -1,0 +1,10 @@
+{
+  "name": "Rosolen Textil",
+  "short_name": "Rosolen",
+  "description": "Loja de tecidos em Ribeirão Preto",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#faf7f2",
+  "theme_color": "#1f3a5f",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

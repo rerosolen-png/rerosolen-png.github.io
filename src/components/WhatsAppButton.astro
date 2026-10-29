@@ -1,0 +1,52 @@
+---
+import { whatsappLink } from '../data/site';
+import IconWhatsApp from './icons/IconWhatsApp.astro';
+---
+
+<a
+  class="wa-float"
+  href={whatsappLink()}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Falar com a Rosolen Textil pelo WhatsApp"
+>
+  <IconWhatsApp />
+  <span class="wa-float__label">WhatsApp</span>
+</a>
+
+<style>
+  .wa-float {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 90;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.1rem 0.75rem 0.9rem;
+    background: var(--color-whatsapp);
+    color: #fff;
+    border-radius: 999px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: var(--shadow-lg);
+    transition: background var(--transition), transform var(--transition);
+  }
+  .wa-float:hover {
+    background: var(--color-whatsapp-dark);
+    color: #fff;
+    transform: translateY(-2px);
+  }
+  .wa-float :global(svg) {
+    width: 26px;
+    height: 26px;
+  }
+  @media (max-width: 600px) {
+    .wa-float__label {
+      display: none;
+    }
+    .wa-float {
+      padding: 0.85rem;
+    }
+  }
+</style>

@@ -1,0 +1,41 @@
+---
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import FabricPlaceholder from './FabricPlaceholder.astro';
+
+export interface Props {
+  fabric: CollectionEntry<'tecidos'>;
+  /** Carrega a imagem com prioridade (acima da dobra). */
+  eager?: boolean;
+  headingLevel?: 'h2' | 'h3';
+}
+const { fabric, eager = false, headingLevel = 'h3' } = Astro.props;
+const Heading = headingLevel;
+const { title, shortName, image, imageAlt, composition, width, uses } = fabric.data;
+const href = `/tecidos/${fabric.id}/`;
+---
+
+<article class="card">
+  <div class="card__media">
+    {
+      image ? (
+        <Image
+          src={image}
+          alt={imageAlt ?? `Tecido ${title}`}
+          width={640}
+          height={480}
+          loading={eager ? 'eager' : 'lazy'}
+          decoding="async"
+          format="webp"
+        />
+      ) : (
+        <FabricPlaceholder name={shortName ?? title} />
+      )
+    }
+  </div>
+  <div class="card__body">
+    <Heading class="card__title"><a href={href}>{shortName ?? title}</a></Heading>
+    <p class="card__meta">{composition} · Largura {width}</p>
+    <p class="card__text">Ideal para {uses.slice(0, 3).join(', ').toLowerCase()}.</p>
+  </div>
+</article>
