@@ -52,6 +52,13 @@ faq:
     answer: 'Não é obrigatório. A trama é grossa e desfia pouco, e muitos usuários cortam e usam direto. Para prolongar a vida e evitar fiapos no piso, uma costura de overloque ou um zigue-zague largo nas duas pontas resolve em segundos. As laterais já têm ourela e não precisam de acabamento.'
   - question: 'Qual a diferença entre pano de chão e pano de prato?'
     answer: 'O pano de prato tem trama fechada e fina, com fibras de algodão macias, para secar louça sem riscar. O pano de chão tem trama aberta e grossa, com mais peso, feita para absorver grande quantidade de água e aguentar torção e produtos de limpeza. Os dois têm largura parecida, mas não trocam de função.'
+image: ../../assets/tecidos/pano-de-chao.jpg
+imageAlt: 'Tecido Pano de Chão por Metro: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Philippe Alès'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Texture_of_blue_cleaning_cloth.JPG'
 ---
 
 ## O que é o pano de chão por metro

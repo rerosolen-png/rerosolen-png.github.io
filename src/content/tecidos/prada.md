@@ -54,6 +54,13 @@ faq:
     answer: 'São parecidos, mas não iguais. Os dois têm composição próxima, de poliéster com 4% de elastano, e peso semelhante. O prada tem brilho mais perceptível e elasticidade concentrada na largura; o two way é mais fosco e estica nos dois sentidos. A escolha depende do visual e do conforto que a peça pede.'
   - question: 'Quantos metros de prada preciso para uma saia lápis?'
     answer: 'Para uma saia lápis adulta na altura do joelho, calcule de 0,80 m a 1,00 m na largura de 1,47 m. Saias midi pedem de 1,00 m a 1,20 m. Se a saia tiver cós alto, recortes ou fenda com vista, acrescente cerca de 20 cm para as peças de acabamento.'
+image: ../../assets/tecidos/prada.jpg
+imageAlt: 'Tecido Tecido Prada: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Damieng at en.wikipedia'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Polyester_Shirt,_close-up.jpg'
 ---
 
 ## O que é o tecido prada

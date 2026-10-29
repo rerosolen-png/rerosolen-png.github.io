@@ -54,6 +54,13 @@ faq:
     answer: 'É uma das melhores opções para camisas de uniforme. Ela amassa pouco, seca rápido, mantém a cor após muitas lavagens e tem custo por metro menor que o algodão puro. O algodão da mistura garante conforto e toque macio, por isso funciona bem em escritórios, lojas, clínicas e escolas.'
   - question: 'Qual a diferença entre tricoline mista e tricoline 100% algodão?'
     answer: 'A tricoline 100% algodão é mais fresca e absorve melhor o suor, mas amassa e encolhe mais. A tricoline mista troca parte do algodão por poliéster, ganhando resistência, secagem rápida e menos amassado. Para uso pessoal no calor, o algodão puro agrada mais; para uniformes e produção em série, a mista é mais prática.'
+image: ../../assets/tecidos/tricoline-misto.jpg
+imageAlt: 'Tecido Tricoline Mista (Poliéster e Algodão): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Suyash Dwivedi'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Macro_image_of_Cotton_Fabric.jpg'
 ---
 
 ## O que é o tecido tricoline mista

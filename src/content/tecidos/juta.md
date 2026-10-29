@@ -53,6 +53,13 @@ faq:
     answer: 'A juta tem 1,00 m de largura. Um caminho de 0,40 m por 2,20 m usa 2,20 m de tecido e sobra uma tira de 0,60 m para sousplats ou laços. Como alternativa, corte o caminho no sentido da largura e emende duas partes de 1,00 m. Peça ajuda à nossa equipe para calcular o melhor aproveitamento.'
   - question: 'Juta pode ser lavada na máquina?'
     answer: 'Não é recomendado. A fibra encolhe, pode soltar cor e deforma com o movimento da máquina. Prefira a limpeza a seco, com escova ou aspirador, e remova manchas com pano levemente úmido. Se a peça precisar de água, lave à mão rapidamente, sem molho, e seque esticada à sombra.'
+image: ../../assets/tecidos/juta.jpg
+imageAlt: 'Tecido Juta por Metro: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Hessian_380_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
 ---
 
 ## O que é a juta

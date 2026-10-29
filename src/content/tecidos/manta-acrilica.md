@@ -53,6 +53,13 @@ faq:
     answer: 'A manta tem 1,40 m de largura. Para uma colcha de solteiro, de 1,60 x 2,20 m, compre 3,40 m e emende dois panos lado a lado. Para colcha de casal, de 2,20 x 2,40 m, calcule 5,00 m. Almofadas de 45 cm usam 0,50 m cada, e uma manta de bebê de 0,90 x 1,10 m pede 1,20 m.'
   - question: 'A manta acrílica pode ser lavada na máquina?'
     answer: 'Sim, desde que esteja costurada dentro de uma peça. Lave em água fria, no ciclo delicado, com centrifugação baixa, e seque à sombra ou na secadora em temperatura baixa. A fibra siliconada não embola nem perde o volume com lavagens comuns. Colchas em quilting, com a manta presa por costuras, aguentam muitos anos de uso.'
+image: ../../assets/tecidos/manta-acrilica.jpg
+imageAlt: 'Tecido Manta Acrílica para Enchimento: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'KamillaŚ'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Polyfill.jpg'
 ---
 
 ## O que é a manta acrílica

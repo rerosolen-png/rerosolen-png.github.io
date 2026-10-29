@@ -50,6 +50,13 @@ faq:
     answer: 'Sim, é uma das escolhas mais comuns para salas e quartos. Ele tem corpo, cobre a luz do dia, amassa pouco e a textura combina com a decoração atual. Para controle total de luz, pode ser forrado com blackout. Para um ambiente mais leve, pode ser combinado com uma camada de voil na frente.'
   - question: 'Quantos metros de oxford slub para uma janela de 3 metros?'
     answer: 'Para uma janela de 3,00 m, com franzido padrão, calcule o dobro da largura: 6,00 m de tecido. Se preferir uma cortina de pregas mais discretas, 1,5 vez a largura, ou 4,50 m, já funciona. A altura de até 2,80 m sai inteira, porque a largura de 3,00 m do tecido vira a altura da peça.'
+image: ../../assets/tecidos/oxford-slub.jpg
+imageAlt: 'Tecido Oxford Slub (Texturizado): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Madame'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Slubby_tsumugi_fabric.jpg'
 ---
 
 ## O que é o tecido oxford slub

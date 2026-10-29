@@ -54,6 +54,13 @@ faq:
     answer: 'Um soft de boa qualidade solta pouca felpa e resiste bem ao pilling, porque o poliéster é uma fibra forte. Com o tempo e o atrito, as bolinhas podem aparecer em áreas de desgaste, como axilas e joelhos de pijamas. Lavar pelo avesso, em água fria e sem secadora quente, prolonga muito a aparência da peça.'
   - question: 'Quantos metros de soft preciso para um pijama?'
     answer: 'Na largura de 1,60 m, um pijama adulto de calça e blusa de manga longa consome de 2,20 m a 2,50 m. Um pijama infantil fica entre 1,20 m e 1,50 m, conforme a idade. Uma manta de solteiro usa 2,00 m, e uma mantinha de bebê, 1,00 m. O soft não encolhe, então não é preciso somar margem para a lavagem.'
+image: ../../assets/tecidos/soft.jpg
+imageAlt: 'Tecido Soft (Tecido Soft): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Knitted_fleece_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
 ---
 
 ## O que é o tecido soft

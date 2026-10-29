@@ -53,6 +53,13 @@ faq:
     answer: 'Amassa bem menos. A viscose suaviza as marcas e o elastano ajuda a trama a se recompor quando a peça é pendurada. Ainda assim, trata-se de um tecido com linho, então algumas marcas de uso aparecem ao longo do dia, principalmente atrás dos joelhos. Para reduzir, pendure a peça para secar e passe pelo avesso.'
   - question: 'Posso usar o linho com elastano em uniforme?'
     answer: 'Sim. Em uniformes femininos de recepção, hotelaria e eventos, ele oferece aparência de alfaiataria com conforto para longas jornadas e para o calor. Compre a metragem completa de uma só vez para garantir o mesmo lote de cor em todas as peças, e oriente a equipe a lavar no ciclo delicado e sem secadora.'
+image: ../../assets/tecidos/linho-com-elastano.jpg
+imageAlt: 'Tecido Linho com Elastano: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Jason Jacobs from Honolulu, USA'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:A_little_Aloha%5E_(Explored)_-_Flickr_-_jijake1977.jpg'
 ---
 
 ## O que é o tecido linho com elastano

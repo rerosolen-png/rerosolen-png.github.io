@@ -19,6 +19,13 @@ faq:
     answer: 'Os dois são tecidos de algodão com estampas grandes e coloridas, típicas de festa junina e decoração nordestina. A chita é mais leve e fina, com flores médias, usada em roupas, vestidos de quadrilha, forros e artesanato. O chitão é mais encorpado e tem desenhos maiores, indicado para toalhas, cortinas, almofadas, capas e decoração de festas. Ambos custam pouco e rendem bastante.'
   - question: 'Vocês vendem feltro e TNT em pequenas quantidades?'
     answer: 'Sim. Na Rosolen Têxtil o feltro, o TNT e todos os tecidos de artesanato são vendidos por metro, com corte a partir de pequenas metragens para quem faz um projeto só. Para escolas, decoradores de festa e artesãs que produzem em escala, oferecemos preço de atacado por rolo ou por volume. Pelo WhatsApp confirmamos as cores em estoque e organizamos a retirada em Ribeirão Preto ou o envio.'
+image: ../../assets/categorias/artesanato-e-patchwork.jpg
+imageAlt: 'Tecidos para Artesanato e Patchwork: foto ilustrativa'
+imageCredit:
+  author: 'jude from new york, usa'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Green_patchwork_quilt_sewn_by_hand.jpg'
 ---
 
 ## Como escolher tecidos para artesanato e patchwork

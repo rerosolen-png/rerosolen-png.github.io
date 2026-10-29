@@ -54,6 +54,13 @@ faq:
     answer: 'Em peças de corpo inteiro, como vestidos e saias, sim, porque os vazados do bordado deixam a pele à mostra. Um forro de viscose lisa ou de tafetá em tom próximo resolve e ainda dá estrutura. Em blusas e croppeds, muita gente usa sem forro, com um top por baixo, e em detalhes como golas e mangas o forro é dispensável.'
   - question: 'Como cortar laise sem desperdiçar o bordado?'
     answer: 'Observe o desenho antes de posicionar os moldes: muitas laises têm barrado bordado em uma das bordas, ideal para bainhas de saias e mangas. Centralize motivos grandes na frente da peça e mantenha os moldes no mesmo sentido. Como a largura é menor, de 1,25 m a 1,30 m, calcule a metragem com folga de 15% a 20%.'
+image: ../../assets/tecidos/laise.jpg
+imageAlt: 'Tecido Laise (Lese): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Anne-Lise Reinsfelt / Norwegian Museum of Cultural History'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Collar_broderie_anglaise.jpg'
 ---
 
 ## O que é o tecido laise

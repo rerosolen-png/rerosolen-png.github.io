@@ -53,6 +53,13 @@ faq:
     answer: 'Em cores escuras e médias, não. O tecido tem opacidade média e cobre bem em blusas, saias e calças soltas. Em branco, bege e tons pastel, peças justas ou usadas contra a luz podem transparecer um pouco; nesses casos, um forro leve de tafetá resolve. Em blusas claras soltas, costuma dispensar forro.'
   - question: 'Qual a diferença entre duna air flow e crepe georgette?'
     answer: 'Os dois são crepes de poliéster leves e práticos. O duna tem textura um pouco mais marcada e caimento mais solto e seco, com toque fosco. O georgette tem fios de alta torção, textura mais fina e um pouco mais de corpo. Na prática, os dois atendem às mesmas peças; a escolha costuma ser pela cor e pelo toque.'
+image: ../../assets/tecidos/duna-air-flow.jpg
+imageAlt: 'Tecido Duna Air Flow: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Göran Schmidt'
+  source: 'Wikimedia Commons'
+  license: 'Public Domain'
+  url: 'https://commons.wikimedia.org/wiki/File:F%C3%B6rmiddagskl%C3%A4nning,_drottning_Victoria_-_Livrustkammaren_-_15799_01.jpg'
 ---
 
 ## O que é o tecido duna air flow

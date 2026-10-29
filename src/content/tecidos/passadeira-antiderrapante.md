@@ -54,6 +54,13 @@ faq:
     answer: 'Sim. Por ser uma lâmina de PVC, ela corta com tesoura comum ou estilete sobre uma base, e a borda não desfia nem precisa de acabamento. Dá para recortar o contorno de uma gaveta, do porta-malas ou de uma bancada com precisão. Marque com caneta no verso e corte com a lâmina bem afiada.'
   - question: 'Serve para a área de comida do cachorro?'
     answer: 'É um dos usos mais populares. A passadeira segura os potes no lugar, recolhe a água derramada sem encharcar e limpa com um pano úmido. Pelos não ficam presos na superfície. Escolha uma estampa pet e corte um pedaço de 60 a 80 cm para a área dos potes de ração e água.'
+image: ../../assets/tecidos/passadeira-antiderrapante.jpg
+imageAlt: 'Tecido Passadeira Antiderrapante por Metro: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Draco flavus'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Non_slip_mat.jpg'
 ---
 
 ## O que é a passadeira antiderrapante

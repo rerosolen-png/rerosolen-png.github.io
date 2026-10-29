@@ -53,6 +53,13 @@ faq:
     answer: 'Uma mochila escolar média consome entre 0,80 m e 1,00 m na largura de 1,48 m, já contando bolsos e alças. Mochilas grandes de viagem ficam entre 1,20 m e 1,50 m. Uma nécessaire grande sai com 0,30 m, e uma bolsa de academia com 0,70 m. Acrescente 10% para acertos e eventuais erros de corte.'
   - question: 'Como costurar nylon 600 na máquina doméstica?'
     answer: 'Use agulha 100 ou 110, linha de poliéster grossa e ponto reto de 3,5 mm a 4 mm. Costure com o lado de PVC protegido por papel manteiga ou use calcador de teflon para o tecido deslizar. Prenda as peças com clipes, não com alfinetes, pois os furos ficam marcados. Vá devagar nas camadas grossas das alças.'
+image: ../../assets/tecidos/nylon-600.jpg
+imageAlt: 'Tecido Nylon 600 (Oxford com PVC): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Apapadop'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Blue_cordura_garment.jpg'
 ---
 
 ## O que é o tecido nylon 600

@@ -19,6 +19,13 @@ relatedFabrics:
     atoalhado,
   ]
 draft: false
+image: ../../assets/guia/como-lavar-e-cuidar-de-cada-tecido.jpg
+imageAlt: 'Como lavar e cuidar de cada tipo de tecido: imagem ilustrativa'
+imageCredit:
+  author: 'W.carter'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Rotary_clothes_line_with_laundry_at_Br%C3%A4dg%C3%A5rdsv%C3%A4gen_in_Brastad.jpg'
 ---
 
 A regra geral para não estragar uma peça é simples: **água fria ou morna, sabão neutro, ciclo delicado para tecidos finos e secagem à sombra**. Fibras naturais (algodão, linho) aguentam mais calor e ferro quente; fibras artificiais (viscose) encolhem e enfraquecem molhadas; sintéticos (poliéster, elastano) não gostam de calor alto, mas secam rápido e quase não amassam; tecidos de festa e com pelo pedem lavagem à mão ou lavanderia.

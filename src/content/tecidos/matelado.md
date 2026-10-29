@@ -53,6 +53,13 @@ faq:
     answer: 'Na largura de 2,40 m, uma colcha de casal com queda nas laterais mede cerca de 2,40 m por 2,60 m: compre 2,60 m e acrescente 0,60 m para dois porta-travesseiros. Para solteiro, 2,00 m de tecido bastam, com sobra para um porta-travesseiro. Para queen, a queda lateral fica mais curta; calcule 2,80 m.'
   - question: 'O matelado pode ir na máquina de lavar?'
     answer: 'Sim. Lave em água fria com sabão neutro, ciclo normal ou delicado, sem cloro. Como é 100% poliéster, o enchimento não embola e a colcha não encolhe. Seque à sombra, estendida, e não use secadora quente. Não precisa passar; se quiser, use ferro morno pelo lado do forro, sem pressionar o relevo.'
+image: ../../assets/tecidos/matelado.jpg
+imageAlt: 'Tecido Tecido Matelassê (Matelado): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'YellowstoneNPS'
+  source: 'Wikimedia Commons'
+  license: 'Public Domain'
+  url: 'https://commons.wikimedia.org/wiki/File:YELL_66710-_quilted_wall_hanging_(2)_(51691469336).jpg'
 ---
 
 ## O que é o tecido matelassê

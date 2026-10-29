@@ -19,6 +19,13 @@ faq:
     answer: 'Para um pijama adulto completo, com calça comprida e blusa de manga longa, calcule de 2,50 m a 3,00 m de soft na largura de 1,60 m. Um roupão longo consome de 2,50 m a 3,00 m, e um cobertor de casal leva 2,20 m, aproveitando a largura inteira. Para pijama infantil, 1,50 m costuma ser suficiente. Traga as medidas e ajudamos a calcular.'
   - question: 'Moletom e moletinho são a mesma coisa?'
     answer: 'Não. O moletom é uma malha mais pesada, de algodão com poliéster, com avesso felpado ou flanelado, usado em casacos, calças e blusas de frio. O moletinho é mais leve e fino, com avesso liso ou pouco felpado, ideal para conjuntos de meia-estação, roupas infantis e peças que não podem ficar volumosas. Os dois aceitam ribana nos punhos, golas e barras.'
+image: ../../assets/categorias/tecidos-para-inverno.jpg
+imageAlt: 'Tecidos para Inverno: foto ilustrativa'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Polar_fleece_ao_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
 ---
 
 ## Como escolher tecidos para inverno

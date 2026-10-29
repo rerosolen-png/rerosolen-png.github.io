@@ -7,6 +7,13 @@ tags: ['ribeirão preto', 'loja de tecidos', 'avenida da saudade', 'campos elís
 relatedFabrics:
   [tricoline-100-algodao, viscose-estampada, oxford, malha-pv, voil, blackout, percal-230-fios]
 draft: false
+image: ../../assets/guia/onde-comprar-tecidos-em-ribeirao-preto.jpg
+imageAlt: 'Onde comprar tecidos em Ribeirão Preto: guia da Avenida da Saudade: imagem ilustrativa'
+imageCredit:
+  author: 'Thomas Timlen from Singapore, Singapore'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Fabric_bolt_ensemble_(7856833718).jpg'
 ---
 
 Quem procura tecidos em Ribeirão Preto encontra a maior concentração de lojas na **Avenida da Saudade, no bairro Campos Elíseos**, o tradicional polo de tecidos da cidade. É lá que está a Rosolen Têxtil, no número 891, com tecidos planos e malhas, nacionais e importados, vendidos por metro no varejo e com preço de atacado para confecções, e a Rosolen Decorações, no número 881, especializada em tecidos para cortinas, estofados, cama, mesa e banho.

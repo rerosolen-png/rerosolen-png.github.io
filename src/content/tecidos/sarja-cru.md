@@ -54,6 +54,13 @@ faq:
     answer: 'Sim. Por ser algodão puro sem acabamento, a sarja cru pode encolher de 3% a 5% na primeira lavagem, principalmente em água morna ou quente. Lave e seque o tecido antes de cortar ou tingir. Depois disso, as peças mantêm a medida com estabilidade e não precisam de novos ajustes.'
   - question: 'Qual a diferença entre sarja cru e algodão cru?'
     answer: 'Os dois são 100% algodão sem tingimento. O algodão cru comum tem trama tela, mais leve e simples, usada em artesanato, embalagens e forros. A sarja cru tem trama sarjada 3x1, mais densa e resistente, com diagonais visíveis, indicada para roupas, bolsas e peças que recebem tingimento ou estampa.'
+image: ../../assets/tecidos/sarja-cru.jpg
+imageAlt: 'Tecido Sarja de Algodão Cru: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Unknown artist Unknown artist'
+  source: 'Wikimedia Commons'
+  license: 'Public Domain'
+  url: 'https://commons.wikimedia.org/wiki/File:Textile,_19th_century_(CH_18480331).jpg'
 ---
 
 ## O que é o tecido sarja de algodão cru

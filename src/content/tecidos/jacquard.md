@@ -53,6 +53,13 @@ faq:
     answer: 'O clássico tem fundo fosco e motivos tipo arabesco com brilho discreto, muito usado em cortinas e toalhas de festa tradicionais. O acetinado tem base de cetim, brilho mais intenso e desenhos florais ou em arabesco, com visual de mesa posta sofisticada. Os dois têm 2,80 m de largura e a mesma lavagem simples.'
   - question: 'Quantos metros de jacquard para uma toalha de mesa?'
     answer: 'Use a largura de 2,80 m como comprimento da toalha. Para uma mesa retangular de seis lugares, com 1,60 m por 0,90 m, compre 1,50 m de tecido: a toalha fica com 2,80 m por 1,50 m e cai cerca de 30 cm nas laterais. Para mesa redonda de 1,20 m com toalha até o chão, calcule um quadrado de 2,70 m, ou seja, 2,70 m de tecido.'
+image: ../../assets/tecidos/jacquard.jpg
+imageAlt: 'Tecido Jacquard para Decoração: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Primary_flat_-_Quatrefoil_Jacquard_Fabric_(Rico_Cilliers_and_colormass_via_Poly_Haven).webp'
 ---
 
 ## O que é o tecido jacquard para decoração

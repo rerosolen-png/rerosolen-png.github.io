@@ -52,6 +52,13 @@ faq:
     answer: 'O linho puro tem textura irregular, toque seco e fresco e fios com pequenos nós visíveis. Ao amassar com a mão, ele marca na hora e não volta. O linho misturado com viscose é mais macio, brilhante e recupera parte do amassado. Na dúvida, confira a composição na etiqueta ou pergunte à nossa equipe.'
   - question: 'O linho puro encolhe na lavagem?'
     answer: 'Pode encolher de 3% a 5% na primeira lavagem, principalmente no comprimento. Por isso lave o tecido em água fria ou morna, seque à sombra e passe antes de cortar os moldes. Depois dessa preparação, as peças mantêm a medida com estabilidade, e o tecido só fica mais macio com o uso.'
+image: ../../assets/tecidos/linho-puro.jpg
+imageAlt: 'Tecido Linho Puro 100% Linho: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Александр Сигачёв'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Museum_of_Linen_manufacture_by_merchants_Lokalov_-_fabric_sample_-_2025-08_-_p12.jpg'
 ---
 
 ## O que é o tecido linho puro

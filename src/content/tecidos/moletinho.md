@@ -53,6 +53,13 @@ faq:
     answer: 'Sim, para o inverno de cidades com frio moderado, como Ribeirão Preto. O avesso levemente felpado aquece, e a viscose dá conforto térmico sem abafar. Em dias muito frios, combine a calça de moletinho com um casaco de moletom ou de sherpa. Na meia-estação, o moletinho sozinho é a escolha certa.'
   - question: 'Quantos metros de moletinho preciso para uma calça?'
     answer: 'Na largura de 1,65 m, uma calça jogger ou pantalona de moletinho consome de 1,20 m a 1,40 m. Um vestido midi de manga longa usa de 1,80 m a 2,00 m, e uma jaqueta, cerca de 1,60 m. Um conjunto de blusa e calça fica em torno de 2,50 m. Pré-lave antes de cortar para descontar o encolhimento.'
+image: ../../assets/tecidos/moletinho.jpg
+imageAlt: 'Tecido Moletinho (Moletom Leve com Elastano): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Steve Johnson'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Terrycloth_washcloths.jpg'
 ---
 
 ## O que é a malha moletinho

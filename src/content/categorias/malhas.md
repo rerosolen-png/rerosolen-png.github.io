@@ -13,6 +13,13 @@ faq:
     answer: 'Na Rosolen Têxtil as malhas são vendidas por metro, o que facilita o cálculo do molde e evita surpresas com a gramatura. A largura costuma ser de 1,60 m a 1,80 m, em tubular ou aberta, então uma camiseta adulta consome em torno de 0,80 m a 1,00 m. Para confecções, oferecemos preço de atacado por rolo ou por volume, com disponibilidade confirmada pelo WhatsApp.'
   - question: 'Como costurar malha em máquina doméstica?'
     answer: 'Use agulha de ponta bola, própria para malhas, e ponto zigue-zague estreito ou ponto elástico, para a costura esticar junto com o tecido. Não puxe a malha enquanto costura; deixe o impelente levar. Para bainhas, a agulha dupla dá acabamento profissional. Se tiver overloque, use três ou quatro fios. Lave a malha antes de cortar, porque as de algodão podem encolher.'
+image: ../../assets/categorias/malhas.jpg
+imageAlt: 'Malhas por Metro: foto ilustrativa'
+imageCredit:
+  author: 'teslar'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Interlockjersey.jpg'
 ---
 
 ## Como escolher malhas

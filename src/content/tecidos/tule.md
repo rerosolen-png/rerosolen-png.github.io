@@ -54,6 +54,13 @@ faq:
     answer: 'Uma saia midi de tule com quatro camadas, no tule de 2,40 m, usa de 4,00 m a 6,00 m, considerando franzido de duas a três vezes a cintura. Saias longas com volume maior podem chegar a 8,00 m. No tule de 1,20 m, dobre a metragem. Um forro de cetim ou tafetá dá acabamento e conforto.'
   - question: 'Tule é bom para decoração de festa?'
     answer: 'Sim. O tule de 2,40 m é muito usado em painéis de fundo, cortinas de mesa, tetos de tenda, laços de cadeira e arcos de balão. É leve, não desfia, aceita franzidos e fica bonito em camadas de cores diferentes. Para áreas grandes, calcule o franzido em duas vezes o comprimento final.'
+image: ../../assets/tecidos/tule.jpg
+imageAlt: 'Tecido Tule por Metro (1,20 m e 2,40 m): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rijksmuseum'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Tr%C3%A8s_Parisien,_1923,_No._3_Cr%C3%A9ations_ROBERT..Diablesse,_BI-1966-1051-3-9.jpg'
 ---
 
 ## O que é o tecido tule

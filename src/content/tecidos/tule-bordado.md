@@ -53,6 +53,13 @@ faq:
     answer: 'Sim, é transparente e foi feito para sobreposição. Em vestidos, o forro costuma ser de cetim charmousse ou de tafetá na mesma cor ou em um tom de pele, para destacar o bordado. Em blusas, uma base de malha ou de cetim resolve. Em saias de camadas, as camadas de tule liso por baixo já dão a cobertura.'
   - question: 'Quantos metros de tule bordado preciso para um vestido longo?'
     answer: 'Para a sobreposição de um vestido longo reto, calcule de 3,00 m a 3,50 m na largura de 1,50 m. Modelos com saia rodada ou godê sobem para 4,50 m a 5,50 m. O forro de cetim deve ser calculado à parte. Como o bordado não tem direção definida, o aproveitamento no corte é bom.'
+image: ../../assets/tecidos/tule-bordado.jpg
+imageAlt: 'Tecido Tule Bordado com Lantejoulas: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rhododendrites'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Jun_Takahashi_dress_for_Undercover_(51493).jpg'
 ---
 
 ## O que é o tecido tule bordado com lantejoulas

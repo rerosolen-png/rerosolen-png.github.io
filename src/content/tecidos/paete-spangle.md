@@ -53,6 +53,13 @@ faq:
     answer: 'Um vestido curto justo usa de 1,50 m a 1,80 m na largura de 1,30 m. Um vestido midi fica entre 2,20 m e 2,60 m, e um longo reto, entre 3,00 m e 3,50 m. Some o forro, obrigatório no contato com a pele, e confira a direção das lantejoulas ao riscar os moldes.'
   - question: 'Paetê spangle precisa de forro?'
     answer: 'Sim. Embora a base seja tinta no mesmo tom e cubra bem, o avesso tem as costuras das lantejoulas, que raspam na pele. Um forro de cetim com elastano ou de malha com elastano mantém o conforto e o leve stretch do tecido. Em blusas, uma base de malha fina resolve.'
+image: ../../assets/tecidos/paete-spangle.jpg
+imageAlt: 'Tecido Paetê Spangle (Lantejoulas Redondas): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rawpixel Ltd'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Colorful_sequin_glitter_textured_background_abstract_(27663447838).jpg'
 ---
 
 ## O que é o tecido paetê spangle

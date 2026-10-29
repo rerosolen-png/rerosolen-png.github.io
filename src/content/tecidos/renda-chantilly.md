@@ -53,6 +53,13 @@ faq:
     answer: 'As duas são usadas, com efeitos diferentes. A chantilly é leve, transparente e fluida, boa para mangas, costas, véus e sobreposições delicadas que acompanham o corpo. A guipir é encorpada, sem fundo, com desenho em relevo, boa para corpetes e barrados com estrutura. Muitos vestidos combinam as duas: guipir no corpete e chantilly nas mangas.'
   - question: 'Quantos metros de renda chantilly preciso para um vestido de noiva?'
     answer: 'Para mangas longas e costas transparentes, de 1,00 m a 1,50 m na largura de 1,50 m. Para a sobreposição de uma saia longa reta, de 3,00 m a 3,50 m; para saia rodada, de 4,50 m a 5,50 m. Aproveite o barrado recortado nas bainhas e nos punhos e some o forro, calculado à parte.'
+image: ../../assets/tecidos/renda-chantilly.jpg
+imageAlt: 'Tecido Renda Chantilly: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'This file was contributed to Wikimedia Commons by Camp Chesterfield as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Indiana Memory . Record in source catalog DPLA identifier: 729981e6280344189e7980169ebbf251 Camp Chesterfield identifier: http://indianamemory.contentdm.oclc.org/cdm/ref/collection/CampChesterfield/id/5570'
+  source: 'Wikimedia Commons'
+  license: 'Public Domain'
+  url: 'https://commons.wikimedia.org/wiki/File:Chantilly_Lace_Mantilla_-_DPLA_-_729981e6280344189e7980169ebbf251_(page_1).jpg'
 ---
 
 ## O que é o tecido renda chantilly

@@ -53,6 +53,13 @@ faq:
     answer: 'O tafetá bember é mais fino, mais liso e escorregadio, por isso veste melhor como forro de roupas de uso diário e de festa. A palha de seda é um pouco mais encorpada, fosca e barata, boa para forrar fantasias, saias de dança e peças de decoração, ou para ser o próprio tecido de peças leves e econômicas.'
   - question: 'Quantos metros de palha de seda preciso para forrar um vestido longo?'
     answer: 'Para forrar um vestido longo reto, calcule de 2,50 m a 3,00 m na largura de 1,50 m. Saias rodadas pedem de 3,50 m a 4,50 m. Em geral, o forro usa a mesma metragem da saia externa, sem as mangas. Como a palha de seda é opaca, uma única camada já cobre bem.'
+image: ../../assets/tecidos/palha-de-seda.jpg
+imageAlt: 'Tecido Palha de Seda: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'UFringo'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Fukui_Habutae_Silk.jpg'
 ---
 
 ## O que é o tecido palha de seda

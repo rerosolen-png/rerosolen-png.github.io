@@ -53,6 +53,13 @@ faq:
     answer: 'A versão leve, em torno de 180 g/m², é fluida e macia, pensada para shorts e bermudas de corrida e praia. A versão pesada, perto de 200 g/m², tem toque levemente rústico, mais corpo e barra o vento, por isso vai para joggers, corta-vento, coletes e uniformes de trabalho leve. As duas secam rápido e têm elastano.'
   - question: 'Quantos metros de tactel com elastano preciso para um jogger?'
     answer: 'Na largura de 1,50 m, uma calça jogger adulta consome de 1,20 m a 1,30 m, incluindo o cós e os punhos na própria malha ou em ribana. Uma bermuda usa 0,70 m e um short curto, 0,50 m. Uma jaqueta corta-vento com capuz fica em torno de 1,70 m.'
+image: ../../assets/tecidos/tactel-com-elastano.jpg
+imageAlt: 'Tecido Tactel com Elastano: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Bearas'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Stretching_Polyester.JPG'
 ---
 
 ## O que é o tecido tactel com elastano

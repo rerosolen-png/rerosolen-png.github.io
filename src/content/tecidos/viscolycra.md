@@ -54,6 +54,13 @@ faq:
     answer: 'A viscolycra é feita de viscose com elastano: tem caimento mais fluido, toque mais frio e elasticidade alta, com brilho suave. A malha de algodão é mais seca, estruturada e menos elástica, sem elastano. Para t-shirts femininas soltas e vestidos com movimento, a viscolycra fica mais bonita; para camisetas básicas unissex, o algodão é o clássico.'
   - question: 'Quantos metros de viscolycra preciso para uma blusa?'
     answer: 'Na largura de 1,65 m, uma t-shirt feminina de manga curta usa cerca de 0,70 m, e uma blusa de manga longa fica em torno de 1,00 m. Um vestido midi consome de 1,50 m a 1,80 m, e uma saia longa, cerca de 1,40 m. Em produção com encaixe, o consumo por peça diminui.'
+image: ../../assets/tecidos/viscolycra.jpg
+imageAlt: 'Tecido Viscolycra Lisa: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'ParentingPatch'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Fuschia_with_White_Knit_Fabric.jpg'
 ---
 
 ## O que é a malha viscolycra

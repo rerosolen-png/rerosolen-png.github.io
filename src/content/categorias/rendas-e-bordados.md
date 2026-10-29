@@ -13,6 +13,13 @@ faq:
     answer: 'Use agulha fina, de número 60 ou 70, linha de poliéster e ponto reto curto. Alfinete sobre o forro ou sobre papel de seda para o tecido não enroscar nos dentes da máquina. Corte com a renda esticada sobre a mesa, respeitando a direção dos motivos e aproveitando a borda pronta nas barras. Para rendas 3D e com pedraria, retire as aplicações das linhas de costura antes de costurar.'
   - question: 'Quantos metros de renda preciso para um vestido de noiva?'
     answer: 'Para um vestido inteiro de renda, calcule de 3,00 m a 4,00 m na largura de 1,30 m a 1,50 m, mais o forro na mesma metragem. Se a renda for usada só no corpete e nas mangas, 1,00 m a 1,50 m costumam bastar. Rendas com barrado pedem atenção à direção do desenho, o que pode aumentar o consumo. Traga o molde e calculamos a quantidade exata.'
+image: ../../assets/categorias/rendas-e-bordados.jpg
+imageAlt: 'Rendas e Bordados: foto ilustrativa'
+imageCredit:
+  author: 'Julian Lupyan'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:White_Lace_Display_in_Mykonos,_Greece.jpg'
 ---
 
 ## Como escolher rendas e bordados

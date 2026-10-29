@@ -52,6 +52,13 @@ faq:
     answer: 'Sim, como toda viscose, pode encolher de 3% a 8% na primeira lavagem. Por isso é indispensável molhar o tecido em água fria, deixar secar à sombra e passar antes de cortar os moldes. Depois disso, as peças prontas se mantêm estáveis, desde que sejam lavadas em água fria e não passem pela secadora.'
   - question: 'Qual a diferença entre viscolinho liso e viscolinho com elastano?'
     answer: 'O viscolinho liso é 100% viscose, mais leve e com caimento solto, ideal para camisas, batas e vestidos amplos. O viscolinho com elastano tem 3% de fio elástico e gramatura maior, em torno de 230 g/m², o que dá mais corpo e permite calças e saias ajustadas com conforto. Para peças fluidas, escolha o liso.'
+image: ../../assets/tecidos/viscolinho.jpg
+imageAlt: 'Tecido Viscolinho Liso: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'TrudiJ'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Crinkle_challis_fabric.jpg'
 ---
 
 ## O que é o tecido viscolinho

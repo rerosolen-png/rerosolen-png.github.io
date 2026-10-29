@@ -53,6 +53,13 @@ faq:
     answer: 'Sim, é um dos melhores tecidos para capas removíveis. Lave em água fria, ciclo delicado, sem cloro, e seque à sombra. Como é poliéster, a capa volta à medida original e não deforma. Faça a capa com zíper ou velcro para facilitar a retirada e prefira costuras reforçadas nos cantos e nos braços.'
   - question: 'Qual a diferença entre este linho e o linho rústico para roupas?'
     answer: 'Os dois são poliéster com cara de linho, mas o de decoração tem gramatura maior, trama mais firme e acabamento próprio para tapeçaria, que resiste ao atrito do uso em sofás e cadeiras. O de roupas é mais leve e maleável, com caimento pensado para camisas, vestidos e saias de verão.'
+image: ../../assets/tecidos/linho-rustico-para-decoracao.jpg
+imageAlt: 'Tecido Linho Rústico para Decoração: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Hessian_230_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
 ---
 
 ## O que é o tecido linho rústico para decoração

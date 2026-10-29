@@ -53,6 +53,13 @@ faq:
     answer: 'Sim. A versão com gramatura mais alta, perto de 276 g/m², sustenta calças, blazers desestruturados e coletes de verão. A versão risca de giz, mais leve, é pensada justamente para conjuntos de alfaiataria casual. Use entretela leve nas lapelas e um forro fino de tafetá para dar acabamento às peças.'
   - question: 'O linho misto encolhe?'
     answer: 'Pode encolher de 3% a 6% na primeira lavagem, por causa da viscose e do linho, duas fibras que absorvem bastante água. Lave o tecido em água fria, seque à sombra e passe antes de cortar. Depois dessa preparação, as peças prontas mantêm a medida, desde que não sejam secas na secadora em temperatura alta.'
+image: ../../assets/tecidos/linho-misto.jpg
+imageAlt: 'Tecido Linho Misto (Viscose e Linho): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Enby'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Chambray_fabric.jpg'
 ---
 
 ## O que é o tecido linho misto

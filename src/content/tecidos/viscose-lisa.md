@@ -52,6 +52,13 @@ faq:
     answer: 'Sim. Por ser leve, fresca e macia, a viscose lisa é um forro confortável para vestidos e saias de viscose estampada, musseline ou laise. Escolha um tom próximo ao da peça principal e pré-lave os dois tecidos antes de cortar, pois cada um pode encolher de forma diferente. O resultado é uma peça fresca mesmo forrada.'
   - question: 'A viscose lisa amassa muito?'
     answer: 'Amassa, como toda fibra celulósica, mas menos do que o linho e de forma mais suave que o algodão. Peças soltas disfarçam bem as marcas de uso. Para reduzir o problema, pendure a roupa para secar, passe ainda levemente úmida pelo avesso e guarde em cabide. Em viagens, prefira modelagens fluidas e estampas.'
+image: ../../assets/tecidos/viscose-lisa.jpg
+imageAlt: 'Tecido Viscose Lisa (Popeline de Viscose): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Arkirkland'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Rayon_sample.jpg'
 ---
 
 ## O que é o tecido viscose lisa

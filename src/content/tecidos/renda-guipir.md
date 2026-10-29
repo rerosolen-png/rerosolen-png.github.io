@@ -53,6 +53,13 @@ faq:
     answer: 'Depende do uso. Em vestidos e blusas de corpo inteiro, sim, porque os espaços entre os motivos são vazados. Um forro de cetim ou de malha na cor da renda, ou em tom de pele, resolve. Em barrados, golas, mangas e sobreposições, a renda pode ficar sem forro, aproveitando a transparência do vazado como efeito.'
   - question: 'Como costurar renda guipir?'
     answer: 'Use agulha universal 80, linha de poliéster e ponto reto de 2,5 a 3,0 mm. Como não tem fundo, as costuras ficam visíveis: a técnica mais usada é recortar os motivos da margem e sobrepor uma borda à outra, costurando à mão ou com zigue-zague pequeno, para a emenda desaparecer no desenho. Para bainhas, aproveite o recorte do próprio desenho.'
+image: ../../assets/tecidos/renda-guipir.jpg
+imageAlt: 'Tecido Renda Guipir: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Joedkins'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Guipure.jpg'
 ---
 
 ## O que é o tecido renda guipir

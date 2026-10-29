@@ -53,6 +53,13 @@ faq:
     answer: 'É um tecido pesado, com 80% de poliéster, então aquece mais que um brim de algodão puro. Em serviços ao ar livre, modelagens com folga, aberturas de ventilação e cores claras ajudam. Para ambientes quentes e fechados, o brim 100% algodão ou a sarja com elastano são mais frescos.'
   - question: 'Posso costurar rip stop em máquina doméstica?'
     answer: 'Sim, com alguns cuidados. Use agulha para jeans 100 ou 110, linha de poliéster grossa e ponto mais longo, de 3,5 mm. Reduza a velocidade nos cruzamentos de costura e use um calço para nivelar o calcador. Máquinas domésticas robustas dão conta, mas a reta industrial facilita produções em série.'
+image: ../../assets/tecidos/brim-rip-stop.jpg
+imageAlt: 'Tecido Brim Rip Stop: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'MAx 92'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Rip-stop_NYCO.jpg'
 ---
 
 ## O que é o tecido brim rip stop

@@ -54,6 +54,13 @@ faq:
     answer: 'Um suplex de boa gramatura, em torno de 290 a 300 g/m², cobre bem mesmo em leggings justas e na posição de agachamento. Cores muito claras, como branco e nude, merecem um teste de transparência antes do corte, esticando o retalho sobre a mão. Se houver dúvida, forre o gancho e o cós com a própria malha.'
   - question: 'Quantos metros de suplex preciso para uma legging?'
     answer: 'Na largura de 1,65 m, uma legging adulta consome de 0,90 m a 1,00 m, e um top com forro, cerca de 0,50 m. Um conjunto completo de legging e top fica em 1,40 m. Como o suplex estica muito, os moldes são de 10% a 20% menores do que a medida do corpo, o que reduz o consumo.'
+image: ../../assets/tecidos/suplex.jpg
+imageAlt: 'Tecido Suplex: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Svillarreal18'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Carvico-Matte-Nylon-Lycra-Fabric-Coccinella-Red-Italian-Stretch-Fabric-For-Swimwear-Solid-Stone-Fabrics-Inc..jpg'
 ---
 
 ## O que é a malha suplex

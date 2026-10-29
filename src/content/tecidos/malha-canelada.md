@@ -54,6 +54,13 @@ faq:
     answer: 'Ela acompanha a silhueta, porque tem elastano e caimento ajustado, mas as colunas em relevo disfarçam pequenas marcas e dão estrutura visual. Em cores claras, uma gramatura de 250 g/m² cobre bem sem forro. Se quiser um efeito mais solto, aumente a folga da modelagem ou corte a peça no viés da malha.'
   - question: 'Quantos metros de malha canelada preciso para um vestido?'
     answer: 'Na largura de 1,60 m, um vestido midi justo de alças consome cerca de 1,30 m a 1,50 m. Um cropped de manga curta usa 0,50 m e um conjunto de top e saia curta fica em torno de 1,00 m. Como a malha estica, os moldes costumam ser mais estreitos do que a medida do corpo.'
+image: ../../assets/tecidos/malha-canelada.jpg
+imageAlt: 'Tecido Malha Canelada (Cotelê): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'RAJIVVASUDEV'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Ottoman_rib.jpg'
 ---
 
 ## O que é a malha canelada

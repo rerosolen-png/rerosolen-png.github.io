@@ -53,6 +53,13 @@ faq:
     answer: 'Na largura de 1,50 m, uma toalha para mesa de quatro lugares consome 2,00 m, e para seis lugares, 2,50 m. Para jogos americanos de 45 x 33 cm, 0,70 m rendem seis peças. Como o xadrez tem repetição, acrescente de 10 a 20 cm para alinhar os quadros nas bainhas e nos cantos.'
   - question: 'O oxford xadrez serve para festa junina?'
     answer: 'É o tecido mais pedido para festas juninas e temáticas: toalhas, bandeirolas, aventais, laços de cadeira e painéis saem rápido e com custo baixo. Como é poliéster, pode ser lavado e reaproveitado no ano seguinte sem desbotar. Combine com a chita para um visual completo de arraial.'
+image: ../../assets/tecidos/oxford-xadrez.jpg
+imageAlt: 'Tecido Oxford Xadrez para Toalha de Mesa: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Kent Wang'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Greengingham.jpg'
 ---
 
 ## O que é o tecido oxford xadrez

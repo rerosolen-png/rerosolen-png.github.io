@@ -53,6 +53,13 @@ faq:
     answer: 'Não. A estampa é fixada no poliéster por processo térmico e resiste a muitas lavagens sem perder a cor. Lave em água fria, sem cloro, e seque à sombra: o sol forte constante é o único inimigo das cores vivas. O tecido também não encolhe e quase não amassa, saindo da máquina pronto para a mesa.'
   - question: 'Oxford estampado ou toalha térmica para a cozinha?'
     answer: 'O oxford estampado é tecido: tem toque macio, cai bem na mesa e vai para a máquina. A toalha térmica é um PVC que se limpa com pano, não vai para a máquina e protege a mesa de calor e líquidos. Para o dia a dia com crianças, muitas casas usam os dois: a térmica por baixo e o oxford por cima.'
+image: ../../assets/tecidos/oxford-estampado.jpg
+imageAlt: 'Tecido Oxford Estampado para Toalhas: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'The original uploader was Paulnasca at English Wikipedia .'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.5'
+  url: 'https://commons.wikimedia.org/wiki/File:Tablecloth_romanian_2closeup.jpg'
 ---
 
 ## O que é o tecido oxford estampado

@@ -54,6 +54,13 @@ faq:
     answer: 'O lado direito é o que tem o brilho acetinado; o avesso é fosco e crepado. Como os dois lados podem ser usados, a escolha depende do efeito desejado. O importante é marcar todas as peças com fita ou giz antes de costurar, para não misturar as faces na mesma roupa.'
   - question: 'Quantos metros preciso para um vestido longo de festa?'
     answer: 'Um vestido longo simples, com corpo ajustado e saia evasê, consome de 3,00 m a 3,50 m na largura de 1,47 m. Saias mais rodadas, mangas longas ou caudas aumentam o consumo para 4,00 m ou mais. Mande o modelo pelo WhatsApp e ajudamos a calcular a metragem exata.'
+image: ../../assets/tecidos/crepe-acetinado.jpg
+imageAlt: 'Tecido Crepe Acetinado Pesado: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Crepe_satin_(Rico_Cilliers_and_colormass_via_Poly_Haven).webp'
 ---
 
 ## O que é o tecido crepe acetinado pesado

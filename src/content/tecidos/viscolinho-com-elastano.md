@@ -52,6 +52,13 @@ faq:
     answer: 'A elasticidade é leve, em torno de 10% a 15% no sentido da largura, com boa recuperação. Não é uma malha: o tecido continua sendo plano e estável no comprimento. Esse stretch discreto permite reduzir um pouco a folga dos moldes e evita que calças e saias justas repuxem ou marquem.'
   - question: 'Posso misturar viscolinho com elastano e viscolinho liso na mesma peça?'
     answer: 'Pode, desde que o elastano fique onde a peça precisa de movimento, como na calça ou na saia, e o liso vá para a parte de cima. Como os dois têm a mesma textura e cores próximas, o conjunto fica harmonioso. Lave as duas partes separadamente na primeira vez para conferir a estabilidade das cores.'
+image: ../../assets/tecidos/viscolinho-com-elastano.jpg
+imageAlt: 'Tecido Viscolinho com Elastano: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Museum Rotterdam'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Close_up_of_rayon_fabric_from_Blauwe_japon_zonder_mouw.JPG'
 ---
 
 ## O que é o tecido viscolinho com elastano

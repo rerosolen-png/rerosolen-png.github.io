@@ -19,6 +19,13 @@ relatedFabrics:
     zibeline,
   ]
 draft: false
+image: ../../assets/guia/tecidos-para-festa-e-noivas.jpg
+imageAlt: 'Tecidos para festa e noivas: cetim, renda, tule, paetê e organza: imagem ilustrativa'
+imageCredit:
+  author: 'Shiva Theerthagiri'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Organza_fabric.jpg'
 ---
 
 Em vestidos de festa e de noiva, cada tecido tem uma função: o **cetim** dá brilho e corpo à base do vestido, a **renda** traz o desenho e o romantismo, o **tule** cria volume, transparência e leveza, o **paetê** garante o brilho da noite e a **organza** dá estrutura às saias e aos detalhes sem pesar. Um vestido bem resolvido raramente usa um tecido só: ele combina a base, o forro, a camada de efeito e, quando necessário, uma camada de estrutura.

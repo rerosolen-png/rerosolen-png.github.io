@@ -53,6 +53,13 @@ faq:
     answer: 'Para a sobreposição de um vestido longo reto, calcule de 3,00 m a 3,50 m na largura de 1,25 m. Modelos rodados sobem para 4,50 m a 5,50 m. Como a largura é menor que a dos tecidos de moda, confira o risco dos moldes e some o forro de cetim, que deve ser calculado à parte.'
   - question: 'A renda bordada em tule tem barrado?'
     answer: 'A maioria das peças traz um barrado em uma ou nas duas ourelas, com o desenho mais denso ou com acabamento recortado. Esse barrado pode ser usado na bainha da saia, em mangas ou em decotes, dispensando acabamento. Ao calcular a metragem, pense em como aproveitar o barrado no comprimento da peça.'
+image: ../../assets/tecidos/renda-bordada-em-tule.jpg
+imageAlt: 'Tecido Renda Bordada em Tule: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Shiva Theerthagiri'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Hand_work_net_fabric.jpg'
 ---
 
 ## O que é o tecido renda bordada em tule

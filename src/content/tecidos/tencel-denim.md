@@ -53,6 +53,13 @@ faq:
     answer: 'Serve para calças de alfaiataria leve, com visual jeans e caimento fluido, como pantalonas e calças retas de cintura alta. Não é indicado para jeans justos de uso intenso, porque a gramatura perto de 230 g/m² e a viscose não têm a resistência do denim de algodão. Para esse uso, prefira o jeans tradicional ou a sarja com elastano.'
   - question: 'O tencel denim encolhe?'
     answer: 'Pode encolher de 3% a 5% na primeira lavagem, por causa da viscose. Molhe o tecido em água fria, seque à sombra e passe antes de cortar os moldes. Depois disso, lave as peças no ciclo delicado, viradas do avesso e sem secadora, e elas manterão a medida e a cor por muito tempo.'
+image: ../../assets/tecidos/tencel-denim.jpg
+imageAlt: 'Tecido Tencel Denim com Elastano: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Pink Sherbet Photography from Utah, USA'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Blue_Denim_Fabric_Texture_Free_Creative_Commons_(6816223272).jpg'
 ---
 
 ## O que é o tecido tencel denim

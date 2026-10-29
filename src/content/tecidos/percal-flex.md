@@ -52,6 +52,13 @@ faq:
     answer: 'A microfibra respira menos que o algodão, então em noites muito quentes pode parecer mais abafada. Em ambientes com ventilador ou ar-condicionado, e no outono e inverno, o toque macio é bem aceito. Para o verão em regiões quentes, costureiras costumam indicar o percal de algodão e deixar o flex para fronhas e capas de edredom.'
   - question: 'Quantos metros de percal flex para um jogo de casal?'
     answer: 'Com a largura de 2,55 m, um jogo de casal com lençol de elástico, lençol de cima e duas fronhas consome cerca de 5,50 m. Para solteiro, 4,00 m. Como o tecido não encolhe, não é preciso acrescentar margem para a primeira lavagem. Nas versões estampadas, confira o sentido do desenho antes de cortar.'
+image: ../../assets/tecidos/percal-flex.jpg
+imageAlt: 'Tecido Percal Flex (Microfibra): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Polyesterchen'
+  source: 'Wikimedia Commons'
+  license: 'Public Domain'
+  url: 'https://commons.wikimedia.org/wiki/File:Microfibre_cloth.jpg'
 ---
 
 ## O que é o tecido percal flex

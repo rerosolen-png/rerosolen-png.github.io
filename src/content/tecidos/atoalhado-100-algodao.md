@@ -53,6 +53,13 @@ faq:
     answer: 'Um roupão adulto de tamanho médio, com mangas e cinto, consome entre 2,50 m e 3,00 m na largura de 1,40 m. Tamanhos grandes chegam a 3,50 m. Um roupão infantil fica entre 1,50 m e 2,00 m. Para a toalha com capuz de bebê, 1,00 m de tecido é suficiente, com sobra para o viés e o capuz.'
   - question: 'Atoalhado de algodão ou de poliéster: qual escolher?'
     answer: 'O de algodão absorve mais, é mais macio na pele e tolera lavagens quentes, ideal para toalhas de banho, roupões e itens de bebê. O de poliéster seca mais rápido, custa menos e serve para panos, forros, artesanato e peças de praia. Em enxoval de bebê e em hotelaria de boa categoria, o algodão é o padrão.'
+image: ../../assets/tecidos/atoalhado-100-algodao.jpg
+imageAlt: 'Tecido Atoalhado 100% Algodão: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Daderot'
+  source: 'Wikimedia Commons'
+  license: 'Public Domain'
+  url: 'https://commons.wikimedia.org/wiki/File:Hand_towel,_Ottoman,_1800s,_embroidery,_silk_on_cotton_-_Museum_f%C3%BCr_V%C3%B6lkerkunde_Dresden_-_DSC08173.JPG'
 ---
 
 ## O que é o tecido atoalhado 100% algodão

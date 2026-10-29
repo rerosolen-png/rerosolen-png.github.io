@@ -53,6 +53,13 @@ faq:
     answer: 'Um vestido longo reto, com corpete e saia, usa de 3,00 m a 3,50 m na largura de 1,30 m. Modelos midi rodados ficam entre 2,50 m e 3,00 m, e saias godê longas sobem para 4,50 m. Aproveite o barrado nas bainhas e some o forro, que deve ser calculado à parte.'
   - question: 'Renda acetinada ou renda bordada em tule: qual escolher?'
     answer: 'Escolha a renda acetinada quando quiser um visual mais rico, com bordado denso e mais cobertura, bom para vestidos inteiros de madrinha e de festa. A renda bordada em tule, de motivos espaçados, é mais leve e transparente, indicada para sobreposições delicadas, mangas e vestidos de noiva com efeito de tule à vista.'
+image: ../../assets/tecidos/renda-acetinada.jpg
+imageAlt: 'Tecido Renda Acetinada Bordada: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Smirkybec'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Irish_crochet_lace_with_a_fabric_insert.jpg'
 ---
 
 ## O que é o tecido renda acetinada bordada

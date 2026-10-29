@@ -54,6 +54,13 @@ faq:
     answer: 'Não recomendamos. A água em excesso e o atrito da máquina podem rachar ou descolar a camada superficial. Limpe as peças com pano úmido e sabão neutro, seque com pano macio e guarde em cabide, longe do sol. Com esses cuidados o material dura muitos anos.'
   - question: 'Qual agulha usar para costurar couro ecológico?'
     answer: 'Use agulha para couro, de ponta cortante, nos números 90 ou 100, com linha de poliéster. Troque o calcador comum por um de teflon ou com roletes para o material deslizar. Nunca use alfinetes, pois os furos ficam permanentes; prenda as peças com clipes ou fita.'
+image: ../../assets/tecidos/couro-ecologico.jpg
+imageAlt: 'Tecido Couro Ecológico (Sintético): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'San Diego Air & Space Museum Archives'
+  source: 'Wikimedia Commons'
+  license: 'Public Domain'
+  url: 'https://commons.wikimedia.org/wiki/File:122007sco002_Image_of_Curatorial_Object_(54689672270).jpg'
 ---
 
 ## O que é o tecido couro ecológico

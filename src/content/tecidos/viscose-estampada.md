@@ -53,6 +53,13 @@ faq:
     answer: 'Tem opacidade média. Estampas de fundo escuro ou com desenho denso cobrem bem e dispensam forro na maioria das peças. Fundos claros, como branco e nude, podem transparecer em saias e vestidos justos ou contra a luz. Nesses casos, um forro leve de tafetá resolve e ainda melhora o caimento da peça.'
   - question: 'Quantos metros de viscose estampada preciso para um vestido longo?'
     answer: 'Para um vestido longo evasê com manga curta, no tamanho adulto médio, calcule de 3,50 m a 4,00 m na largura de 1,40 m. Modelos com saia muito rodada ou com babados podem passar de 4,50 m. Como o tecido encolhe na pré-lavagem, compre sempre com uma folga de 10% sobre o cálculo.'
+image: ../../assets/tecidos/viscose-estampada.jpg
+imageAlt: 'Tecido Viscose Estampada: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'TrudiJ'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Rayon_challis_fabric.jpg'
 ---
 
 ## O que é o tecido viscose estampada

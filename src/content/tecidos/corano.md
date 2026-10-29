@@ -53,6 +53,13 @@ faq:
     answer: 'Para assentos de cadeira de jantar comuns, calcule 0,50 m por cadeira na largura de 1,40 m, o que permite aproveitar duas peças lado a lado: seis cadeiras saem com cerca de 1,50 m. Se a cadeira tiver encosto estofado, dobre a conta. Bancos de bar e banquetas também ficam em torno de 0,50 m cada.'
   - question: 'O corano resseca ou descasca com o tempo?'
     answer: 'Com uso normal e limpeza correta, o corano dura muitos anos. O que acelera o desgaste é o sol direto, o calor e a limpeza com álcool ou solventes, que ressecam o PVC e fazem a superfície trincar. Mantenha as peças longe de janelas ensolaradas e limpe apenas com pano úmido e sabão neutro.'
+image: ../../assets/tecidos/corano.jpg
+imageAlt: 'Tecido Corano (Couro Sintético para Estofado): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Peter Lecroix'
+  source: 'Wikimedia Commons'
+  license: 'Public Domain'
+  url: 'https://commons.wikimedia.org/wiki/File:Imitation_Leather_(Belgium),_1920_(CH_18604689).jpg'
 ---
 
 ## O que é o tecido corano

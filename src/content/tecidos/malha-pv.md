@@ -53,6 +53,13 @@ faq:
     answer: 'Tubular quer dizer que a malha sai do tear em forma de tubo, sem costura lateral, com uma largura dobrada. Uma malha PV tubular de 0,90 m medida fechada equivale a 1,80 m aberta. Dá para costurar a camiseta aproveitando o tubo, sem costura lateral, ou abrir o tecido e cortar como uma malha comum.'
   - question: 'Quantos metros de malha PV preciso para uma camiseta?'
     answer: 'Em malha tubular de 1,80 m aberta, uma camiseta adulta de manga curta usa cerca de 0,70 m a 0,80 m. Para tamanhos grandes ou manga longa, reserve de 0,90 m a 1,00 m. Em produção com encaixe de vários tamanhos, o consumo médio por peça fica abaixo desses valores.'
+image: ../../assets/tecidos/malha-pv.jpg
+imageAlt: 'Tecido Malha PV (Poliéster e Viscose): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Yinan Chen'
+  source: 'Wikimedia Commons'
+  license: 'Public Domain'
+  url: 'https://commons.wikimedia.org/wiki/File:Gfp-red-fabric-texture.jpg'
 ---
 
 ## O que é a malha PV

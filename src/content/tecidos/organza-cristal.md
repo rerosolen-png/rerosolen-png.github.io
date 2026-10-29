@@ -53,6 +53,13 @@ faq:
     answer: 'Sim, principalmente como sobreposição de saias, mangas transparentes, capas e laços grandes nas costas. Como é totalmente transparente, sempre precisa de uma base opaca, como cetim bucol ou charmousse. Em saias de várias camadas, a organza dá um volume mais leve e brilhante do que o tule comum.'
   - question: 'Quantos metros de organza preciso para decorar uma mesa de festa?'
     answer: 'Para um caimento drapeado na frente de uma mesa de 2,00 m, calcule de 4,00 m a 6,00 m na largura de 1,47 m, dependendo do franzido. Para laços de cadeira, cada laço usa cerca de 0,30 m de largura por 2,50 m de comprimento, ou seja, 1 m de tecido rende cerca de 4 a 5 laços.'
+image: ../../assets/tecidos/organza-cristal.jpg
+imageAlt: 'Tecido Organza Cristal: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Own work / rmkoske'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Organza_skirt_2.jpg'
 ---
 
 ## O que é o tecido organza cristal

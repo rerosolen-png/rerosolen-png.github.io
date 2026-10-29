@@ -53,6 +53,13 @@ faq:
     answer: 'Na malha penteada, as fibras curtas do algodão são removidas num pente antes da fiação, o que deixa o fio mais uniforme, liso e resistente. A cardada pula essa etapa e por isso é mais rústica, com toque levemente felpudo e tendência a formar bolinhas. Para camisetas que precisam durar, a penteada vale a diferença.'
   - question: 'A malha penteada encolhe?'
     answer: 'Como é 100% algodão, a malha penteada pode encolher entre 3% e 5% na primeira lavagem, principalmente no comprimento. Lave o tecido antes de cortar, deixe secar sem torcer e só depois posicione os moldes. Confecções que não pré-lavam costumam compensar o encolhimento aumentando ligeiramente o comprimento do molde.'
+image: ../../assets/tecidos/malha-penteada.jpg
+imageAlt: 'Tecido Malha Penteada 30/1 100% Algodão: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Cotton_jersey_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
 ---
 
 ## O que é a malha penteada 30/1

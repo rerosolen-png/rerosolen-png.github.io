@@ -53,6 +53,13 @@ faq:
     answer: 'Sim, é uma das escolhas mais comuns para madrinhas. O tecido veste bem modelagens sereia, tomara que caia e saias lápis, com brilho elegante e conforto durante a festa. Para a saia de um vestido longo, calcule de 3,00 m a 3,50 m e forre o corpo da peça para um acabamento mais firme.'
   - question: 'Qual agulha usar para costurar cetim com elastano?'
     answer: 'Use agulha de ponta bola ou stretch, tamanho 70 ou 75, com linha de poliéster. A ponta arredondada evita furar o elastano e cria menos puxados no brilho. Nas costuras que precisam esticar, como laterais de vestido justo, prefira ponto zigue-zague estreito ou o ponto stretch da máquina.'
+image: ../../assets/tecidos/cetim-com-elastano.jpg
+imageAlt: 'Tecido Cetim com Elastano: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Jwrusa & Kjoonlee'
+  source: 'Wikimedia Commons'
+  license: 'Public Domain'
+  url: 'https://commons.wikimedia.org/wiki/File:Satin_bedding.jpg'
 ---
 
 ## O que é o tecido cetim com elastano

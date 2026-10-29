@@ -53,6 +53,13 @@ faq:
     answer: 'Os dois são tecidos de poliéster com a mesma trama em pequenos quadrados. A diferença está no peso: o oxford fica em torno de 208 g/m² e tem corpo para calças, blazers e coletes, enquanto a oxfordine fica perto de 159 g/m², é mais fina e fluida e serve para camisas, jalecos leves e bermudas.'
   - question: 'Quantos metros de oxfordine preciso para uma camisa de uniforme?'
     answer: 'Para uma camisa adulta de manga curta, calcule de 1,50 m a 1,70 m na largura de 1,50 m. Manga longa pede de 1,80 m a 2,00 m. Em produções em série, o encaixe de vários tamanhos no mesmo risco reduz o consumo médio por peça; nossa equipe ajuda a estimar a metragem do lote.'
+image: ../../assets/tecidos/oxfordine.jpg
+imageAlt: 'Tecido Oxfordine (Camisaria): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'The Portable Antiquities Scheme, Julie Shoemark, 2016-08-04 16:21:06'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Roman_Oxfordshire_red-brown_slipped_ware_vessel_(FindID_797880).jpg'
 ---
 
 ## O que é o tecido oxfordine

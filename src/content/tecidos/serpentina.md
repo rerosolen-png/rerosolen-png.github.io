@@ -53,6 +53,13 @@ faq:
     answer: 'Sim, em quase todos os casos. A base é semitransparente e os fios em relevo podem incomodar em contato direto com a pele. Em croppeds, bodies e hot pants, forre com malha ou cetim com elastano. Em saias e sobreposições soltas, um forro de cetim charmousse dá cor de fundo e conforto.'
   - question: 'Quantos metros de serpentina preciso para uma fantasia de carnaval?'
     answer: 'Um cropped usa cerca de 0,60 m, um hot pants ou short, de 0,70 m a 0,90 m, e uma saia curta franzida, 1,00 m a 1,20 m, na largura de 1,50 m. Um conjunto completo de bloco fica entre 2,00 m e 2,50 m, sem contar o forro, que deve ser calculado à parte.'
+image: ../../assets/tecidos/serpentina.jpg
+imageAlt: 'Tecido Tecido Serpentina: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'https://www.momu.be/collectie/studiecollectie.html / Photo by Stany Dederen'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Woven_Fabric_(ST224)_-_MoMu_Antwerp.jpg'
 ---
 
 ## O que é o tecido serpentina

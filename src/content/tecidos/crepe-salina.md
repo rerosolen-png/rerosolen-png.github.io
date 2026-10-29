@@ -53,6 +53,13 @@ faq:
     answer: 'Os 4% de elastano dão ao tecido uma elasticidade discreta no sentido da largura. Na prática, as peças ficam mais confortáveis, as costuras sofrem menos e o tecido recupera o formato depois de esticado. Isso é útil em calças com elástico, shorts e blusas justas no busto, sem transformar o salina em malha.'
   - question: 'Qual a diferença entre crepe salina e crepe georgette?'
     answer: 'O salina é bem mais leve, com gramatura perto de 106 g/m², e tem elastano, o que o deixa mais fluido e confortável. O georgette é mais encorpado, em torno de 169 g/m², sem elastano e com opacidade melhor. Para kimonos, blusas e peças esvoaçantes, o salina é ideal; para vestidos e uniformes com mais estrutura, o georgette.'
+image: ../../assets/tecidos/crepe-salina.jpg
+imageAlt: 'Tecido Crepe Salina: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Clay_-_Crepe_Georgette_(Rico_Cilliers_and_colormass_via_Poly_Haven).webp'
 ---
 
 ## O que é o tecido crepe salina

@@ -54,6 +54,13 @@ faq:
     answer: 'Em uma camada, ele é levemente transparente, o que funciona para blusas e sobreposições. Como forro de vestidos, costuma ser usado em camada dupla ou em tons de nude próximos à pele, que dão o efeito de pele à mostra sob a renda sem expor de verdade. Em cores escuras, uma camada já cobre bem.'
   - question: 'Quantos metros de crepe segunda pele preciso para forrar um vestido?'
     answer: 'Calcule a mesma metragem do tecido principal, com um pequeno desconto por o forro ser mais largo. Na largura de 1,65 m, o forro de um vestido midi usa de 1,30 m a 1,50 m, e o de um vestido longo, de 2,00 m a 2,30 m. Uma blusa segunda pele de manga longa consome 1,00 m.'
+image: ../../assets/tecidos/segunda-pele.jpg
+imageAlt: 'Tecido Crepe Segunda Pele (Forro de Malha): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Shiva Theerthagiri'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Group_of_net_fabric.jpg'
 ---
 
 ## O que é a malha crepe segunda pele

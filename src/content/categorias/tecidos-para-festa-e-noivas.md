@@ -19,6 +19,13 @@ faq:
     answer: 'Para um vestido longo simples, calcule de 3,00 m a 3,50 m de cetim ou crepe na largura de 1,50 m. Saias godê ou com cauda sobem para 5,00 m ou mais. O tule, por ter 3,00 m de largura, rende saias volumosas com 4,00 m a 6,00 m, dependendo das camadas. Leve o molde ou a foto da referência e calculamos juntos.'
   - question: 'Tecidos de festa com brilho precisam de forro?'
     answer: 'Na maioria dos casos, sim. Paetê, lamê e tule glitter são tecidos finos ou com toque áspero no avesso, e o forro dá conforto e opacidade. O cetim charmousse em cores claras também pede forro em peças justas. Recomendamos o tafetá bember ou o micro forro, que deslizam e não aquecem. Organza e tule são sempre usados sobre outra camada.'
+image: ../../assets/categorias/tecidos-para-festa-e-noivas.jpg
+imageAlt: 'Tecidos para Festa e Noivas: foto ilustrativa'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Crepe_satin_(Rico_Cilliers_and_colormass_via_Poly_Haven).png'
 ---
 
 ## Como escolher tecidos para festa e noivas

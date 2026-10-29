@@ -50,6 +50,13 @@ faq:
     answer: 'Não. Ele filtra e suaviza a claridade, mas não escurece o ambiente. Para quartos em que se dorme de dia ou para salas de TV, combine com uma camada de blackout atrás. Em salas de estar, escritórios e varandas, costuma ser usado sozinho, justamente porque mantém o ambiente claro e arejado.'
   - question: 'Quantos metros de voil flamê para uma janela de 2 metros?'
     answer: 'Como ele tem mais corpo que o voil liso, o franzido pode ser menor. Para uma janela de 2,00 m, calcule entre 4,00 m e 5,00 m de tecido, ou seja, de duas a duas vezes e meia a largura. A altura de até 2,80 m sai inteira, porque a largura de 3,00 m do tecido vira a altura da cortina.'
+image: ../../assets/tecidos/voil-flame.jpg
+imageAlt: 'Tecido Voil Flamê: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Posh Living, LLC'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Hanky_Linen_Sheer_Curtains_with_pleats_and_rings.jpg'
 ---
 
 ## O que é o tecido voil flamê

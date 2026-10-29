@@ -18,6 +18,13 @@ relatedFabrics:
     tricoline-misto,
   ]
 draft: false
+image: ../../assets/guia/tecidos-para-uniformes.jpg
+imageAlt: 'Tecidos para uniformes: oxford, gabardine, brim, rip stop e malhas comparados: imagem ilustrativa'
+imageCredit:
+  author: 'Pink Sherbet Photography from Utah, USA'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Blue_Cotton_Fabric_Texture_Free_Creative_Commons_(6962342861).jpg'
 ---
 
 Não existe um único melhor tecido para uniforme: existe o tecido certo para cada rotina. Em resumo, o **oxford** é a escolha econômica e durável para camisas e jalecos de uso leve; a **gabardine** dá acabamento mais fino a calças, blazers e uniformes administrativos; o **brim** e o **rip stop** aguentam trabalho pesado na indústria, construção e manutenção; e as **malhas** (PV, helanca, dry-fit) resolvem camisetas, agasalhos e uniformes escolares com conforto.

@@ -54,6 +54,13 @@ faq:
     answer: 'O oxford tem trama tipo cesta, custo menor e é mais usado em camisas, coletes e fardamentos escolares simples. O gabardine tem trama sarjada, aspecto sedoso, mais resistência ao atrito e caimento de alfaiataria, sendo preferido em calças, jalecos e blazers. Para peças de uso diário intenso, o gabardine dura mais.'
   - question: 'Quantos metros de gabardine preciso para um jaleco?'
     answer: 'Um jaleco adulto de manga longa, comprimento abaixo do quadril, consome de 2,00 m a 2,30 m na largura de 1,50 m. Modelos de manga curta ficam entre 1,60 m e 1,80 m. Jalecos com bolsos grandes, vistas duplas ou cintos acrescentam de 20 a 30 cm ao total.'
+image: ../../assets/tecidos/gabardine.jpg
+imageAlt: 'Tecido Gabardine: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Elshimma'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:%D9%82%D9%85%D8%A7%D8%B4_%D8%AC%D8%A8%D8%B1%D8%AF%D9%8A%D9%86(%D8%A7%D9%84%D8%AA%D9%88%D9%8A%D9%84).jpg'
 ---
 
 ## O que é o tecido gabardine

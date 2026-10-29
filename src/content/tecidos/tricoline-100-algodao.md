@@ -53,6 +53,13 @@ faq:
     answer: 'Para uma camisa adulta de manga longa, calcule cerca de 1,80 m a 2,00 m na largura de 1,50 m. Camisas de manga curta ficam entre 1,50 m e 1,70 m. Para estampas com direção ou xadrez, acrescente de 20 a 30 cm para o casamento do desenho.'
   - question: 'Qual a diferença entre tricoline 100% algodão e tricoline mista?'
     answer: 'A tricoline 100% algodão é mais fresca, absorve o suor e tem toque natural, mas amassa com mais facilidade. A tricoline mista, com poliéster e algodão, amassa menos, seca mais rápido e costuma custar menos, sendo a preferida para uniformes e camisaria de uso intenso.'
+image: ../../assets/tecidos/tricoline-100-algodao.jpg
+imageAlt: 'Tecido Tricoline 100% Algodão: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Jogging_melange_anisotropy_strength_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).png'
 ---
 
 ## O que é o tecido tricoline 100% algodão

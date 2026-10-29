@@ -54,6 +54,13 @@ faq:
     answer: 'O liso tem superfície uniforme, é mais leve e combina com qualquer decoração, inclusive como forro escondido atrás de outro tecido. O rústico tem a trama aparente, com aspecto de linho grosso, e costuma ser usado à vista, como cortina principal. Os dois têm 2,80 m de largura e a mesma praticidade de lavagem.'
   - question: 'Quantos metros de blackout para uma cortina?'
     answer: 'Multiplique a largura do vão por dois para o franzido padrão. Uma janela de 2,00 m pede cerca de 4,00 m. Quando o blackout vai como forro atrás de um voil, 1,5 vez a largura já basta. A largura de 2,80 m do tecido vira a altura da cortina, suficiente para a maioria dos ambientes residenciais.'
+image: ../../assets/tecidos/blackout.jpg
+imageAlt: 'Tecido Blackout para Cortina: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Unknown author Unknown author'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Blackout_curtain_(AM_2014.32.1-4).jpg'
 ---
 
 ## O que é o tecido blackout

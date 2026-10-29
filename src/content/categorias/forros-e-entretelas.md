@@ -19,6 +19,13 @@ faq:
     answer: 'A manta acrílica é o enchimento macio e volumoso de colchas, edredons, bolsas e peças de patchwork, costurada entre o tecido e o forro. A manta térmica tem uma face metalizada que reflete o calor, usada em bolsas térmicas, luvas de cozinha e descansos de panela. A manta termocolante é a entretela com cola que se fixa com ferro, dando estrutura a golas, punhos, bolsas e cintos.'
   - question: 'Quantos metros de forro preciso comprar?'
     answer: 'Em geral, compre a mesma metragem do tecido principal para as partes que serão forradas. Um vestido longo forrado inteiro consome de 3,00 m a 3,50 m de forro na largura de 1,50 m; um vestido curto, de 1,50 m a 2,00 m; uma saia, cerca de 1,00 m. Para entretela de golas e punhos, 0,30 m a 0,50 m costumam bastar. Na dúvida, traga o molde.'
+image: ../../assets/categorias/forros-e-entretelas.jpg
+imageAlt: 'Forros e Entretelas: foto ilustrativa'
+imageCredit:
+  author: 'Unknown author Unknown author'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Fabric_length_(AM_4718-1).jpg'
 ---
 
 ## Como escolher forros e entretelas

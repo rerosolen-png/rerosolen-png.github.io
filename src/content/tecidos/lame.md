@@ -53,6 +53,13 @@ faq:
     answer: 'Só com muito cuidado. A camada metalizada é sensível ao calor e pode manchar, perder o brilho ou derreter. Use ferro morno, sempre pelo avesso e com um pano entre o ferro e o tecido, sem vapor. Em muitos casos, pendurar a peça no vapor do banho já tira as marcas mais leves.'
   - question: 'Quantos metros de lamê preciso para uma capa de fantasia?'
     answer: 'Uma capa longa de adulto, até o tornozelo, usa de 2,00 m a 2,50 m na largura de 1,40 m a 1,50 m. Uma capa curta, até o quadril, fica em cerca de 1,20 m. Para uma saia franzida de carnaval, calcule de 1,00 m a 1,50 m. Como vinca fácil, corte com folga para ajustar o caimento.'
+image: ../../assets/tecidos/lame.jpg
+imageAlt: 'Tecido Lamê: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'https://www.momu.be/collectie/studiecollectie.html / Photo by Stany Dederen'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Woven_Fabric_(ST223)_-_MoMu_Antwerp.jpg'
 ---
 
 ## O que é o tecido lamê

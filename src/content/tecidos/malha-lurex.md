@@ -54,6 +54,13 @@ faq:
     answer: 'Na maioria das peças, sim. A malha é leve e levemente transparente, então um forro de malha, como o crepe segunda pele, garante cobertura e conforto, já que o fio metálico pode pinicar um pouco em contato direto com a pele. Em sobreposições, mangas e peças de dança, o forro é opcional.'
   - question: 'Quantos metros de malha lurex preciso para um vestido?'
     answer: 'Na largura de 1,50 m, um vestido midi simples consome de 1,50 m a 1,80 m e um vestido longo, cerca de 2,50 m, sem contar o forro. Para um cropped, calcule 0,50 m, e para uma saia midi, 1,00 m. A malha estica, então modele com pouca folga.'
+image: ../../assets/tecidos/malha-lurex.jpg
+imageAlt: 'Tecido Malha Lurex: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'https://www.momu.be/collectie/studiecollectie.html / Photo by Stany Dederen'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Woven_Fabric_(ST225)_-_MoMu_Antwerp.jpg'
 ---
 
 ## O que é a malha lurex

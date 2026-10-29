@@ -53,6 +53,13 @@ faq:
     answer: 'A maioria dos vestidos usa a renda com pedraria apenas no corpete, nas mangas e no alto da saia, consumindo de 1,50 m a 2,50 m na largura de 1,33 m. Um vestido inteiro em renda com pedraria, longo e reto, fica entre 3,00 m e 3,50 m. Some o forro e a estrutura, calculados à parte.'
   - question: 'Como costurar renda com pedraria sem quebrar a agulha?'
     answer: 'Retire as pedras das margens de costura com um alicate pequeno antes de costurar e marque a linha de costura com alinhavo. Use agulha universal 90, ponto reto de 3,0 mm e costure devagar, com pé de zíper para passar ao lado das pedras. Reaplique à mão as pedras retiradas, sobre a costura pronta, para esconder a emenda.'
+image: ../../assets/tecidos/renda-pedraria.jpg
+imageAlt: 'Tecido Renda com Pedraria: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Unknown author Unknown author'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Fabric_relics_(AM_446-3).jpg'
 ---
 
 ## O que é o tecido renda com pedraria

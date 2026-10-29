@@ -55,6 +55,13 @@ faq:
     answer: 'O moletom com algodão pode encolher de 3% a 5% na primeira lavagem, principalmente no comprimento. Lave a malha antes de cortar e deixe secar sem torcer. Confecções que não pré-lavam costumam aumentar um pouco o comprimento do molde. O moletom 50% algodão e 50% poliéster encolhe menos do que o 100% algodão.'
   - question: 'Quantos metros de moletom preciso para uma blusa com capuz?'
     answer: 'Na largura tubular de 1,80 m aberta, uma blusa adulta com capuz e bolso canguru consome de 1,30 m a 1,50 m, mais 0,20 m de ribana para punhos e barra. Uma calça de moletom usa de 1,20 m a 1,30 m. Um conjunto completo fica em torno de 2,70 m, e uma blusa infantil, em 0,80 m.'
+image: ../../assets/tecidos/moletom.jpg
+imageAlt: 'Tecido Moletom por Metro: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Jogging_melange_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
 ---
 
 ## O que é a malha moletom

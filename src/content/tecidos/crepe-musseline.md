@@ -53,6 +53,13 @@ faq:
     answer: 'Depende da cor e da peça. Em tons escuros e em blusas soltas, a musseline comum pode ser usada sem forro. Em cores claras, em vestidos e em saias, o forro de tafetá ou de cetim garante cobertura e melhora o caimento. A versão cristal, mais transparente, pede forro em qualquer peça de corpo inteiro.'
   - question: 'Quantos metros de musseline preciso para um vestido de madrinha?'
     answer: 'Para um vestido longo com saia evasê e manga curta, no tamanho adulto médio, calcule de 4,00 m a 4,50 m da musseline na largura de 1,50 m, mais 2,50 m a 3,00 m de forro. Saias godê completas ou com camadas podem passar de 6,00 m. Confirme a metragem com o molde antes de comprar.'
+image: ../../assets/tecidos/crepe-musseline.jpg
+imageAlt: 'Tecido Crepe Musseline: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Crepe_georgette_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
 ---
 
 ## O que é o tecido crepe musseline

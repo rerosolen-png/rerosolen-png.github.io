@@ -53,6 +53,13 @@ faq:
     answer: 'Sim, é um dos preferidos de escolas de dança para apresentações, porque o brilho aparece à distância e o tecido acompanha o movimento. Como não tem elastano, funciona melhor em saias, túnicas, capas e sobreposições. Para a parte do corpo que precisa esticar, combine com uma malha com elastano por baixo.'
   - question: 'Como costurar tecido glitter sem danificar a máquina?'
     answer: 'Use agulha universal 80, troque se notar pulos de ponto e limpe a máquina depois do trabalho, pois o glitter se acumula na área da bobina. Costure com o lado do glitter para baixo quando possível e use pé de teflon ou uma tira de papel de seda por cima para o calcador deslizar. Ponto reto de 2,5 a 3,0 mm resolve.'
+image: ../../assets/tecidos/night-glitter.jpg
+imageAlt: 'Tecido Tecido Glitter (Night Glitter): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'liz west'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Sequins_macro.jpg'
 ---
 
 ## O que é o tecido glitter (night glitter)

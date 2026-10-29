@@ -53,6 +53,13 @@ faq:
     answer: 'Não. O voil é um tecido plano, tecido com fios finos de alta torção, com toque macio e transparência suave. O tule é uma rede com furinhos visíveis, mais rígida e aberta, usada em festas e saias. Para cortinas de ambientes, o voil é a escolha certa, porque filtra a luz e cai com leveza.'
   - question: 'Qual a diferença entre voil liso e voil xadrez?'
     answer: 'Os dois têm a mesma composição, largura e leveza. O liso é uniforme e combina com qualquer decoração. O xadrez, também chamado de voil check, traz quadros discretos formados por fios tintos, que dão um ar de casa de campo e combinam com cozinhas, quartos infantis e varandas. A escolha é só de estilo.'
+image: ../../assets/tecidos/voil.jpg
+imageAlt: 'Tecido Voil para Cortina (3,00 m): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Gunilla G from Örnsköldsvik, Sweden'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Skir_(Explore_2015-10-25)_-_Flickr_-_nillamaria.jpg'
 ---
 
 ## O que é o tecido voil

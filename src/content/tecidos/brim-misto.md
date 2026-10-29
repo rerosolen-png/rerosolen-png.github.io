@@ -54,6 +54,13 @@ faq:
     answer: 'Sim, é o tecido mais usado nesse segmento. Ele resiste ao atrito, aguenta lavagens pesadas, aceita reflexivos e bordados e tem gramatura em torno de 304 g/m², adequada a calças, jaquetas e macacões. Para áreas com risco de rasgos, o brim rip stop é a versão reforçada.'
   - question: 'Preciso lavar o brim misto antes de cortar?'
     answer: 'Não é obrigatório. O encolhimento do brim misto é mínimo, em geral abaixo de 1%, por causa da alta proporção de poliéster. Confecções costumam cortar direto do rolo. Se a peça tiver medidas muito justas ou for combinada com um tecido de algodão puro, lavar antes dá mais segurança.'
+image: ../../assets/tecidos/brim-misto.jpg
+imageAlt: 'Tecido Brim Misto: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'John Kennicutt, U.S. Marine Corps'
+  source: 'Wikimedia Commons'
+  license: 'Public Domain'
+  url: 'https://commons.wikimedia.org/wiki/File:Drill_instructor_at_the_Officer_Candidate_School.jpg'
 ---
 
 ## O que é o tecido brim misto

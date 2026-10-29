@@ -53,6 +53,13 @@ faq:
     answer: 'Com a largura de 2,80 m usada no sentido da largura da cama, um jogo de casal padrão, com lençol de elástico, lençol de cima e duas fronhas, consome cerca de 5,50 m. Para queen, calcule 6,00 m; para king, 6,50 m. Solteiro fica em torno de 4,00 m. Acrescente 5% para o encolhimento do algodão.'
   - question: 'Qual a diferença entre o percal egípcio e o percal dobby?'
     answer: 'Os dois são 100% algodão, 400 fios, com 2,80 m de largura. O egípcio usa fibra de algodão longa, que dá um fio mais fino e resistente e um toque mais sedoso, em cor lisa. O dobby é tecido com listras finas em relevo tom sobre tom, que dão textura e elegância discreta ao lençol. A escolha é de estilo.'
+image: ../../assets/tecidos/percal-400-fios.jpg
+imageAlt: 'Tecido Percal 400 Fios 100% Algodão: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Monster4711'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Bettwaesche.jpg'
 ---
 
 ## O que é o tecido percal 400 fios

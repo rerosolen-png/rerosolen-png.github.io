@@ -19,6 +19,13 @@ faq:
     answer: 'Com percal de 2,50 m de largura, um jogo de casal padrão consome cerca de 5,00 m: 2,30 m para o lençol de cima, 2,20 m para o lençol de elástico e 0,50 m para duas fronhas. Para cama queen, calcule 5,50 m, e para king, 6,00 m. Colchões muito altos pedem 20 cm a mais no lençol de elástico. Traga as medidas e ajudamos a calcular.'
   - question: 'Vocês vendem tecido para hotelaria e enxoval no atacado?'
     answer: 'Sim. Fornecemos percal, atoalhado, pano de prato e toalha térmica por rolo ou por volume para hotéis, pousadas, lavanderias, confecções de enxoval e revendedores de Ribeirão Preto e região, com preço de atacado. Pelo WhatsApp confirmamos a disponibilidade, enviamos amostras e organizamos a retirada ou o envio por transportadora. Quem costura em casa compra por metro, com corte a partir de pequenas metragens.'
+image: ../../assets/categorias/cama-mesa-e-banho.jpg
+imageAlt: 'Tecidos para Cama, Mesa e Banho: foto ilustrativa'
+imageCredit:
+  author: 'PattayaPatrol'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:DSC_8578_A_luxurious_vintage-style_bedroom_with_a_draped_fabric_ceiling_ornate_chandelier_patterned_wallpaper_plush_seating_and_a_bed_dressed_in_floral_pillows_and_textured_linens.jpg'
 ---
 
 ## Como escolher tecidos para cama, mesa e banho

@@ -52,6 +52,13 @@ faq:
     answer: 'Sim, é um dos tecidos mais usados para sublimar almofadas, painéis e jogos americanos. Como é 100% poliéster, a tinta sublimática fixa com cores vivas e não sai na lavagem. O canelado dá uma textura leve à imagem. Prefira o branco ou tons bem claros para a estampa aparecer com fidelidade.'
   - question: 'Precisa de entretela para fazer bolsa de gorgurão?'
     answer: 'Depende do modelo. O gorgurão já tem firmeza própria, então uma ecobag ou sacola simples dispensa entretela. Para bolsas estruturadas, mochilas e nécessaires, uma entretela termocolante média ou uma manta acrílica fina dá acabamento mais profissional, ajuda a manter a forma e protege as costuras do esforço.'
+image: ../../assets/tecidos/gorgurao.jpg
+imageAlt: 'Tecido Gorgurão e Gorgurinho: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Loggie-log'
+  source: 'Wikimedia Commons'
+  license: 'Public Domain'
+  url: 'https://commons.wikimedia.org/wiki/File:Grosgrain_ribbons.JPG'
 ---
 
 ## O que é o tecido gorgurão

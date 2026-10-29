@@ -53,6 +53,13 @@ faq:
     answer: 'Nos tons médios e escuros, o charmousse cobre bem. Nas cores claras, como branco, off-white e nude, a luz pode atravessar o tecido em peças justas. A solução é forrar com tafetá bember ou com o próprio cetim em dupla camada. Em peças soltas, como saias longas e camisolas, o forro costuma ser opcional.'
   - question: 'Quantos metros de cetim charmousse preciso para um vestido longo?'
     answer: 'Um vestido longo simples, de alças e saia reta, pede cerca de 3,00 m a 3,50 m na largura de 1,47 m. Modelos com saia godê ou evasê sobem para 4,00 m a 5,00 m. Se a peça for forrada com o mesmo tecido, dobre a metragem. Sempre acrescente uma margem para o ajuste de caimento no corte enviesado.'
+image: ../../assets/tecidos/cetim-charmousse.jpg
+imageAlt: 'Tecido Cetim Charmousse: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Clay_-_Crepe_Satin_(Rico_Cilliers_and_colormass_via_Poly_Haven).webp'
 ---
 
 ## O que é o tecido cetim charmousse

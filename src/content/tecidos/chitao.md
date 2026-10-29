@@ -53,6 +53,13 @@ faq:
     answer: 'Para uma mesa retangular de 2,00 m, uma toalha com caída de 30 cm pede cerca de 2,70 m na largura de 1,50 m. Mesas redondas de 1,20 m ficam bem com 1,80 m. Se preferir só um caminho central, 0,50 m já cobre uma mesa de 2 m. Consulte nossa equipe com as medidas da mesa.'
   - question: 'Chitão desbota na lavagem?'
     answer: 'Por ser de poliéster estampado, o chitão segura bem a cor nas lavagens comuns. O que prejudica a estampa é o sol direto no varal e o alvejante. Lave em água fria, com sabão neutro, e seque à sombra. Assim a toalha da festa junina aguenta vários anos de uso.'
+image: ../../assets/tecidos/chitao.jpg
+imageAlt: 'Tecido Chitão (Chita Grande para Festa Junina e Decoração): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'unknown'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:A_chintz_panel.jpg'
 ---
 
 ## O que é o chitão

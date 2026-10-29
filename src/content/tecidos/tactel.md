@@ -53,6 +53,13 @@ faq:
     answer: 'O tactel comum não tem elasticidade, porque é um tecido plano sem elastano. Por isso ele é usado em peças com folga, como shorts, bermudas e calças de agasalho com elástico no cós. Para peças mais ajustadas ou com mais mobilidade, existe o tactel com elastano, que estica no sentido da largura.'
   - question: 'Quantos metros de tactel preciso para uma bermuda?'
     answer: 'Na largura de 1,60 m, uma bermuda adulta consome cerca de 0,70 m, e um short curto, 0,50 m. Uma calça de agasalho usa de 1,20 m a 1,30 m, e uma jaqueta corta-vento, cerca de 1,50 m. Em produção, com encaixe de vários tamanhos, o consumo médio por peça fica abaixo desses valores.'
+image: ../../assets/tecidos/tactel.jpg
+imageAlt: 'Tecido Tactel: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Ridderspoor'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Windjack_-_Windbreaker.jpg'
 ---
 
 ## O que é o tecido tactel

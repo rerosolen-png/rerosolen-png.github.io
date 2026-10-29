@@ -19,6 +19,13 @@ faq:
     answer: 'Os três têm trama em diagonal, mas mudam em peso e composição. O brim é o mais pesado e geralmente 100% algodão, usado em calças de trabalho e jalecos. A sarja costuma ser mais leve, muitas vezes com elastano, para calças e uniformes com conforto. A gabardine tem trama mais fina e fechada, geralmente em poliéster com algodão, amassa pouco e é a mais usada em uniformes profissionais.'
   - question: 'Vocês vendem tecido para uniforme em rolo fechado para confecção?'
     answer: 'Sim. Trabalhamos com varejo por metro e atacado por rolo fechado ou por volume, com preço diferenciado para confecções, uniformizadoras e escolas. Pelo WhatsApp confirmamos a quantidade em estoque, enviamos amostras de cor e fechamos o pedido para retirada na loja, em Ribeirão Preto, ou envio por transportadora. Para pedidos grandes, consulte a disponibilidade de cores com antecedência.'
+image: ../../assets/categorias/alfaiataria-e-uniformes.jpg
+imageAlt: 'Tecidos para Alfaiataria e Uniformes: foto ilustrativa'
+imageCredit:
+  author: 'tanakawho'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Tweed_fabric.jpg'
 ---
 
 ## Como escolher tecidos para alfaiataria e uniformes

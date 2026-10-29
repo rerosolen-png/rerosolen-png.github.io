@@ -54,6 +54,13 @@ faq:
     answer: 'Sim. Como todo algodão puro, o brim pode encolher de 3% a 5% na primeira lavagem. Lave e seque o tecido antes de cortar, principalmente em uniformes com medidas padronizadas. Depois da pré-lavagem, as peças mantêm a medida de forma estável e não precisam de novos ajustes.'
   - question: 'Brim serve para fazer bolsa?'
     answer: 'Serve muito bem. O brim é encorpado, resistente e fácil de costurar em máquinas domésticas com agulha 90 ou 100. Rende bolsas tote, mochilas, ecobags e nécessaires com boa estrutura, sem precisar de entretela pesada. Para bolsas ainda mais firmes, a lonita de algodão cru é uma alternativa.'
+image: ../../assets/tecidos/brim.jpg
+imageAlt: 'Tecido Brim 100% Algodão: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Junkyardsparkle'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:2mm_diamond_drill_bits_macro.jpg'
 ---
 
 ## O que é o tecido brim 100% algodão

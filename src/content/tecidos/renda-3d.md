@@ -53,6 +53,13 @@ faq:
     answer: 'Lave à mão em água fria com sabão neutro, sem esfregar as aplicações, e seque na horizontal, à sombra. Nunca passe ferro sobre as flores em relevo, que podem achatar ou perder o formato. Se precisar, use vapor à distância ou passe apenas pelo avesso, nas áreas sem aplicação, com ferro morno e pano.'
   - question: 'Quantos metros de renda 3D preciso para um vestido de formatura?'
     answer: 'Um vestido longo reto usa de 3,00 m a 3,50 m na largura de 1,25 m; um midi rodado, de 2,50 m a 3,00 m. Muitos ateliês combinam a renda 3D apenas no corpete e na parte superior da saia, usando de 1,50 m a 2,00 m e completando com tule ou cetim, o que reduz o custo e o peso.'
+image: ../../assets/tecidos/renda-3d.jpg
+imageAlt: 'Tecido Renda 3D: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Cleveland Museum of Art'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Unknown_artist_-_Machine_Lace_(Embroidered_Net)_Fragment_-_1919.774_-_Cleveland_Museum_of_Art.jpg'
 ---
 
 ## O que é o tecido renda 3D

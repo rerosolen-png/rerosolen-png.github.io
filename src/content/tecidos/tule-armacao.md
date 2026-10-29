@@ -53,6 +53,13 @@ faq:
     answer: 'Uma anágua de três camadas para vestido princesa usa de 4,00 m a 6,00 m na largura de 2,80 m, dependendo do franzido e do comprimento. Para saias de debutante muito amplas, calcule de 6,00 m a 8,00 m. A largura de 2,80 m permite cortar o comprimento da saia na largura do tecido, o que reduz emendas.'
   - question: 'Tule de armação pinica a pele?'
     answer: 'Por ser rígido, pode incomodar em contato direto com as pernas. A solução é montar a anágua com uma camada interna de forro liso, como tafetá bember ou cetim, e deixar o tule de armação apenas nas camadas de fora. Em tutus de balé, uma calcinha de forro e uma camada de tule macio por dentro resolvem.'
+image: ../../assets/tecidos/tule-armacao.jpg
+imageAlt: 'Tecido Tule de Armação 2,80 m: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Tranquil Garden'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Tulle_petticoat2.jpg'
 ---
 
 ## O que é o tecido tule de armação

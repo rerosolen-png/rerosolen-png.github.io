@@ -53,6 +53,13 @@ faq:
     answer: 'Depende do tamanho. Em um metro de feltro com 1,40 m de largura cabem cerca de 140 peças de 10 x 10 cm ou 56 peças de 15 x 15 cm, sem contar as sobras entre os cortes. Para chaveiros de 6 cm, a conta passa de 300 unidades. Planeje o corte em grade para aproveitar tudo.'
   - question: 'Feltro pode ir na máquina de lavar?'
     answer: 'O ideal é lavar à mão, com água fria e sabão neutro, sem torcer. A máquina pode deformar e embolar a superfície, principalmente em feltros mais finos. Para brinquedos de bebê, uma lavagem suave à mão e secagem na horizontal mantêm a peça macia e com as cores firmes por muito tempo.'
+image: ../../assets/tecidos/feltro.jpg
+imageAlt: 'Tecido Feltro por Metro: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Andiec'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Wool_Felt_Sheets.jpg'
 ---
 
 ## O que é o feltro

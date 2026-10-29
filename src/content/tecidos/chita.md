@@ -53,6 +53,13 @@ faq:
     answer: 'Serve, com algumas ressalvas. Por ser fina e de poliéster, ela funciona bem em fantasias, saias de quadrilha, vestidos de festa junina, roupas de boneca e acessórios. Para o dia a dia, em peças que tocam a pele por muitas horas, um algodão estampado costuma ser mais confortável, porque respira melhor.'
   - question: 'Quantos metros de chita preciso para decorar uma barraca de festa?'
     answer: 'Para forrar a frente e as laterais de uma barraca pequena, calcule de 5 a 8 metros na largura de 1,50 m. Bandeirinhas rendem muito: de um metro saem cerca de 60 bandeirinhas de 15 por 20 cm. Toalhas de mesa quadradas, de 1,50 m, usam 1,50 m cada uma.'
+image: ../../assets/tecidos/chita.jpg
+imageAlt: 'Tecido Chita Estampada: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Unknown artist Unknown artist'
+  source: 'Wikimedia Commons'
+  license: 'Public Domain'
+  url: 'https://commons.wikimedia.org/wiki/File:Chintz_(India),_1770s_(CH_18481799).jpg'
 ---
 
 ## O que é o tecido chita estampada

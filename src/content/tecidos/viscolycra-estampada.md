@@ -53,6 +53,13 @@ faq:
     answer: 'Depende do desenho. Estampas miúdas e espalhadas, como florais pequenos e poás, não precisam de casamento. Listras, xadrezes e desenhos grandes com direção pedem atenção para que as costuras laterais fiquem alinhadas. Nesses casos, acrescente de 20 a 30 cm na metragem e corte em camada única.'
   - question: 'Quantos metros de viscolycra estampada preciso para um vestido?'
     answer: 'Na largura de 1,70 m, um vestido midi simples consome de 1,50 m a 1,80 m; um vestido longo com manga fica entre 2,20 m e 2,50 m. Para blusa de manga curta, calcule 0,70 m. Em estampas com direção, acrescente margem para o casamento do desenho.'
+image: ../../assets/tecidos/viscolycra-estampada.jpg
+imageAlt: 'Tecido Viscolycra Estampada: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Shaire Productions'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:African_Textile_Design_Pattern.jpg'
 ---
 
 ## O que é a malha viscolycra estampada

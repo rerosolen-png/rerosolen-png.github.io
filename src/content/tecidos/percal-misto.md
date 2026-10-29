@@ -51,6 +51,13 @@ faq:
     answer: 'Na largura de 2,50 m, calcule cerca de 4,00 m por jogo de solteiro e 5,50 m por jogo de casal, com lençol de elástico, lençol de cima e fronhas. Para lotes grandes, multiplique pelo número de apartamentos e acrescente 10% para reposição. A equipe da loja ajuda a fechar a conta pelo WhatsApp.'
   - question: 'O percal misto vem em cores?'
     answer: 'A versão mais comum é o branco, padrão de hotelaria, que aceita lavagem com alvejante e passa a imagem de limpeza que hóspedes esperam. Consulte as cores disponíveis no momento da compra, pois a cartela pode variar. Para enxovais coloridos de uso doméstico, o percal 230 fios tem mais opções de tons.'
+image: ../../assets/tecidos/percal-misto.jpg
+imageAlt: 'Tecido Percal Misto 150 Fios: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Liz Lawley'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Bed_in_Seattle_hotel.jpg'
 ---
 
 ## O que é o tecido percal misto 150 fios

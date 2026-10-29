@@ -54,6 +54,13 @@ faq:
     answer: 'Pouco. A predominância de poliéster na composição faz o tecido recuperar a forma depois de sentado ou dobrado. Ele amassa menos que linho e algodão e um pouco mais que alfaiatarias 100% poliéster. Um ferro morno com pano úmido devolve o vinco e o caimento em minutos.'
   - question: 'Quantos metros de poliviscose preciso para um terno?'
     answer: 'Um terno masculino completo, com paletó e calça, consome de 3,30 m a 3,80 m na largura de 1,50 m. Acrescente de 0,80 m a 1,00 m para o colete. Em tamanhos grandes ou paletós com forro e lapelas largas, calcule cerca de 30 cm a mais no total.'
+image: ../../assets/tecidos/poliviscose.jpg
+imageAlt: 'Tecido Poliviscose (Alfaiataria para Ternos): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Textile and Fibre Technology, CSIRO'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_1854_Easycare_Fabric_Suit.jpg'
 ---
 
 ## O que é o tecido poliviscose

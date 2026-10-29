@@ -54,6 +54,13 @@ faq:
     answer: 'Para uma mesa retangular de 2,00 m com caída de 30 cm, calcule 2,60 m na largura de 1,40 m. Mesas de convidados redondas de 1,20 m pedem 1,80 m cada. Como o TNT não desfia, não precisa de folga para bainha. Para mesas maiores, emende dois panos com cola quente ou fita dupla-face.'
   - question: 'TNT pode ser passado a ferro?'
     answer: 'Não. O TNT é feito de polipropileno, um plástico que amolece e derrete com o calor do ferro. Para tirar vincos, estique o TNT sobre a mesa e passe a mão, ou deixe pendurado por algumas horas. Se for indispensável alisar, use o ferro na temperatura mínima, com um pano grosso entre o ferro e o TNT, e sem parar em um ponto.'
+image: ../../assets/tecidos/tnt.jpg
+imageAlt: 'Tecido TNT por Metro (40 g e 80 g): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Anh Nhi Đỗ Lê'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Material_Non-Woven_Fabric.jpg'
 ---
 
 ## O que é o TNT

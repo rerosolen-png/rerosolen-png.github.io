@@ -53,6 +53,13 @@ faq:
     answer: 'Uma toalha quadrada de 1,40 m usa 1,40 m de tecido, já que a largura é 1,40 m. Para toalhas retangulares de 1,40 x 2,00 m, compre 2,00 m. Panos de prato de 50 x 70 cm rendem 4 por metro. Compre uns 10 cm a mais para bainha e para a folga de encolhimento.'
   - question: 'A etamine encolhe depois de bordada?'
     answer: 'A etamine de algodão pode encolher de 2% a 3% na primeira lavagem. Por isso vale lavar e passar o tecido antes de bordar, assim o bordado não fica repuxado. As versões mistas, com poliéster, encolhem menos. Depois de bordada, lave sempre à mão, com água fria, e passe do avesso sobre uma toalha.'
+image: ../../assets/tecidos/etamine.jpg
+imageAlt: 'Tecido Etamine para Ponto Cruz: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Changku88'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Counted_Cross_Stitch_with_Beadwork_on_Black_Aida_Cloth.jpg'
 ---
 
 ## O que é a etamine

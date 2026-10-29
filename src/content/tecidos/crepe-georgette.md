@@ -53,6 +53,13 @@ faq:
     answer: 'Nem sempre. Em cores escuras e médias, o georgette cobre bem e pode ser usado sem forro em blusas, saias e vestidos soltos. Em cores claras, como branco e bege, e em peças justas, um forro leve garante a cobertura. A opacidade média é uma das vantagens dele sobre a musseline e o chiffon.'
   - question: 'Qual a diferença entre georgette e musseline?'
     answer: 'Os dois são crepes leves de poliéster, mas o georgette tem gramatura maior, em torno de 169 g/m², com corpo médio e opacidade melhor. A musseline é mais leve e translúcida, com caimento mais solto. Para peças de uso diário e uniformes, o georgette é mais prático; para festa com camadas, a musseline flui mais.'
+image: ../../assets/tecidos/crepe-georgette.jpg
+imageAlt: 'Tecido Crepe Georgette: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Crepe_georgette_(Rico_Cilliers_and_colormass_via_Poly_Haven).webp'
 ---
 
 ## O que é o tecido crepe georgette

@@ -54,6 +54,13 @@ faq:
     answer: 'Sim, e é cada vez mais pedida por empresas que querem conforto para equipes que se movimentam muito. O algodão respira, o elastano acompanha o corpo e a trama sarjada resiste ao atrito. Para serviços muito pesados ou ao ar livre, o brim misto e o rip stop são mais robustos.'
   - question: 'Quantos metros de sarja preciso para uma calça cargo?'
     answer: 'Uma calça cargo adulta, com bolsos laterais grandes, consome de 1,50 m a 1,60 m na largura de 1,50 m. Calças retas sem bolsos cargo ficam entre 1,30 m e 1,50 m. Lave o tecido antes de cortar e acrescente de 20 a 30 cm em tamanhos grandes.'
+image: ../../assets/tecidos/sarja-com-elastano.jpg
+imageAlt: 'Tecido Sarja com Elastano: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Clay_-_Denim_Fabric_04_(Rico_Cilliers_and_colormass_via_Poly_Haven).webp'
 ---
 
 ## O que é o tecido sarja com elastano

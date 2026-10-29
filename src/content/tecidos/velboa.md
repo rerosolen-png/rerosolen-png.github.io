@@ -53,6 +53,13 @@ faq:
     answer: 'Um bichinho de 30 cm sentado usa cerca de 0,30 m na largura de 1,50 m, incluindo orelhas e cauda. Pelúcias de 50 cm pedem de 0,50 m a 0,60 m. Fantasias infantis de animal, com capuz, ficam entre 1,50 m e 2,00 m. Lembre de cortar todas as peças no mesmo sentido do pelo.'
   - question: 'A velboa pode ser passada a ferro?'
     answer: 'Não. O pelo é de poliéster e derrete ou fica marcado com o calor do ferro. Para alisar uma manta ou fantasia amassada, pendure a peça no vapor do banho ou use o vaporizador a uma distância segura. Para levantar o pelo depois da lavagem, escove suavemente com uma escova macia no sentido contrário.'
+image: ../../assets/tecidos/velboa.jpg
+imageAlt: 'Tecido Velboa (Pelúcia Curta): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Faux_fur_geometric_diff_9k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
 ---
 
 ## O que é a velboa

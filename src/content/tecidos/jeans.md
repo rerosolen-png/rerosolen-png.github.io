@@ -53,6 +53,13 @@ faq:
     answer: 'Use agulha específica para jeans, de ponta reforçada, nos números 90 ou 100. Ela atravessa as camadas grossas sem quebrar e sem pular pontos. Combine com linha de poliéster resistente e, nos pespontos aparentes, com linha mais grossa no tom caramelo ou no tom do tecido.'
   - question: 'Quantos metros de jeans preciso para uma calça?'
     answer: 'Para uma calça adulta de corte reto ou skinny, calcule de 1,30 m a 1,50 m na largura de 1,65 m. Modelos wide leg ou pantalona pedem de 1,60 m a 1,80 m. Tamanhos grandes e peças com muitos bolsos e vistas acrescentam de 20 a 30 cm ao total.'
+image: ../../assets/tecidos/jeans.jpg
+imageAlt: 'Tecido Jeans por Metro: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Denim_fabric_03_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
 ---
 
 ## O que é o tecido jeans

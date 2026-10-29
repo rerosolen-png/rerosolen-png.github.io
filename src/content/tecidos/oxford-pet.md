@@ -53,6 +53,13 @@ faq:
     answer: 'Não. O oxford pet é um tecido de poliéster firme, que seca rápido e lava bem, mas deixa passar líquidos. Para caminhas de filhotes ou de animais idosos, use por dentro um tecido impermeável e deixe o oxford pet como capa externa lavável. Assim a estampa fica à vista e o enchimento continua protegido.'
   - question: 'O oxford pet aguenta unhas e mordidas?'
     answer: 'Ele é mais resistente que algodões finos e que a chita pet, mas nenhum tecido leve resiste a mordidas insistentes. Para cães que roem, reforce as bordas com costura dupla e evite enchimentos soltos. Para unhas de gato, o oxford se comporta bem porque a trama fechada não prende as garras como um tecido de laçada.'
+image: ../../assets/tecidos/oxford-pet.jpg
+imageAlt: 'Tecido Oxford Pet (Estampas para Pets): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'https://www.momu.be/collectie/studiecollectie.html / Photo by Stany Dederen'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Printed_Fabric_(ST240)_-_Printed_Textile_-_MoMu_Antwerp.jpg'
 ---
 
 ## O que é o oxford pet

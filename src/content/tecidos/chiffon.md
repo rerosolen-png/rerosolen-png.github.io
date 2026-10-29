@@ -53,6 +53,13 @@ faq:
     answer: 'Sim, em qualquer peça que cubra o corpo. O chiffon é transparente e serve como camada externa sobre um forro de tafetá, cetim ou viscose lisa, que dá cobertura e sustentação. Em blusas, uma segunda camada do próprio chiffon costuma bastar. Mangas, capas e babados podem ficar sem forro de propósito.'
   - question: 'Como cortar e costurar chiffon sem o tecido escorregar?'
     answer: 'Estenda o chiffon sobre uma superfície que não deslize, como um lençol de algodão, e prenda com pesos em vez de alfinetes. Corte uma camada por vez com tesoura afiada. Use agulha fina 60 ou 70, ponto curto e costura francesa. Um papel de seda sob o tecido ajuda a máquina a não engolir a borda.'
+image: ../../assets/tecidos/chiffon.jpg
+imageAlt: 'Tecido Chiffon: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'User:ShenkarArchive'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Chiffon_2162_Dress.jpg'
 ---
 
 ## O que é o tecido chiffon

@@ -53,6 +53,13 @@ faq:
     answer: 'Um vestido de noiva evasê longo, sem cauda, consome de 4,00 m a 5,00 m na largura de 1,47 m. Modelos princesa com saia ampla ou com cauda média ficam entre 6,00 m e 8,00 m. Corpete e saia costumam ser cortados em peças separadas, então vale conferir o risco do molde antes de comprar.'
   - question: 'Qual a diferença entre cetim bucol e zibeline?'
     answer: 'Os dois são pesados e estruturados, mas o bucol tem brilho acetinado mais evidente e superfície mais lisa. A zibeline tem brilho discreto, quase fosco, com leve textura e corpo um pouco mais firme, lembrando uma alfaiataria de festa. Para um vestido com brilho clássico, o bucol; para um visual minimalista e arquitetônico, a zibeline.'
+image: ../../assets/tecidos/cetim-bucol.jpg
+imageAlt: 'Tecido Cetim Bucol (Cetim Pesado para Noivas): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Henri-Horace Roland Delaporte (French, ca. 1724 - 1793)'
+  source: 'Wikimedia Commons'
+  license: 'Public Domain'
+  url: 'https://commons.wikimedia.org/wiki/File:Roland_Delaporte_A_still_life_with_a_boulliette_lamp,_a_sheet_music,_and_a_white_satin_cloth.jpg'
 ---
 
 ## O que é o tecido cetim bucol

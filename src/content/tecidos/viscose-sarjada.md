@@ -52,6 +52,13 @@ faq:
     answer: 'Não. Apesar da gramatura próxima de 285 g/m², a fibra de viscose respira e absorve a umidade, então o tecido continua fresco. O peso se traduz em caimento, não em calor. Vestidos longos e saias midi ficam com movimento elegante e sem transparência, o que é uma vantagem em relação às viscoses leves.'
   - question: 'A viscose sarjada encolhe?'
     answer: 'Pode encolher de 3% a 6% na primeira lavagem, menos que a viscose fina, mas ainda o suficiente para alterar uma peça pronta. Molhe o tecido em água fria, seque à sombra e passe antes de cortar. Depois disso, lave as peças no ciclo delicado, sem secadora, e elas vão manter a medida.'
+image: ../../assets/tecidos/viscose-sarjada.jpg
+imageAlt: 'Tecido Viscose Sarjada: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Denim_fabric_04_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).png'
 ---
 
 ## O que é o tecido viscose sarjada

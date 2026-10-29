@@ -53,6 +53,13 @@ faq:
     answer: 'Ele é menos fresco que o linho natural e o viscolinho, porque o poliéster não absorve o suor. Em compensação, a trama aberta e o corpo médio deixam o ar circular, e o tecido não gruda na pele. Em peças soltas, como camisas e vestidos amplos, o conforto é bom mesmo em dias quentes.'
   - question: 'O linho rústico serve para decoração?'
     answer: 'Serve. Por ser resistente, fácil de lavar e manter a cor, ele vai bem em almofadas, caminhos de mesa, cortinas leves e bolsas. Para estofados e projetos de decoração que pedem gramatura maior, a Rosolen Têxtil também trabalha com o linho rústico específico para decoração, mais pesado e estruturado.'
+image: ../../assets/tecidos/linho-rustico-poliester.jpg
+imageAlt: 'Tecido Linho Rústico de Poliéster: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Budlee Fabrics'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Three_Linens_(3468431784).jpg'
 ---
 
 ## O que é o tecido linho rústico de poliéster

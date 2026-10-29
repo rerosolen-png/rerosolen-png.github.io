@@ -54,6 +54,13 @@ faq:
     answer: 'Sim, é uma das melhores malhas para isso. Como é 100% poliéster, a tinta sublimática penetra na fibra e a estampa fica permanente, sem toque e sem rachar. Use o dry fit branco ou em cores bem claras, pois a sublimação não cobre fundos escuros. A versão lisa dá resultado mais nítido do que a colmeia.'
   - question: 'Quantos metros de dry fit preciso para uma camiseta?'
     answer: 'Na largura de 1,80 m, uma camiseta adulta de manga curta consome de 0,70 m a 0,80 m, e uma regata, cerca de 0,60 m. Um uniforme completo de camiseta e calção fica em torno de 1,30 m. Em produção com encaixe de vários tamanhos, o consumo médio por peça cai de 10% a 15%.'
+image: ../../assets/tecidos/dry-fit.jpg
+imageAlt: 'Tecido Dry Fit: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Elkagye'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Spacer_fabric_2.JPG'
 ---
 
 ## O que é a malha dry fit

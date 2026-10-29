@@ -54,6 +54,13 @@ faq:
     answer: 'Sim. Por ser 100% poliéster, a helanquinha branca ou em tons muito claros aceita sublimação com boa fixação de cor. O resultado fica mais nítido em malhas lisas e claras. Para estampas em serigrafia, qualquer cor funciona, desde que a tinta seja indicada para poliéster e a cura respeite a temperatura da malha.'
   - question: 'Quantos metros de helanquinha preciso para uma camiseta?'
     answer: 'Na largura de 1,80 m, uma camiseta adulta de manga curta consome em média 0,70 m a 0,80 m, e uma regata cerca de 0,60 m. Em produção, com encaixe de moldes em várias camadas, o consumo por peça cai. Para abadás de tamanho único, calcule em torno de 0,90 m por unidade.'
+image: ../../assets/tecidos/helanquinha.jpg
+imageAlt: 'Tecido Helanquinha (Helanca Light): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'BlueThunderTechnologies'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Detail_of_Polyester_Knit_Cleanroom_Wipe.jpg'
 ---
 
 ## O que é a malha helanquinha

@@ -53,6 +53,13 @@ faq:
     answer: 'Uma toalha de banho padrão mede cerca de 70 cm por 1,40 m, então 0,75 m de tecido na largura de 1,45 m rende uma toalha, com a largura do tecido virando o comprimento da toalha. Uma toalha de rosto de 50 x 80 cm sai com 0,55 m. Um roupão adulto consome entre 2,50 m e 3,00 m.'
   - question: 'Qual a diferença entre atoalhado liso e atoalhado jacquard?'
     answer: 'Os dois têm felpa dos dois lados e a mesma largura. O liso é uniforme, mais econômico e fácil de combinar. O jacquard tem desenhos tecidos em relevo, como listras, ondas e motivos geométricos, que dão acabamento de toalha de hotel. A versão jacquard premium também tem poliamida, com toque mais macio e maior absorção.'
+image: ../../assets/tecidos/atoalhado.jpg
+imageAlt: 'Tecido Atoalhado (Felpa): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Luigi Chiesa'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Tessuto_a_spugna_grande.jpg'
 ---
 
 ## O que é o tecido atoalhado

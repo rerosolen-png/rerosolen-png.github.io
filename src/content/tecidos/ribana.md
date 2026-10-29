@@ -54,6 +54,13 @@ faq:
     answer: 'Não. As duas têm colunas em relevo, mas a ribana é mais fechada, estreita e feita com algodão e elastano, pensada para acabamentos que precisam esticar e voltar com força: punhos, golas, barras. A malha canelada, ou cotelê, é mais larga, leve e usada na peça inteira, como croppeds e vestidos.'
   - question: 'Quantos metros de ribana preciso para um moletom?'
     answer: 'Pouco. Na largura tubular de cerca de 1,00 m, um moletom adulto com punhos, barra e gola consome de 0,20 m a 0,30 m de ribana. Um body de bebê inteiro em ribana usa cerca de 0,35 m. Como o rendimento é alto, muitos clientes compram meio metro por cor e cobrem uma produção pequena.'
+image: ../../assets/tecidos/ribana.jpg
+imageAlt: 'Tecido Ribana (Punho e Gola): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'http://commons.wikimedia.org/wiki/User:Ryj'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Pliss%C3%A9.jpg'
 ---
 
 ## O que é a malha ribana

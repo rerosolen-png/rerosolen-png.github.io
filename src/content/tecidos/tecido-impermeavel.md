@@ -53,6 +53,13 @@ faq:
     answer: 'Sim, em ciclo delicado com água fria e sabão neutro, sem cloro. Mas o mais recomendado é a limpeza com pano úmido, que preserva a camada impermeável por mais tempo. Nunca use secadora nem ferro quente: o calor danifica o acabamento. Seque à sombra, esticado, e evite dobrar com vincos marcados.'
   - question: 'Serve para toalha de mesa do dia a dia?'
     answer: 'Serve muito bem. Líquidos derramados ficam na superfície e saem com um pano, o que é prático em mesas de cozinha, varanda e área gourmet. O toque é de tecido, não de plástico, e as estampas dão acabamento decorativo. Para proteção ainda maior e limpeza mais simples, compare com a toalha térmica de PVC.'
+image: ../../assets/tecidos/tecido-impermeavel.jpg
+imageAlt: 'Tecido Tecido Impermeável Estampado: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Gower'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Oilcloth_cerata.jpg'
 ---
 
 ## O que é o tecido impermeável estampado

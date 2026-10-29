@@ -54,6 +54,13 @@ faq:
     answer: 'Para um resultado profissional, sim. Em camisas, alinhe as linhas horizontais do xadrez nas laterais, na frente e nos bolsos, e as verticais no centro da frente. Corte em camada única, marcando o mesmo ponto do desenho em cada molde. Acrescente de 20 a 30 cm na metragem para o casamento do padrão.'
   - question: 'Quantos metros de flanela xadrez preciso para uma camisa?'
     answer: 'Na largura de 1,50 m, uma camisa adulta de manga longa consome de 2,00 m a 2,30 m, já com a margem para casar o xadrez. Um pijama de calça e blusa usa de 3,00 m a 3,50 m, e uma manta de 1,50 x 1,20 m, 1,20 m. Prefira cortar depois de pré-lavar o tecido.'
+image: ../../assets/tecidos/flanela-xadrez.jpg
+imageAlt: 'Tecido Flanela Xadrez: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Lisa Zins'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Flannel_fabric_red.jpg'
 ---
 
 ## O que é o tecido flanela xadrez

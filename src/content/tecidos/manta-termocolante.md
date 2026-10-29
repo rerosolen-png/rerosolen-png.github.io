@@ -54,6 +54,13 @@ faq:
     answer: 'Coloque o tecido com o avesso para cima, posicione a manta com o lado da cola, que é mais áspero, voltado para o tecido, e cubra com um pano de algodão. Pressione o ferro na temperatura do tecido, sem deslizar, por 10 a 15 segundos em cada área. Deixe esfriar sobre a mesa antes de mexer: a cola fixa ao esfriar.'
   - question: 'Quantos metros de manta preciso para uma bolsa?'
     answer: 'Use a mesma metragem do tecido externo da bolsa. Uma bolsa tote de 40 x 35 cm pede cerca de 0,50 m de manta na largura de 1,50 m. Nécessaires médias usam 0,20 m e rendem várias por metro. Para carteiras e porta-moedas, 0,30 m de R2 é suficiente para um lote pequeno.'
+image: ../../assets/tecidos/manta-termocolante.jpg
+imageAlt: 'Tecido Entretela Termocolante (Manta R1 e R2): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Messer Galeazzo'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Canapina_e_crine_di_giacca_doppiopetto.jpg'
 ---
 
 ## O que é a entretela termocolante

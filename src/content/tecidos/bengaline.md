@@ -53,6 +53,13 @@ faq:
     answer: 'Sim, é um dos tecidos mais usados em calças e saias de uniformes femininos. Ela é opaca, encorpada, não amassa e tem elasticidade suficiente para longas jornadas em pé ou sentada. Compre toda a metragem de uma vez para garantir o mesmo lote de cor, e oriente a equipe a lavar em água fria e sem secadora.'
   - question: 'Qual a diferença entre bengaline e two way?'
     answer: 'A bengaline estica em um sentido, a largura, e tem canelado fino na superfície, com toque mais firme. O two way estica nos dois sentidos, largura e comprimento, com superfície lisa e caimento mais fluido. Para calças e saias justas que precisam segurar a modelagem, a bengaline é a preferida; para blazers e peças com mais movimento, o two way.'
+image: ../../assets/tecidos/bengaline.jpg
+imageAlt: 'Tecido Bengaline: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers colormass'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Bi_stretch_arm_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
 ---
 
 ## O que é o tecido bengaline

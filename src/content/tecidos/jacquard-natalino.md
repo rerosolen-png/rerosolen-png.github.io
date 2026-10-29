@@ -51,6 +51,13 @@ faq:
     answer: 'Sim, no ciclo delicado, com água fria e sabão neutro, sem cloro. Como a composição tem algodão, pode haver um encolhimento pequeno na primeira lavagem, então lave antes de cortar. Os detalhes metalizados pedem cuidado ao passar: use ferro morno sempre pelo avesso e evite esfregar a superfície com escova.'
   - question: 'Quando comprar o tecido natalino?'
     answer: 'O ideal é comprar entre setembro e novembro, quando a cartela está completa e dá tempo de costurar com calma. Decoradores e lojistas costumam garantir a metragem cedo, porque os desenhos de cada ano não se repetem necessariamente. Consulte as opções disponíveis antes de planejar a produção das peças.'
+image: ../../assets/tecidos/jacquard-natalino.jpg
+imageAlt: 'Tecido Jacquard Natalino: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Floral_jacquard_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
 ---
 
 ## O que é o tecido jacquard natalino

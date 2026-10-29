@@ -54,6 +54,13 @@ faq:
     answer: 'Sim. Passe a mão na malha: em um sentido o pelo fica liso e mais claro; no outro, levanta e fica mais escuro. Todos os moldes devem ser cortados no mesmo sentido, senão as partes da peça parecem de cores diferentes. A regra usual é cortar com o pelo deitado para baixo, do decote para a barra.'
   - question: 'Quantos metros de veludo cristal preciso para um vestido de festa?'
     answer: 'Na largura de 1,50 m, um vestido longo justo consome de 2,20 m a 2,50 m e um vestido midi, cerca de 1,80 m. Um cropped de manga longa usa 0,80 m. Como todos os moldes vão no mesmo sentido do pelo, o aproveitamento é menor do que em malhas lisas: acrescente uma margem de 10%.'
+image: ../../assets/tecidos/veludo-cristal.jpg
+imageAlt: 'Tecido Veludo Cristal (Malha): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Shiva Theerthagiri'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Velvet_fabric.jpg'
 ---
 
 ## O que é a malha veludo cristal

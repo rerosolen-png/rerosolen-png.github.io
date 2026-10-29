@@ -53,6 +53,13 @@ faq:
     answer: 'Na largura de 2,50 m, um jogo de solteiro com lençol de elástico, lençol de cima e fronha consome cerca de 4,00 m. O jogo de casal fica em torno de 5,50 m. Para cama queen, a largura de 2,50 m pode ficar justa no lençol de elástico com colchão alto: nesse caso, considere o percal 400 fios de 2,80 m.'
   - question: 'O percal 230 fios encolhe?'
     answer: 'Como todo algodão puro, pode encolher entre 3% e 5% na primeira lavagem. Por isso, lave e seque o tecido antes de cortar e passe antes de posicionar os moldes. Depois disso, as peças mantêm a medida. Acrescente essa margem ao cálculo da metragem, principalmente no lençol de elástico, que precisa vestir o colchão com precisão.'
+image: ../../assets/tecidos/percal-230-fios.jpg
+imageAlt: 'Tecido Percal 230 Fios: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'CWikiP2000'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Silk_Bedsheet.jpg'
 ---
 
 ## O que é o tecido percal 230 fios

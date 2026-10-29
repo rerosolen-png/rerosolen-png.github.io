@@ -54,6 +54,13 @@ faq:
     answer: 'Sim. Jalecos de two way ficam confortáveis para quem passa o dia em pé e se movimenta muito, como profissionais de saúde e estética. O tecido é opaco, amassa pouco, aguenta lavagens frequentes e mantém a cor. Para jalecos mais leves e frescos, a oxfordine é uma alternativa sem elastano.'
   - question: 'Quantos metros de two way preciso para um conjunto de blazer e calça?'
     answer: 'Um conjunto feminino de blazer e calça reta consome de 3,10 m a 3,70 m na largura de 1,47 m. O blazer fica entre 1,80 m e 2,20 m e a calça entre 1,30 m e 1,50 m. Para tamanhos grandes ou modelagens amplas, acrescente de 20 a 30 cm no total.'
+image: ../../assets/tecidos/two-way.jpg
+imageAlt: 'Tecido Two Way (Alfaiataria com Elastano): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Caban_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
 ---
 
 ## O que é o tecido two way

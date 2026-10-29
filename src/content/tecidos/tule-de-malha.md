@@ -54,6 +54,13 @@ faq:
     answer: 'Sim. Por ser 100% poliéster, o tule de malha branco aceita sublimação com boa fixação de cor, e a transparência cria um efeito interessante sobre a pele ou sobre outra camada. Use temperatura e tempo indicados para malhas finas e teste num retalho, porque a abertura da trama reduz um pouco a nitidez do desenho.'
   - question: 'Quantos metros de tule de malha preciso para uma sobreposição?'
     answer: 'Na largura de 1,50 m, uma blusa de manga longa inteira em tule consome cerca de 1,00 m; um par de mangas para vestido usa 0,50 m. Uma saída de praia tipo bata fica em 1,50 m e uma sobreposição de vestido midi, cerca de 1,80 m. O tule rende bem porque pode ser cortado em qualquer direção.'
+image: ../../assets/tecidos/tule-de-malha.jpg
+imageAlt: 'Tecido Tule de Malha: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Shadowmeld Photography'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Mesh_Fabric_Texture_DTXR-FB-1.jpg'
 ---
 
 ## O que é a malha tule de malha

@@ -53,6 +53,13 @@ faq:
     answer: 'Com 1,40 m de largura, use a largura como lado menor. Mesa de quatro lugares, com 1,20 m por 0,80 m, pede 1,80 m de material. Mesa de seis lugares, 2,30 m. Para mesas com mais de 1,10 m de largura, a queda lateral fica curta; nesse caso, considere uma toalha de tecido por cima ou a emenda de dois panos.'
   - question: 'Por que se chama toalha térmica?'
     answer: 'Porque o verso tem uma camada aveludada, de polipropileno, que protege o tampo da mesa contra o calor de panelas, travessas e pratos quentes, além de evitar que a toalha escorregue. A face de PVC estampada protege contra líquidos e manchas. O conjunto substitui a dupla protetor de mesa mais toalha em uma peça só.'
+image: ../../assets/tecidos/toalha-termica.jpg
+imageAlt: 'Tecido Toalha Térmica (PVC) por Metro: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Koichi Oda'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:A_wrinkled_table_cloth_-_Flickr_-_odako1.jpg'
 ---
 
 ## O que é o tecido toalha térmica

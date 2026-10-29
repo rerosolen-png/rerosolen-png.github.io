@@ -54,6 +54,13 @@ faq:
     answer: 'Como é opaca, a zibeline dispensa forro para evitar transparência. Ainda assim, em vestidos de festa o forro de tafetá bember melhora o conforto na pele, esconde as margens internas e ajuda a saia a deslizar. Em calças e blazers de alfaiataria, forrar é opcional.'
   - question: 'Quantos metros de zibeline preciso para uma saia godê?'
     answer: 'Uma saia godê midi, de círculo completo, consome de 2,50 m a 3,00 m na largura de 1,50 m. Saias godê curtas ficam entre 1,50 m e 2,00 m, e saias longas de festa podem chegar a 4,00 m. Para meia godê, reduza cerca de 30% dessas metragens.'
+image: ../../assets/tecidos/zibeline.jpg
+imageAlt: 'Tecido Zibeline: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'starší než 70 let'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Zibeline_1.png'
 ---
 
 ## O que é o tecido zibeline

@@ -53,6 +53,13 @@ faq:
     answer: 'Serve bem para paletós e conjuntos de uniforme administrativo, recepção e eventos, onde se busca visual de alfaiataria com custo e manutenção baixos. Para ternos de uso formal contínuo, compare com a poliviscose, que tem toque mais macio e caimento mais próximo ao da lã.'
   - question: 'Oxford melange precisa de forro?'
     answer: 'Não é obrigatório, pois o tecido é opaco e encorpado. Em paletós e blazers o forro melhora o deslize sobre a camisa e o acabamento interno, então vale a pena usar tafetá bember. Em calças e saias retas o tecido se sustenta sozinho e dispensa forro na maioria dos casos.'
+image: ../../assets/tecidos/oxford-melange.jpg
+imageAlt: 'Tecido Oxford Melange: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Jersey_melange_anisotropy_strength_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
 ---
 
 ## O que é o tecido oxford melange

@@ -19,6 +19,13 @@ faq:
     answer: 'Depende da peça, da largura do tecido e do tamanho. Como referência na largura de 1,40 m a 1,50 m: blusa simples, 1,00 m a 1,30 m; vestido curto, 1,50 m a 2,00 m; vestido longo, 3,00 m a 3,50 m; calça adulta, 1,50 m. Estampas com direção, xadrez e listras pedem de 20 a 30 cm a mais. Na loja ajudamos a calcular a metragem exata do seu molde.'
   - question: 'A Rosolen Têxtil vende tecidos para roupas no atacado?'
     answer: 'Sim. Atendemos costureiras e consumidores no varejo, com corte a partir de pequenas metragens, e confecções, ateliês e revendedores no atacado, com preço diferenciado por volume e por rolo. A loja fica na Avenida da Saudade, 891, em Ribeirão Preto, e o atendimento pelo WhatsApp envia fotos, confirma cores e estampas em estoque e fecha pedidos para retirada ou envio.'
+image: ../../assets/categorias/tecidos-para-roupas.jpg
+imageAlt: 'Tecidos para Roupas: foto ilustrativa'
+imageCredit:
+  author: 'P1898'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Cotton_textiles_October_11_2026_ready_to_wear_03.jpg'
 ---
 
 ## Como escolher tecidos para roupas

@@ -54,6 +54,13 @@ faq:
     answer: 'Na maioria das peças, não. Com cerca de 360 g/m², ela cobre bem mesmo em leggings justas e nas cores claras. Em biquínis e maiôs, o forro continua recomendado por conforto, higiene e durabilidade, de preferência numa malha de forro leve. Em vestidos de festa, o forro é opcional e depende do decote.'
   - question: 'Quantos metros de malha cirrê preciso para uma legging?'
     answer: 'Na largura de 1,50 m, uma legging adulta consome de 1,00 m a 1,10 m, e um top, cerca de 0,50 m. Um body de manga longa usa 1,00 m e um maiô, 0,80 m. Como a malha estica muito, os moldes são de 10% a 15% menores do que a medida do corpo.'
+image: ../../assets/tecidos/malha-cirre.jpg
+imageAlt: 'Tecido Malha Cirrê (Malha Acetinada com Elastano): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Enby'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Charmeuse.jpg'
 ---
 
 ## O que é a malha cirrê

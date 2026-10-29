@@ -53,6 +53,13 @@ faq:
     answer: 'Sim, em qualquer máquina doméstica. Use agulha 90 ou 100, ponto reto de 3,5 mm e pé de teflon ou de rolete, porque a face aluminizada gruda no pé comum. Se não tiver esse pé, cole uma fita adesiva na base do calcador. Costure devagar e evite descosturar: os furos da agulha ficam marcados.'
   - question: 'Qual lado da manta fica voltado para dentro da bolsa?'
     answer: 'A face aluminizada deve ficar voltada para o conteúdo, para refletir o calor ou o frio de volta ao interior. Para proteger a manta e facilitar a limpeza, forre o interior com um tecido impermeável ou nylon por cima da face metalizada. O verso branco fica voltado para o tecido externo da bolsa.'
+image: ../../assets/tecidos/manta-termica.jpg
+imageAlt: 'Tecido Manta Térmica Aluminizada: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Alieneta Firdausi'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Scanned_Aluminum_Foil.png'
 ---
 
 ## O que é a manta térmica aluminizada

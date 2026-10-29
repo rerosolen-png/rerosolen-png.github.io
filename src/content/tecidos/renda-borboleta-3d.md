@@ -53,6 +53,13 @@ faq:
     answer: 'Para uma sobreposição de vestido longo reto, calcule de 3,00 m a 3,50 m na largura de 1,30 m. Em saias rodadas, de 4,50 m a 5,50 m. Uma solução comum é usar a renda apenas no corpete e no alto da saia, com 1,50 m a 2,00 m, e recortar borboletas extras para espalhar pelo tule liso da saia.'
   - question: 'Como costurar a renda borboleta sem achatar as aplicações?'
     answer: 'Costure com as aplicações para cima e use um pé calcador de zíper ou de aplicação para passar ao lado das borboletas. Afaste os motivos das margens de costura com alfinetes e, se algum cair na linha de costura, retire e recoloque à mão depois. Nunca passe ferro sobre as aplicações: use vapor à distância.'
+image: ../../assets/tecidos/renda-borboleta-3d.jpg
+imageAlt: 'Tecido Renda Borboleta 3D: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Joedkins'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Limerick_lace.jpg'
 ---
 
 ## O que é o tecido renda borboleta 3D

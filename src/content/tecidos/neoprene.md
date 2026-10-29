@@ -53,6 +53,13 @@ faq:
     answer: 'Na maioria dos casos, não. A malha é opaca, tem corpo próprio e um toque macio por dentro. Vestidos, saias e calças ficam prontos só com a malha e um bom acabamento. Em peças de festa muito justas, um forro leve de malha ajuda no caimento e no conforto, mas é opcional.'
   - question: 'Quantos metros de neoprene preciso para uma saia?'
     answer: 'Na largura de 1,50 m, uma saia lápis consome cerca de 0,70 m e uma saia evasê na altura do joelho, 0,90 m a 1,00 m. Um vestido tubinho usa 1,30 m a 1,50 m, e uma saia rodada de festa pode chegar a 2,00 m. Como a malha tem corpo, modele com folga mínima.'
+image: ../../assets/tecidos/neoprene.jpg
+imageAlt: 'Tecido Neoprene (Scuba): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Hannah Emily M'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Grey_Neoprene_Waist_Trainer.jpg'
 ---
 
 ## O que é a malha neoprene

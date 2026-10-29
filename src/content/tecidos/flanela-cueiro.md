@@ -53,6 +53,13 @@ faq:
     answer: 'Ela fica no meio: a felpa curta retém um pouco de calor e dá sensação de aconchego, mas a fibra de algodão respira e absorve a umidade, então não abafa. Por isso serve o ano todo: sozinha nas noites amenas e como camada extra no inverno. É mais leve que o soft e mais quente que a tricoline.'
   - question: 'A flanela estampada e a lisa têm a mesma qualidade?'
     answer: 'Sim, as duas são 100% algodão, com a mesma largura de 0,80 m e gramatura parecida. A estampada traz desenhos infantis e é usada na face externa de mantas e cueiros; a lisa, em tons suaves, serve para o forro, para fraldas de boca e para combinar com a estampa. Muitas costureiras usam uma de cada lado.'
+image: ../../assets/tecidos/flanela-cueiro.jpg
+imageAlt: 'Tecido Flanela para Cueiro (0,80 m): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'gina pina'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Flannel_rainbow.jpg'
 ---
 
 ## O que é o tecido flanela para cueiro

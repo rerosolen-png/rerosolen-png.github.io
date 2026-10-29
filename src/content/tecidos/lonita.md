@@ -53,6 +53,13 @@ faq:
     answer: 'Uma bolsa tote de 40 x 35 cm, com fundo e alças do mesmo tecido, usa cerca de 0,60 m na largura de 1,60 m. Mochilas simples pedem de 0,80 m a 1,00 m. Como a lonita é larga, muitas vezes duas bolsas cabem em um metro. Faça o risco no papel antes para aproveitar bem o corte.'
   - question: 'A lonita serve para fazer protótipo de roupa?'
     answer: 'Sim, é um dos usos mais comuns em cursos de modelagem. A lonita cru é estável, não estica e mostra bem os defeitos de uma modelagem antes do corte no tecido final. Por ser pesada, ela imita o comportamento de alfaiatarias e tecidos estruturados. Para peças leves e fluidas, prefira testar no algodão cru fino.'
+image: ../../assets/tecidos/lonita.jpg
+imageAlt: 'Tecido Lonita de Algodão Cru: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Clescelius'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Heavy_duty_work_pants_can_be_made_from_cotton_duck_%22canvas%22.JPG'
 ---
 
 ## O que é a lonita de algodão cru

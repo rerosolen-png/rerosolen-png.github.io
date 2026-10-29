@@ -19,6 +19,13 @@ faq:
     answer: 'Para sofás e poltronas, o suede e o gorgurão são resistentes ao atrito e fáceis de limpar; o jacquard dá acabamento clássico; o bouclê traz textura moderna. Para casas com crianças e pets, o tecido impermeável e o corano protegem contra líquidos e pelos. Almofadas aceitam qualquer um deles, além do oxford, do linho rústico e do nylon 600 para uso externo.'
   - question: 'Qual a diferença entre a Rosolen Têxtil e a Rosolen Decorações?'
     answer: 'As duas lojas são da mesma família e ficam lado a lado na Avenida da Saudade, em Ribeirão Preto. A Rosolen Têxtil, no número 891, é a loja de tecidos por metro para moda, festa, malhas e também os tecidos de decoração desta categoria. A Rosolen Decorações, no número 881, é especializada em decoração, com acervo maior de tecidos para cortinas, estofados e enxoval de casa.'
+image: ../../assets/categorias/tecidos-para-decoracao.jpg
+imageAlt: 'Tecidos para Decoração: foto ilustrativa'
+imageCredit:
+  author: 'This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Drapery_fabric_MET_DP207447.jpg'
 ---
 
 ## Como escolher tecidos para decoração

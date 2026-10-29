@@ -53,6 +53,13 @@ faq:
     answer: 'Estampas de boa qualidade sobre algodão resistem bem ao uso. Para prolongar a vida das cores, lave em água fria, com a peça virada do avesso, e seque sempre à sombra. Evite alvejante e deixar o tecido de molho por muito tempo. Na primeira lavagem, lave separado das peças claras.'
   - question: 'Como calcular a metragem de tricoline estampado para patchwork?'
     answer: 'Depende do projeto. Para uma colcha de solteiro com blocos simples, planeje de 3 a 4 metros somando todas as estampas, mais o verso. Como estampas com direção pedem cortes alinhados, inclua uma sobra de 10% a 15%. Em projetos pequenos, como nécessaires, meio metro de cada estampa costuma render várias peças.'
+image: ../../assets/tecidos/tricoline-estampado.jpg
+imageAlt: 'Tecido Tricoline Estampado 100% Algodão: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Downtowngal'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Late_1960s_cotton_print_fabric.jpg'
 ---
 
 ## O que é o tecido tricoline estampado

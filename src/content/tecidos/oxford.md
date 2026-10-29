@@ -54,6 +54,13 @@ faq:
     answer: 'O oxford é um tecido sintético e não absorve suor como o algodão, por isso pode aquecer em dias muito quentes ou em peças muito justas. Para amenizar, prefira modelagens com folga, forros leves e peças de uso em ambientes climatizados. Para camisas mais frescas, a oxfordine é uma opção mais leve.'
   - question: 'Quantos metros de oxford preciso para uma calça?'
     answer: 'Para uma calça social adulta, calcule entre 1,30 m e 1,50 m na largura de 1,50 m. Um blazer feminino consome de 1,80 m a 2,20 m, e uma saia reta fica entre 0,80 m e 1,00 m. Para tamanhos grandes ou modelagens amplas, acrescente de 20 a 30 cm ao total.'
+image: ../../assets/tecidos/oxford.jpg
+imageAlt: 'Tecido Oxford: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Chris Hoare'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Oxford_cloth.jpg'
 ---
 
 ## O que é o tecido oxford

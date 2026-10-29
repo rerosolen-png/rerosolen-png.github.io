@@ -53,6 +53,13 @@ faq:
     answer: 'Como a largura é 3,00 m, compre a altura da cortina mais 20 cm para bainhas. Uma cortina de 2,50 m de altura e até 3,00 m de largura pede 2,70 m de micro forro. Se a cortina tiver franzido e usar mais de 3,00 m de largura, compre dois cortes de altura e emende pelo comprimento.'
   - question: 'Micro forro serve para forrar vestido de malha?'
     answer: 'Sim, é um dos melhores forros para malhas, porque tem leve elasticidade e acompanha o movimento do corpo sem repuxar. Ele também é opaco, o que resolve transparências em malhas claras. Para peças muito elásticas, como as de viscolycra ou suplex, a segunda pele é ainda mais flexível.'
+image: ../../assets/tecidos/micro-forro.jpg
+imageAlt: 'Tecido Micro Forro 3,00 m: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Enby'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Brown_cupra_lining_fabric.jpg'
 ---
 
 ## O que é o micro forro

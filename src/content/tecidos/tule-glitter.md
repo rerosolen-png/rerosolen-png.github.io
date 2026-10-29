@@ -53,6 +53,13 @@ faq:
     answer: 'Sim, é um dos tecidos mais usados em fantasias de bloco, escola de samba e festa à fantasia. É leve, brilhante e barato de trabalhar em camadas. Serve para saias, capas, mangas, asas e sobreposições em bodies. Para peças que precisam de mais cobertura, combine com um forro de cetim ou com uma base de malha.'
   - question: 'Quantos metros de tule com glitter preciso para uma saia?'
     answer: 'Uma saia midi com três camadas de tule com glitter, franzida em duas vezes a cintura, usa de 4,00 m a 5,00 m na largura de 1,47 m. Para uma única camada de sobreposição sobre uma saia de cetim, calcule de 1,50 m a 2,00 m. Saias longas e mais volumosas sobem para 6,00 m ou mais.'
+image: ../../assets/tecidos/tule-glitter.jpg
+imageAlt: 'Tecido Tule com Glitter: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Sherrie Thai'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Silver_Sequins_on_Lace-5204797042.jpg'
 ---
 
 ## O que é o tecido tule com glitter

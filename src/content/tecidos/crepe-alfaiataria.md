@@ -54,6 +54,13 @@ faq:
     answer: 'Sim, é uma das melhores escolhas para calças de corte reto, pantalona e skinny social. O peso em torno de 264 g/m² garante caimento firme, o elastano dá conforto e a textura crepada esconde pequenas marcas. Use entretela de malha no cós e ponto elástico nas costuras que vão esticar.'
   - question: 'Qual a diferença entre crepe de alfaiataria e two way?'
     answer: 'O crepe de alfaiataria tem superfície fosca e crepada, com elastano atuando mais na largura. O two way é liso, um pouco mais pesado e estica nos dois sentidos. Para blazers e peças com textura, o crepe agrada mais; para uniformes de uso intenso e calças muito ajustadas, o two way tende a durar mais.'
+image: ../../assets/tecidos/crepe-alfaiataria.jpg
+imageAlt: 'Tecido Crepe de Alfaiataria com Elastano: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'This file is part of the Smithsonian Institution''s Open Access collection. Their website states : "We have released these images and data into the Public Domain as Creative Commons Zero (CC0) , meaning you can use, transform, and share our open access assets without asking permission from the Smithsonian."'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Untitled_(Strip_Quilt_with_Suiting)-saam_2016.5.45.jpg'
 ---
 
 ## O que é o tecido crepe de alfaiataria com elastano

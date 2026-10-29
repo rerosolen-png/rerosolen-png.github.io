@@ -53,6 +53,13 @@ faq:
     answer: 'Como é 100% algodão de trama fechada, ele solta pouco fiapo desde a primeira lavagem e praticamente nenhum depois de duas ou três. Lave antes de usar para tirar a goma de fábrica. A absorção também melhora com as lavagens, por isso um pano novo pode parecer menos eficiente nos primeiros dias.'
   - question: 'Esse tecido serve para pintura em tecido e bordado?'
     answer: 'Sim, é a base clássica das duas técnicas. A superfície lisa e opaca recebe bem tinta acrílica para tecido, e a trama regular facilita bordados livres, ponto cruz riscado e bicos de crochê na barra. Lave e passe o tecido antes de pintar ou bordar, para evitar que o desenho repuxe após o encolhimento.'
+image: ../../assets/tecidos/pano-de-prato.jpg
+imageAlt: 'Tecido Pano de Prato por Metro: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Dorian Wallender from Lake Havasu City, Arizona, USA'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Dish_Towel_(5289516726).jpg'
 ---
 
 ## O que é o pano de prato por metro

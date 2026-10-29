@@ -19,6 +19,13 @@ faq:
     answer: 'O dry fit é uma malha de poliéster com trama que afasta o suor da pele e seca rápido, usada em camisetas de corrida, futebol e uniformes de academia. O tactel é um tecido plano de poliamida, leve, com toque seco e textura levemente enrugada, usado em shorts, calças de agasalho, jaquetas corta-vento e uniformes escolares. O tactel com elastano ganha mobilidade para bermudas e calças de treino.'
   - question: 'Vocês atendem confecções fitness no atacado?'
     answer: 'Sim. A Rosolen Têxtil fornece suplex, dry fit, tactel e helanca por rolo ou por volume para confecções fitness, uniformizadoras e escolas de Ribeirão Preto e região, com preço de atacado. Pelo WhatsApp confirmamos as cores em estoque, enviamos amostras e organizamos a retirada ou o envio por transportadora. Quem costura em casa também compra por metro, com corte a partir de pequenas quantidades.'
+image: ../../assets/categorias/esportivos-e-fitness.jpg
+imageAlt: 'Tecidos Esportivos e Fitness: foto ilustrativa'
+imageCredit:
+  author: 'Mary Mark Ockerbloom'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Stretch_fabric_swatches_different_values_DSCF2204.jpg'
 ---
 
 ## Como escolher tecidos esportivos e fitness

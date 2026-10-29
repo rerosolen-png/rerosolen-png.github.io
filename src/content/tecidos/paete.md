@@ -53,6 +53,13 @@ faq:
     answer: 'Um top ou cropped usa de 0,60 m a 0,80 m, e uma saia curta franzida, cerca de 1,00 m a 1,20 m, na largura de 1,12 m. Um conjunto completo de bloco, com top, saia e detalhes, fica entre 2,00 m e 2,50 m. Como a largura é menor que a de outros tecidos, confira o risco dos moldes antes de comprar.'
   - question: 'Qual a diferença entre paetê comum e paetê spangle?'
     answer: 'O paetê comum tem lantejoulas sobre base de tule leve, sem elastano, com 1,12 m de largura, e é mais usado em fantasias e detalhes. O paetê spangle tem lantejoulas redondas maiores sobre tule com elastano, 1,30 m de largura, mais peso e um pouco de stretch, próprio para vestidos e saias de festa ajustados.'
+image: ../../assets/tecidos/paete.jpg
+imageAlt: 'Tecido Paetê por Metro: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Sherrie Thai'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Silver_Sequins_on_Black_Fabric-5302017268.jpg'
 ---
 
 ## O que é o tecido paetê

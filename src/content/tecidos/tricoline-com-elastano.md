@@ -53,6 +53,13 @@ faq:
     answer: 'Sim, e é uma ótima escolha. A base de algodão é macia e respirável, e o leve stretch dá liberdade para a criança correr e brincar sem que a roupa aperte. Funciona bem em camisas, vestidos, shorts e macaquinhos. Lave em água fria e seque à sombra para manter a elasticidade por mais tempo.'
   - question: 'Qual agulha e linha usar na tricoline com elastano?'
     answer: 'Use agulha stretch ou universal número 80 e linha 100% poliéster, que acompanha o movimento do tecido. Ponto reto de 2,5 mm a 3 mm funciona nas costuras comuns; nas laterais de calças e em cavas, prefira ziguezague estreito ou overloque. Evite esticar o tecido enquanto costura para a peça não ondular.'
+image: ../../assets/tecidos/tricoline-com-elastano.jpg
+imageAlt: 'Tecido Tricoline com Elastano: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Tobias ToMar Maier'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Tights_-_opaque_-_sheer_to_waist_style_in_white_-_cotton_and_nylon_fabric_mix_-_panty_section_close_up_in_black_and_white_as_they_might_be_worn_on_the_skin.jpg'
 ---
 
 ## O que é o tecido tricoline com elastano

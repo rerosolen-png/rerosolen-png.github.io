@@ -52,6 +52,13 @@ faq:
     answer: 'Um sofá de dois lugares consome em média de 7 a 9 metros, e um de três lugares de 10 a 12 metros, na largura de 1,42 m. Poltronas ficam entre 4 e 6 metros. Os valores variam com o modelo, a profundidade do assento e a quantidade de almofadas soltas. Peça ao tapeceiro a medição antes de comprar.'
   - question: 'O suede desbota ou solta pelo com o tempo?'
     answer: 'Não. Por ser 100% poliéster tinto no fio, o suede mantém a cor por anos, mesmo em ambientes claros, e o pelo curto é preso à base de malha, sem soltar. O que pode acontecer é o amassamento do pelo em áreas de uso intenso, que volta ao normal com uma escovada leve no sentido da fibra.'
+image: ../../assets/tecidos/suede.jpg
+imageAlt: 'Tecido Suede para Estofado: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Isokivi'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Blue_velvet.jpg'
 ---
 
 ## O que é o tecido suede para estofado

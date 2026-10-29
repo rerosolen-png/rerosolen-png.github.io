@@ -51,6 +51,13 @@ faq:
     answer: 'Sim, a versão para tapeçaria é tecida com fio de poliéster e gramatura encorpada, que aguenta atrito e peso. A textura ainda disfarça marcas de uso. A principal atenção é com unhas de pet, que podem puxar as laçadas, e com objetos pontiagudos. Para casas com gato, o suede ou o corano são mais indicados.'
   - question: 'Quantos metros de bouclê para uma poltrona?'
     answer: 'Uma poltrona padrão consome entre 4 e 6 metros na largura de 1,40 m. Poltronas de concha ou com braços largos ficam perto dos 6 metros. Um sofá de três lugares pede de 10 a 12 metros. Como o bouclê é liso e sem direção forte de desenho, o aproveitamento costuma ser bom. Confirme a metragem com o tapeceiro.'
+image: ../../assets/tecidos/boucle.jpg
+imageAlt: 'Tecido Bouclê para Estofado: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'PKM'
+  source: 'Wikimedia Commons'
+  license: 'Public Domain'
+  url: 'https://commons.wikimedia.org/wiki/File:Boucle_fabric.jpg'
 ---
 
 ## O que é o tecido bouclê para estofado

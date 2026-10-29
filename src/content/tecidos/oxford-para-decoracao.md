@@ -53,6 +53,13 @@ faq:
     answer: 'Multiplique a largura do vão por dois, para o franzido, e compre essa medida em metros lineares. Uma janela de 2,00 m pede cerca de 4,00 m de tecido. A largura de 3,00 m vira a altura da cortina, então peças com até 2,80 m de altura saem inteiras. Tetos mais altos pedem outro cálculo.'
   - question: 'O oxford 3,00 m serve para toalha de mesa de festa?'
     answer: 'Sim, é um dos tecidos mais usados por buffets e decoradores de eventos. Ele é opaco, encorpado, aceita lavagem em máquina e volta sem marcas fortes de amassado. Para uma mesa redonda de 1,50 m com toalha até o chão, a largura de 3,00 m resolve com uma única peça, sem costura no centro.'
+image: ../../assets/tecidos/oxford-para-decoracao.jpg
+imageAlt: 'Tecido Oxford 3,00 m para Decoração: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Thegreatmutata'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Fabric_swatches.jpg'
 ---
 
 ## O que é o tecido oxford 3,00 m para decoração

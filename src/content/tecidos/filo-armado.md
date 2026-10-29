@@ -53,6 +53,13 @@ faq:
     answer: 'Com 3,16 m de largura, o comprimento da saia é cortado na largura do tecido. Uma anágua de debutante com três camadas bem franzidas usa de 3,00 m a 5,00 m. Para saias de quinze anos muito amplas, estilo princesa, calcule de 5,00 m a 7,00 m, acrescentando uma camada de forro liso por dentro.'
   - question: 'Como deixar o filó armado menos áspero na pele?'
     answer: 'Monte a anágua com uma camada interna de forro liso, como tafetá bember ou cetim charmousse, que fica entre o filó e as pernas. Nas bordas inferiores, um acabamento com fita de cetim ou viés evita que a rede raspe no tornozelo. Em tutus de balé, a calcinha de base com forro resolve o contato com a pele.'
+image: ../../assets/tecidos/filo-armado.jpg
+imageAlt: 'Tecido Filó Armado: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Shiva Theerthagiri'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Net_fabric.jpg'
 ---
 
 ## O que é o tecido filó armado

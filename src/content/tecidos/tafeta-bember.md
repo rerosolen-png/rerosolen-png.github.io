@@ -53,6 +53,13 @@ faq:
     answer: 'O tafetá bember é um forro plano, fino e liso, sem elasticidade, indicado para tecidos planos, como crepes, cetins e alfaiatarias. O micro forro é uma malha de microfibra, com leve elasticidade e mais corpo, melhor para malhas, peças justas e cortinas largas. Os dois são de poliéster e têm bom caimento.'
   - question: 'O forro tafetá é transparente?'
     answer: 'Nas cores claras ele deixa passar alguma luz, porque é muito fino. Em peças claras e justas, use duas camadas ou escolha a cor nude mais próxima da pele, que disfarça melhor. Nas cores escuras, uma camada já cobre bem. Em cortinas, o tafetá é usado justamente por filtrar a luz sem bloqueá-la.'
+image: ../../assets/tecidos/tafeta-bember.jpg
+imageAlt: 'Tecido Forro Tafetá (Bember): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Smriti tripathi'
+  source: 'Wikimedia Commons'
+  license: 'CC BY 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Indian-dupioni-silk-fabrics.JPG'
 ---
 
 ## O que é o forro tafetá bember

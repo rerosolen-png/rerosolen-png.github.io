@@ -54,6 +54,13 @@ faq:
     answer: 'Corte o forro com os mesmos moldes do corpo da jaqueta, sem as mangas ou com mangas em forro liso, para o braço deslizar. Costure a sherpa pelo avesso, com o pelo para dentro, e una ao jeans nas bordas da frente, gola e barra. Apare bem as margens para reduzir o volume e use agulha 90 para atravessar as duas camadas.'
   - question: 'Quantos metros de sherpa preciso para um casaco?'
     answer: 'Na largura de 1,60 m, um casaco adulto inteiro em sherpa consome de 1,80 m a 2,20 m. Um colete usa cerca de 1,00 m, e o forro do corpo de uma jaqueta jeans, de 0,80 m a 1,00 m. Um par de pantufas fica em 0,30 m. Como o pelo tem sentido, acrescente uma margem de 10% para o encaixe dos moldes.'
+image: ../../assets/tecidos/sherpa.jpg
+imageAlt: 'Tecido Sherpa (Pelo de Carneiro Sintético): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Curly_teddy_natural_diff_10k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
 ---
 
 ## O que é o tecido sherpa

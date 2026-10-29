@@ -51,6 +51,13 @@ faq:
     answer: 'Na maioria das estampas, não. A textura e a gramatura do viscolinho garantem boa cobertura, mesmo em fundos claros. Só vale forrar peças muito justas em estampas de fundo branco ou em vestidos usados sob luz forte. Para o forro, a viscose lisa mantém o frescor e o caimento do tecido principal.'
   - question: 'Como combinar estampas de viscolinho em um conjunto?'
     answer: 'Uma regra simples é unir uma estampa grande com uma pequena na mesma paleta, ou uma estampa com a cor lisa que aparece nela. Conjuntos de cropped e short na mesma estampa também funcionam bem. Peça fotos das estampas e das cores lisas disponíveis para montar a combinação antes de comprar a metragem.'
+image: ../../assets/tecidos/viscolinho-estampado.jpg
+imageAlt: 'Tecido Viscolinho Estampado: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Mabalu'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Trompe_l%27oeil_printed_viscose_jersey_dresses_by_Maison_Martin_Margiela,_1996_and_2012.jpg'
 ---
 
 ## O que é o tecido viscolinho estampado

@@ -54,6 +54,13 @@ faq:
     answer: 'Praticamente não amassa e resiste muito bem ao desbotamento, por isso virou o padrão das escolas. O poliéster sai da máquina pronto para usar e aguenta lavagens diárias sem perder a cor. Para manter o marinho e o preto intensos por mais tempo, lave em água fria e seque à sombra.'
   - question: 'Quantos metros de helanca escolar preciso para uma calça?'
     answer: 'Na largura de 1,60 m, uma calça adulta de agasalho consome de 1,20 m a 1,30 m, e uma calça infantil, de 0,80 m a 1,00 m, conforme a idade. Uma jaqueta de uniforme usa cerca de 1,50 m. Em produção, com encaixe de vários tamanhos, o consumo médio por peça fica menor.'
+image: ../../assets/tecidos/helanca-escolar.jpg
+imageAlt: 'Tecido Helanca Escolar (Helanca Pesada): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Pratama A.'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Batik_Geblek_Renteng_School_Uniform_1.jpg'
 ---
 
 ## O que é a malha helanca escolar

@@ -53,6 +53,13 @@ faq:
     answer: 'O soft é mais denso e pesado, com felpa dos dois lados, e aquece mais; é a melhor opção para pijamas de inverno e mantas grossas. O fleece é mais leve e mais fino, ideal para jaquetas, forros, mantinhas de bebê e peças de meia-estação. Em cidades de inverno ameno, como Ribeirão Preto, o fleece costuma bastar para a maioria dos usos.'
   - question: 'Quantos metros de fleece preciso para uma manta?'
     answer: 'Depende da largura da peça. Numa largura de 1,60 m, uma manta de sofá de 1,60 x 1,20 m usa 1,20 m, sem precisar de emenda. Numa largura de 2,20 m, uma manta de casal de 2,20 x 1,80 m consome 1,80 m. Uma mantinha de bebê fica em 0,80 m a 1,00 m. Acabe as bordas com viés ou deixe cruas.'
+image: ../../assets/tecidos/fleece.jpg
+imageAlt: 'Tecido Fleece (Microfleece e Coral Fleece): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Rico Cilliers (Processing) colormass (Photography)'
+  source: 'Wikimedia Commons'
+  license: 'CC0 1.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Polar_fleece_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
 ---
 
 ## O que é o tecido fleece

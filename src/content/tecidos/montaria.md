@@ -54,6 +54,13 @@ faq:
     answer: 'Quase nada. Por ser uma malha de poliéster de alta gramatura, ela sai da mala ou da máquina pronta para usar. Essa é a grande vantagem sobre os tecidos planos de alfaiataria: calças e blazers de montaria dispensam o ferro no dia a dia e aguentam um expediente inteiro sentado sem marcar os joelhos.'
   - question: 'Quantos metros de malha montaria preciso para uma calça?'
     answer: 'Na largura de 1,50 m, uma calça reta ou pantalona consome de 1,20 m a 1,40 m, conforme o comprimento e o tamanho. Um blazer sem forro usa cerca de 1,60 m, e um macacão de calça comprida fica entre 2,20 m e 2,50 m. Como a malha é opaca e encorpada, não é preciso somar forro.'
+image: ../../assets/tecidos/montaria.jpg
+imageAlt: 'Tecido Malha Montaria: foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'teslar'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Singlejersey.jpg'
 ---
 
 ## O que é a malha montaria

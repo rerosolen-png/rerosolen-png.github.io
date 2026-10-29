@@ -53,6 +53,13 @@ faq:
     answer: 'Sim, é um dos melhores tecidos para tingimento caseiro, tie-dye e estamparia com tinta para tecido. Por não ter alvejamento, a fibra absorve bem o corante. Lave o tecido antes para tirar a goma, tinja ainda úmido e fixe a cor conforme a instrução do corante. O tom cru de fundo deixa as cores levemente terrosas.'
   - question: 'Quantas sacolas ecológicas saem de um metro de algodão cru?'
     answer: 'De um metro na largura de 1,50 m saem cerca de 3 sacolas de 35 x 40 cm com alças do mesmo tecido. Se as alças forem de cadarço, rendem 4 sacolas. Para pedidos de brinde em quantidade, nossa equipe calcula a metragem exata a partir do molde e aplica preço de atacado.'
+image: ../../assets/tecidos/algodao-cru.jpg
+imageAlt: 'Tecido Algodão Cru (Tela): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'Clem Rutter, Rochester, Kent.'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Calico_Sample.JPG'
 ---
 
 ## O que é o algodão cru

@@ -54,6 +54,13 @@ faq:
     answer: 'Sim, desde que seja uma liganete com elastano, como a de 92% poliéster e 8% elastano. Ela estica nos dois sentidos, seca rápido e aguenta água salgada e cloro. Para peças de banho, forre com a própria malha ou com uma malha de forro para dar cobertura e durabilidade. Para alta compressão, o suplex é mais firme.'
   - question: 'Quantos metros de liganete preciso para um pijama?'
     answer: 'Na largura de 1,60 m, um pijama adulto de camiseta e short consome cerca de 1,30 m; a versão de calça e manga longa fica entre 2,00 m e 2,20 m. Uma camisola curta usa em torno de 1,00 m. Como a malha é elástica, modele com pouca folga para a peça não ficar larga demais.'
+image: ../../assets/tecidos/liganete.jpg
+imageAlt: 'Tecido Liganete (Malha Fria): foto ilustrativa da textura e do caimento'
+imageCredit:
+  author: 'RAJIVVASUDEV'
+  source: 'Wikimedia Commons'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Pointelle_Fabric.jpg'
 ---
 
 ## O que é a malha liganete
