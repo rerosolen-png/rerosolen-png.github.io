@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { site, formatAddress } from '../data/site';
+import { breadcrumbSchema } from '../lib/seo';
+
+const crumbs = [
+  { name: 'Início', href: '/' },
+  { name: 'Política de privacidade', href: '/politica-de-privacidade/' },
+];
+---
+
+<BaseLayout
+  title="Política de Privacidade"
+  description="Saiba como a Rosolen Têxtil trata os dados pessoais de quem visita o site e entra em contato pelo WhatsApp, telefone ou e-mail, em conformidade com a LGPD."
+  canonical="/politica-de-privacidade/"
+  jsonLd={[breadcrumbSchema(crumbs)]}
+>
+  <div class="container section" style="padding-top: 2rem">
+    <Breadcrumbs items={crumbs} />
+    <header class="section-header">
+      <span class="eyebrow">Legal</span>
+      <h1>Política de privacidade</h1>
+      <p class="lead">Última atualização: 28 de outubro de 2026.</p>
+    </header>
+
+    <div class="prose">
+      <h2>Quem somos</h2>
+      <p>
+        Este site é mantido por {site.legalName}, CNPJ {site.cnpj}, com sede na {formatAddress()}.
+        Em caso de dúvidas sobre esta política, escreva para
+        <a href={`mailto:${site.email}`}>{site.email}</a>.
+      </p>
+
+      <h2>Quais dados coletamos</h2>
+      <p>
+        Este site é informativo e <strong>não possui formulários nem cadastro</strong>. Não
+        coletamos dados pessoais pela navegação. Quando você entra em contato pelo WhatsApp,
+        telefone ou e-mail, recebemos as informações que você mesmo decide compartilhar (nome,
+        telefone, mensagem e, eventualmente, endereço de entrega), usadas exclusivamente para
+        responder ao seu pedido e, se for o caso, concluir a venda e o envio.
+      </p>
+
+      <h2>Cookies e serviços de terceiros</h2>
+      <p>
+        O site não usa cookies próprios de rastreamento. As páginas de contato e a página inicial
+        exibem um mapa do Google Maps, que pode definir cookies próprios de acordo com a
+        <a
+          href="https://policies.google.com/privacy?hl=pt-BR"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          política de privacidade do Google
+        </a>
+        . Links para WhatsApp, Instagram e Facebook levam a serviços externos, sujeitos às políticas
+        de cada plataforma.
+      </p>
+
+      <h2>Como usamos e por quanto tempo guardamos</h2>
+      <p>
+        Usamos os dados de contato apenas para atendimento, orçamento, venda e entrega. Conversas de
+        WhatsApp e e-mails são mantidos pelo tempo necessário para o atendimento e para cumprir
+        obrigações legais e fiscais. Não vendemos nem compartilhamos seus dados com terceiros para
+        fins de marketing.
+      </p>
+
+      <h2>Seus direitos</h2>
+      <p>
+        Nos termos da Lei Geral de Proteção de Dados (Lei 13.709/2018), você pode solicitar a
+        confirmação de tratamento, o acesso, a correção ou a exclusão dos seus dados, bem como
+        informações sobre o uso. Basta entrar em contato pelo e-mail
+        <a href={`mailto:${site.email}`}>{site.email}</a> ou pelo telefone {site.phoneDisplay}.
+      </p>
+
+      <h2>Alterações</h2>
+      <p>
+        Esta política pode ser atualizada para refletir mudanças no site ou na legislação. A data da
+        última atualização aparece no topo desta página.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

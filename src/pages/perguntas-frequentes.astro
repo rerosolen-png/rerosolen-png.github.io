@@ -1,0 +1,123 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Faq from '../components/Faq.astro';
+import Cta from '../components/Cta.astro';
+import { site } from '../data/site';
+import { breadcrumbSchema, faqSchema } from '../lib/seo';
+
+const crumbs = [
+  { name: 'Início', href: '/' },
+  { name: 'Perguntas frequentes', href: '/perguntas-frequentes/' },
+];
+
+const groups = [
+  {
+    title: 'Compra e metragem',
+    items: [
+      {
+        question: 'Como funciona a venda por metro?',
+        answer:
+          'Você escolhe o tecido e informa a metragem; o corte é feito na hora, na largura do rolo. A metragem mínima costuma ser de 1 metro por tecido, e em muitos casos é possível comprar frações, como 1,50 m. Consulte a equipe para o tecido que você precisa.',
+      },
+      {
+        question: 'Como sei quantos metros comprar?',
+        answer:
+          'Cada página de tecido traz uma tabela de consumo médio por peça, e o guia "Quantos metros de tecido comprar" reúne tudo em um só lugar. Se tiver o molde, envie as medidas pelo WhatsApp que a equipe ajuda a calcular, considerando a largura do tecido e a margem para o casamento de estampas.',
+      },
+      {
+        question: 'Vocês vendem amostras?',
+        answer:
+          'Sim. Para quem está desenvolvendo uma coleção ou um projeto de decoração, enviamos fotos pelo WhatsApp e, quando necessário, pequenas amostras. Fale com a equipe informando os tecidos de interesse.',
+      },
+      {
+        question: 'Posso reservar um tecido?',
+        answer:
+          'Reservas curtas são possíveis para retirada na loja. Como as estampas mudam com frequência e algumas peças esgotam rápido, recomendamos confirmar a disponibilidade pelo WhatsApp no dia da compra.',
+      },
+    ],
+  },
+  {
+    title: 'Atacado e confecções',
+    items: [
+      {
+        question: 'Qual é a quantidade mínima para preço de atacado?',
+        answer:
+          'As condições de atacado dependem do tecido e da quantidade; em geral valem para compras por rolo ou por metragens maiores. Envie pelo WhatsApp o tipo de tecido e a metragem aproximada para receber a proposta para a sua confecção.',
+      },
+      {
+        question: 'Vocês atendem fábricas de uniformes e escolas?',
+        answer:
+          'Sim. Temos oxford, gabardine, brim, rip stop, helanca, PV e outras opções usadas em uniformes profissionais, escolares e esportivos, com fornecimento contínuo e cores padronizadas.',
+      },
+    ],
+  },
+  {
+    title: 'Pagamento, entrega e trocas',
+    items: [
+      {
+        question: 'Quais formas de pagamento são aceitas?',
+        answer: `Na loja aceitamos Pix, cartões de débito e crédito e dinheiro. Para compras à distância, o pagamento é combinado pelo WhatsApp. Lembre-se: pagamentos à loja são sempre em nome de ${site.legalName}, CNPJ ${site.cnpj}.`,
+      },
+      {
+        question: 'Vocês enviam para outras cidades?',
+        answer:
+          'Sim. Vendemos para todo o Brasil, com envio pelos Correios ou transportadora. O frete é calculado pelo peso e pelo destino e informado antes da confirmação do pedido.',
+      },
+      {
+        question: 'Tecido cortado pode ser trocado?',
+        answer:
+          'Como o corte é feito sob medida, a troca de tecido cortado só é possível em caso de defeito de fabricação. Confira a cor, a estampa e a metragem antes de levar. Compras feitas à distância seguem o Código de Defesa do Consumidor.',
+      },
+    ],
+  },
+  {
+    title: 'Loja e atendimento',
+    items: [
+      {
+        question: 'Qual é o horário de funcionamento?',
+        answer: `De segunda a sexta, das ${site.openingHours[0].opens} às ${site.openingHours[0].closes}, e aos sábados, das ${site.openingHours[1].opens} às ${site.openingHours[1].closes}. Domingos e feriados a loja permanece fechada.`,
+      },
+      {
+        question: 'Onde fica a loja e tem estacionamento?',
+        answer: `A loja fica na ${site.address.street}, ${site.address.number}, bairro ${site.address.neighborhood}, em ${site.address.city}, no polo de tecidos da cidade. Há estacionamento na rua e a entrada é acessível para cadeirantes.`,
+      },
+      {
+        question: 'Qual a diferença entre a Rosolen Têxtil e a Rosolen Decorações?',
+        answer:
+          'A Rosolen Têxtil (nº 891) é especializada em tecidos planos e malhas para moda, festa, uniformes e artesanato. A Rosolen Decorações (nº 881, ao lado) é dedicada a tecidos para decoração: cortinas, tapeçaria, toalhas, TNT e tule.',
+      },
+      {
+        question: 'A equipe ajuda a escolher o tecido?',
+        answer:
+          'Sim. Nossos vendedores conhecem caimento, forro, elasticidade e cuidados de cada tecido e orientam sobre a melhor escolha para o seu projeto, seja um vestido de festa, um uniforme ou uma cortina.',
+      },
+    ],
+  },
+];
+
+const allItems = groups.flatMap((g) => g.items);
+---
+
+<BaseLayout
+  title="Perguntas Frequentes sobre Compra de Tecidos por Metro"
+  description="Tire dúvidas sobre venda por metro, metragem mínima, atacado para confecções, pagamento, envio, trocas, horário e localização da Rosolen Têxtil em Ribeirão Preto."
+  canonical="/perguntas-frequentes/"
+  jsonLd={[breadcrumbSchema(crumbs), faqSchema(allItems)]}
+>
+  <div class="container section" style="padding-top: 2rem">
+    <Breadcrumbs items={crumbs} />
+    <header class="section-header">
+      <span class="eyebrow">Ajuda</span>
+      <h1>Perguntas frequentes</h1>
+      <p class="lead">
+        Reunimos aqui as dúvidas mais comuns de quem compra tecido na Rosolen Têxtil. Não achou a
+        resposta? Fale com a equipe pelo WhatsApp.
+      </p>
+    </header>
+    {groups.map((g) => (
+      <Faq items={g.items} title={g.title} />
+    ))}
+    <Cta />
+  </div>
+</BaseLayout>

@@ -1,0 +1,355 @@
+---
+import { Image } from 'astro:assets';
+import { render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import FabricCard from '../../components/FabricCard.astro';
+import FabricPlaceholder from '../../components/FabricPlaceholder.astro';
+import Faq from '../../components/Faq.astro';
+import Cta from '../../components/Cta.astro';
+import IconWhatsApp from '../../components/icons/IconWhatsApp.astro';
+import { site, whatsappLink, telLink } from '../../data/site';
+import { breadcrumbSchema, productSchema, faqSchema } from '../../lib/seo';
+import {
+  getFabrics,
+  getCategories,
+  categoryMap,
+  resolveFabrics,
+  fabricUrl,
+  categoryUrl,
+  type Fabric,
+} from '../../lib/content';
+
+export async function getStaticPaths() {
+  const fabrics = await getFabrics();
+  return fabrics.map((fabric) => ({ params: { slug: fabric.id }, props: { fabric } }));
+}
+
+interface Props {
+  fabric: Fabric;
+}
+const { fabric } = Astro.props;
+const { data } = fabric;
+const { Content } = await render(fabric);
+
+const fabrics = await getFabrics();
+const categories = categoryMap(await getCategories());
+const category = categories.get(data.category);
+const secondary = data.secondaryCategories
+  .map((id) => categories.get(id))
+  .filter((c): c is NonNullable<typeof c> => Boolean(c));
+
+// Relacionados: os indicados no frontmatter; se faltar, completa com a mesma categoria.
+let related = resolveFabrics(data.related, fabrics).filter((f) => f.id !== fabric.id);
+if (related.length < 4) {
+  const sameCategory = fabrics.filter(
+    (f) => f.id !== fabric.id && f.data.category === data.category && !related.includes(f)
+  );
+  related = [...related, ...sameCategory].slice(0, 4);
+}
+related = related.slice(0, 4);
+
+const url = fabricUrl(fabric);
+const crumbs = [
+  { name: 'Início', href: '/' },
+  { name: 'Tecidos', href: '/tecidos/' },
+  ...(category
+    ? [{ name: category.data.shortName ?? category.data.title, href: categoryUrl(category) }]
+    : []),
+  { name: data.shortName ?? data.title, href: url },
+];
+
+const title = data.seoTitle ?? `${data.title} por Metro em Ribeirão Preto`;
+const whatsappMessage = `Olá! Vi o tecido ${data.title} no site da Rosolen Têxtil e gostaria de um orçamento.`;
+
+const specs = [
+  ['Composição', data.composition],
+  ['Largura', data.width],
+  ['Gramatura', data.weight],
+  ['Elasticidade', data.elasticity],
+  ['Transparência', data.transparency],
+  ['Toque', data.touch],
+  ['Cores e estampas', data.colors],
+].filter((s): s is [string, string] => Boolean(s[1]));
+
+const jsonLd = [
+  breadcrumbSchema(crumbs),
+  productSchema({
+    name: data.title,
+    description: data.description,
+    url,
+    image: data.image?.src,
+    category: category?.data.title,
+    material: data.composition,
+    width: data.width,
+    weight: data.weight,
+  }),
+  ...(data.faq.length ? [faqSchema(data.faq)] : []),
+];
+---
+
+<BaseLayout
+  title={title}
+  description={data.description}
+  canonical={url}
+  image={data.image?.src}
+  imageAlt={data.imageAlt ?? `Tecido ${data.title}`}
+  ogType="product"
+  jsonLd={jsonLd}
+  modifiedTime={data.updatedDate}
+>
+  <article class="container fabric">
+    <Breadcrumbs items={crumbs} />
+
+    <header class="fabric__header">
+      <div class="cluster fabric__chips">
+        {category && (
+          <a class="chip" href={categoryUrl(category)}>
+            {category.data.shortName ?? category.data.title}
+          </a>
+        )}
+        {secondary.map((c) => (
+          <a class="chip chip--accent" href={categoryUrl(c)}>
+            {c.data.shortName ?? c.data.title}
+          </a>
+        ))}
+      </div>
+      <h1>{data.title}</h1>
+      <p class="lead">{data.description}</p>
+    </header>
+
+    <div class="fabric__top">
+      <figure class="fabric__media">
+        {data.image ? (
+          <Image
+            src={data.image}
+            alt={data.imageAlt ?? `Tecido ${data.title}`}
+            width={960}
+            height={720}
+            loading="eager"
+            fetchpriority="high"
+            format="webp"
+          />
+        ) : (
+          <FabricPlaceholder name={data.shortName ?? data.title} />
+        )}
+        {data.imageCredit && (
+          <figcaption class="fabric__credit">
+            Foto: {data.imageCredit.author} · {data.imageCredit.source} · {data.imageCredit.license}
+            {data.imageCredit.url && (
+              <>
+                {' '}
+                ·{' '}
+                <a href={data.imageCredit.url} rel="noopener noreferrer nofollow" target="_blank">
+                  fonte
+                </a>
+              </>
+            )}
+          </figcaption>
+        )}
+      </figure>
+
+      <aside class="fabric__aside">
+        <h2 class="fabric__aside-title">Ficha técnica</h2>
+        <dl class="spec-list">
+          {specs.map(([label, value]) => (
+            <div>
+              <dt>{label}</dt>
+              <dd>{value}</dd>
+            </div>
+          ))}
+        </dl>
+
+        <h2 class="fabric__aside-title">Indicado para</h2>
+        <ul class="fabric__uses">
+          {data.uses.map((u) => (
+            <li>{u}</li>
+          ))}
+        </ul>
+
+        <div class="fabric__buy">
+          <p>
+            <strong>Venda por metro</strong>, com corte na hora na loja de Ribeirão Preto. Preço de
+            atacado para confecções.
+          </p>
+          <a
+            class="btn btn--whatsapp btn--lg"
+            href={whatsappLink(whatsappMessage)}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IconWhatsApp />
+            <span>Consultar preço e cores</span>
+          </a>
+          <a class="btn btn--outline" href={telLink()}>
+            Ligar {site.phoneDisplay}
+          </a>
+        </div>
+      </aside>
+    </div>
+
+    <div class="fabric__body">
+      <div class="prose">
+        <Content />
+      </div>
+
+      <div class="fabric__side">
+        {data.care.length > 0 && (
+          <section class="fabric__box" aria-labelledby="cuidados-title">
+            <h2 id="cuidados-title">Cuidados rápidos</h2>
+            <ul>
+              {data.care.map((c) => (
+                <li>{c}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+        {data.characteristics.length > 0 && (
+          <section class="fabric__box" aria-labelledby="carac-title">
+            <h2 id="carac-title">Resumo das características</h2>
+            <ul>
+              {data.characteristics.map((c) => (
+                <li>{c}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </div>
+    </div>
+
+    <Faq items={data.faq} title={`Perguntas frequentes sobre ${data.shortName ?? data.title}`} />
+
+    {related.length > 0 && (
+      <section class="related" aria-labelledby="related-title">
+        <h2 id="related-title">Tecidos relacionados</h2>
+        <div class="grid grid--4">
+          {related.map((f) => (
+            <FabricCard fabric={f} />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <Cta
+      title={`Quer ${data.shortName ?? data.title} por metro em Ribeirão Preto?`}
+      message={whatsappMessage}
+    />
+  </article>
+</BaseLayout>
+
+<style>
+  .fabric {
+    padding-top: 2rem;
+  }
+  .fabric__header {
+    max-width: 820px;
+    margin-bottom: 2rem;
+  }
+  .fabric__chips {
+    margin-bottom: 0.75rem;
+  }
+  .fabric__chips .chip {
+    text-decoration: none;
+  }
+  .fabric__top {
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  @media (min-width: 900px) {
+    .fabric__top {
+      grid-template-columns: 1.2fr 1fr;
+      align-items: start;
+    }
+  }
+  .fabric__media {
+    margin: 0;
+  }
+  .fabric__media img,
+  .fabric__media :global(svg) {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+  }
+  .fabric__credit {
+    font-size: 0.8rem;
+    color: var(--color-muted);
+    margin-top: 0.5rem;
+  }
+  .fabric__aside-title {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-muted);
+    margin: 1.5rem 0 0.75rem;
+  }
+  .fabric__aside-title:first-child {
+    margin-top: 0;
+  }
+  .fabric__uses {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .fabric__uses li {
+    margin: 0;
+    padding: 0.3em 0.8em;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    font-size: 0.9rem;
+  }
+  .fabric__buy {
+    margin-top: 1.5rem;
+    padding: 1.25rem;
+    background: var(--color-primary-soft);
+    border-radius: var(--radius);
+    display: grid;
+    gap: 0.75rem;
+  }
+  .fabric__buy p {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  .fabric__body {
+    display: grid;
+    gap: 2.5rem;
+  }
+  @media (min-width: 1000px) {
+    .fabric__body {
+      grid-template-columns: minmax(0, 1fr) 320px;
+      align-items: start;
+    }
+    .fabric__side {
+      position: sticky;
+      top: 90px;
+    }
+  }
+  .fabric__box {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.4rem;
+    margin-bottom: 1.25rem;
+  }
+  .fabric__box h2 {
+    font-size: 1.05rem;
+    font-family: var(--font-sans);
+    margin-bottom: 0.6rem;
+  }
+  .fabric__box ul {
+    margin: 0;
+    padding-left: 1.1rem;
+    font-size: 0.95rem;
+    color: var(--color-muted);
+  }
+  .related {
+    margin-top: 3rem;
+  }
+</style>

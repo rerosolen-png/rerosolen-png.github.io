@@ -7,7 +7,7 @@ const imageCredit = z.object({
   author: z.string(),
   source: z.string(),
   license: z.string(),
-  url: z.string().url().optional(),
+  url: z.url().optional(),
 });
 
 const faqItem = z.object({ question: z.string(), answer: z.string() });

@@ -1,0 +1,90 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { breadcrumbSchema } from '../lib/seo';
+import { getImageCredits } from '../lib/content';
+
+const crumbs = [
+  { name: 'Início', href: '/' },
+  { name: 'Créditos de imagens', href: '/creditos-de-imagens/' },
+];
+
+const credits = Object.entries(getImageCredits()).sort(([a], [b]) => a.localeCompare(b));
+
+function pageFor(key: string): string | null {
+  if (key === 'hero') return '/';
+  const [type, slug] = key.split('/');
+  if (!slug) return null;
+  if (type === 'tecidos') return `/tecidos/${slug}/`;
+  if (type === 'categorias') return `/categorias/${slug}/`;
+  if (type === 'guia') return `/guia/${slug}/`;
+  return null;
+}
+---
+
+<BaseLayout
+  title="Créditos de Imagens"
+  description="Autores e licenças das fotografias ilustrativas usadas no site da Rosolen Têxtil, loja de tecidos em Ribeirão Preto."
+  canonical="/creditos-de-imagens/"
+  jsonLd={[breadcrumbSchema(crumbs)]}
+  noindex
+>
+  <div class="container section" style="padding-top: 2rem">
+    <Breadcrumbs items={crumbs} />
+    <header class="section-header">
+      <span class="eyebrow">Legal</span>
+      <h1>Créditos de imagens</h1>
+      <p class="lead">
+        Parte das fotografias deste site é ilustrativa e foi obtida em bancos de imagens com
+        licenças abertas (Creative Commons e domínio público). Agradecemos aos autores listados
+        abaixo. As demais fotos pertencem à Rosolen Têxtil.
+      </p>
+    </header>
+
+    {credits.length === 0 ? (
+      <p>Nenhuma imagem de terceiros em uso no momento.</p>
+    ) : (
+      <table>
+        <thead>
+          <tr>
+            <th>Página</th>
+            <th>Imagem</th>
+            <th>Autor</th>
+            <th>Fonte</th>
+            <th>Licença</th>
+          </tr>
+        </thead>
+        <tbody>
+          {credits.map(([key, c]) => {
+            const page = pageFor(key);
+            return (
+              <tr>
+                <td>{page ? <a href={page}>{key}</a> : key}</td>
+                <td>
+                  {c.url ? (
+                    <a href={c.url} target="_blank" rel="noopener noreferrer nofollow">
+                      {c.title ?? 'ver original'}
+                    </a>
+                  ) : (
+                    (c.title ?? '')
+                  )}
+                </td>
+                <td>{c.author}</td>
+                <td>{c.source}</td>
+                <td>
+                  {c.licenseUrl ? (
+                    <a href={c.licenseUrl} target="_blank" rel="noopener noreferrer nofollow">
+                      {c.license}
+                    </a>
+                  ) : (
+                    c.license
+                  )}
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    )}
+  </div>
+</BaseLayout>

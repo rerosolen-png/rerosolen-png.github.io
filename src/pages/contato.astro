@@ -1,0 +1,219 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import IconWhatsApp from '../components/icons/IconWhatsApp.astro';
+import IconPhone from '../components/icons/IconPhone.astro';
+import IconMapPin from '../components/icons/IconMapPin.astro';
+import IconClock from '../components/icons/IconClock.astro';
+import IconInstagram from '../components/icons/IconInstagram.astro';
+import IconFacebook from '../components/icons/IconFacebook.astro';
+import { site, formatAddress, whatsappLink, telLink } from '../data/site';
+import { breadcrumbSchema, organizationId, absUrl } from '../lib/seo';
+
+const crumbs = [
+  { name: 'Início', href: '/' },
+  { name: 'Contato', href: '/contato/' },
+];
+const contactPage = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  url: absUrl('/contato/'),
+  name: 'Contato e localização da Rosolen Têxtil',
+  mainEntity: { '@id': organizationId() },
+};
+---
+
+<BaseLayout
+  title="Contato e Localização: Loja de Tecidos na Av. da Saudade, Ribeirão Preto"
+  description="Fale com a Rosolen Têxtil: WhatsApp (16) 99747-3969, telefone (16) 3961-3969. Avenida da Saudade, 891, Campos Elíseos, Ribeirão Preto. Seg a sex 8h às 18h, sáb 8h às 13h."
+  canonical="/contato/"
+  jsonLd={[breadcrumbSchema(crumbs), contactPage]}
+>
+  <div class="container section" style="padding-top: 2rem">
+    <Breadcrumbs items={crumbs} />
+    <header class="section-header">
+      <span class="eyebrow">Contato</span>
+      <h1>Fale com a Rosolen Têxtil</h1>
+      <p class="lead">
+        Orçamentos, disponibilidade de cores, metragem e atacado: o caminho mais rápido é o
+        WhatsApp. Se preferir, ligue ou venha até a loja, no polo de tecidos de Ribeirão Preto.
+      </p>
+    </header>
+
+    <div class="contact">
+      <div class="contact__cards">
+        <a class="contact__card" href={whatsappLink()} target="_blank" rel="noopener noreferrer">
+          <IconWhatsApp />
+          <div>
+            <strong>WhatsApp</strong>
+            <span>{site.whatsappDisplay}</span>
+            <small>Resposta em horário comercial</small>
+          </div>
+        </a>
+        <a class="contact__card" href={telLink()}>
+          <IconPhone />
+          <div>
+            <strong>Telefone</strong>
+            <span>{site.phoneDisplay}</span>
+            <small>Rosolen Decorações: {site.sisterStore.phoneDisplay}</small>
+          </div>
+        </a>
+        <a class="contact__card" href={site.mapsUrl} target="_blank" rel="noopener noreferrer">
+          <IconMapPin />
+          <div>
+            <strong>Endereço</strong>
+            <span>
+              {site.address.street}, {site.address.number}
+            </span>
+            <small>
+              {site.address.neighborhood}, {site.address.city} - {site.address.state}, CEP{' '}
+              {site.address.postalCode}
+            </small>
+          </div>
+        </a>
+        <div class="contact__card">
+          <IconClock />
+          <div>
+            <strong>Horário</strong>
+            {site.openingHours.map((h) => (
+              <span>
+                {h.label}: {h.opens} às {h.closes}
+              </span>
+            ))}
+            <small>Domingos e feriados: fechado</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact__map">
+        <iframe
+          src={site.mapsEmbedUrl}
+          title="Mapa com a localização da Rosolen Têxtil na Avenida da Saudade, Ribeirão Preto"
+          loading="lazy"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+    <div class="prose contact__text">
+      <h2>Como chegar</h2>
+      <p>
+        A loja fica na <strong>{formatAddress()}</strong>, no trecho da Avenida da Saudade onde se
+        concentram as lojas de tecidos de Ribeirão Preto. A Rosolen Decorações fica ao lado, no
+        número 881. Há estacionamento na rua e a entrada é acessível para cadeirantes.
+      </p>
+      <p>
+        <a href={site.mapsUrl} target="_blank" rel="noopener noreferrer">
+          Abrir no Google Maps
+        </a>{' '}
+        para traçar a rota a partir de onde você está.
+      </p>
+
+      <h2>E-mail e redes sociais</h2>
+      <p>
+        E-mail: <a href={`mailto:${site.email}`}>{site.email}</a>. Acompanhe as novidades e as
+        estampas que chegam toda semana no Instagram e no Facebook:
+      </p>
+      <p class="cluster">
+        <a
+          class="btn btn--outline"
+          href={site.social.instagram}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <IconInstagram />
+          <span>@rosolentextil</span>
+        </a>
+        <a
+          class="btn btn--outline"
+          href={site.social.facebook}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <IconFacebook />
+          <span>Facebook</span>
+        </a>
+      </p>
+
+      <h2>Atacado para confecções</h2>
+      <p>
+        Confecções, ateliês, fábricas de uniformes e decoradores têm condições especiais por
+        quantidade. Envie pelo WhatsApp o tipo de tecido, a metragem mensal aproximada e a cidade de
+        entrega para receber a proposta.
+      </p>
+
+      <h2>Canais oficiais e segurança</h2>
+      <p>
+        Atendemos somente pelos contatos desta página e pelas redes sociais oficiais. Desconfie de
+        perfis ou números que usem o nome e as fotos da loja para vender tecidos com pagamento
+        antecipado. Pagamentos à loja são feitos em nome de <strong>{site.legalName}</strong>, CNPJ
+        {site.cnpj}. Em caso de dúvida, ligue para {site.phoneDisplay} antes de pagar.
+      </p>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .contact {
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  @media (min-width: 900px) {
+    .contact {
+      grid-template-columns: 1fr 1fr;
+      align-items: start;
+    }
+  }
+  .contact__cards {
+    display: grid;
+    gap: 1rem;
+  }
+  .contact__card {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 1.1rem 1.25rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    text-decoration: none;
+    color: var(--color-text);
+    transition: box-shadow var(--transition);
+  }
+  a.contact__card:hover {
+    box-shadow: var(--shadow);
+    color: var(--color-text);
+  }
+  .contact__card :global(svg) {
+    width: 28px;
+    height: 28px;
+    color: var(--color-accent);
+    flex: none;
+    margin-top: 0.15rem;
+  }
+  .contact__card div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+  .contact__card strong {
+    color: var(--color-primary-dark);
+  }
+  .contact__card small {
+    color: var(--color-muted);
+  }
+  .contact__map iframe {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border: 0;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+    background: var(--color-surface-alt);
+  }
+  .contact__text .btn :global(svg) {
+    width: 1.1em;
+    height: 1.1em;
+  }
+</style>

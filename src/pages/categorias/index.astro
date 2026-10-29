@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CategoryCard from '../../components/CategoryCard.astro';
+import Cta from '../../components/Cta.astro';
+import { breadcrumbSchema, itemListSchema } from '../../lib/seo';
+import { getFabrics, getCategories, fabricsInCategory, categoryUrl } from '../../lib/content';
+
+const fabrics = await getFabrics();
+const categories = await getCategories();
+const crumbs = [
+  { name: 'Início', href: '/' },
+  { name: 'Categorias', href: '/categorias/' },
+];
+---
+
+<BaseLayout
+  title="Categorias de Tecidos: Roupas, Festa, Uniformes, Decoração e Mais"
+  description="Veja as categorias de tecidos vendidos por metro na Rosolen Têxtil, em Ribeirão Preto: moda, alfaiataria, festa e noivas, malhas, decoração, cama, mesa, banho e artesanato."
+  canonical="/categorias/"
+  jsonLd={[
+    breadcrumbSchema(crumbs),
+    itemListSchema(categories.map((c) => ({ name: c.data.title, url: categoryUrl(c) }))),
+  ]}
+>
+  <div class="container section" style="padding-top: 2rem">
+    <Breadcrumbs items={crumbs} />
+    <header class="section-header">
+      <span class="eyebrow">Catálogo</span>
+      <h1>Categorias de tecidos</h1>
+      <p class="lead">
+        Cada categoria reúne os tecidos indicados para um tipo de projeto, com um guia de escolha,
+        comparativos e tabelas de consumo. Todos são vendidos por metro na loja de Ribeirão Preto.
+      </p>
+    </header>
+    <div class="grid grid--3">
+      {categories.map((c, i) => (
+        <CategoryCard category={c} count={fabricsInCategory(fabrics, c.id).length} eager={i < 3} />
+      ))}
+    </div>
+    <Cta />
+  </div>
+</BaseLayout>

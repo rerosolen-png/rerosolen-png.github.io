@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCategories, categoryUrl } from '../lib/content';
+
+const categories = await getCategories();
+---
+
+<BaseLayout
+  title="Página não encontrada"
+  description="A página que você procura não existe ou foi movida. Veja o catálogo de tecidos da Rosolen Têxtil ou fale com a equipe."
+  noindex
+>
+  <div class="container section text-center" style="padding-top: 3rem">
+    <span class="eyebrow">Erro 404</span>
+    <h1>Essa página não existe</h1>
+    <p class="lead">
+      O endereço pode estar errado ou a página foi movida. Que tal continuar por aqui?
+    </p>
+    <p class="cluster" style="justify-content: center; margin-top: 1.5rem">
+      <a class="btn btn--primary" href="/tecidos/">
+        Ver todos os tecidos
+      </a>
+      <a class="btn btn--outline" href="/contato/">
+        Falar com a loja
+      </a>
+    </p>
+    <p class="cluster" style="justify-content: center; margin-top: 2rem">
+      {categories.map((c) => (
+        <a class="chip" href={categoryUrl(c)}>
+          {c.data.shortName ?? c.data.title}
+        </a>
+      ))}
+    </p>
+  </div>
+</BaseLayout>

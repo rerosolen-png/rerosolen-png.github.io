@@ -1,0 +1,533 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CategoryCard from '../components/CategoryCard.astro';
+import FabricCard from '../components/FabricCard.astro';
+import Faq from '../components/Faq.astro';
+import Cta from '../components/Cta.astro';
+import IconWhatsApp from '../components/icons/IconWhatsApp.astro';
+import IconMapPin from '../components/icons/IconMapPin.astro';
+import IconClock from '../components/icons/IconClock.astro';
+import IconPhone from '../components/icons/IconPhone.astro';
+import { site, whatsappLink, telLink, formatAddress } from '../data/site';
+import { faqSchema, formatDate } from '../lib/seo';
+import {
+  getFabrics,
+  getCategories,
+  getArticles,
+  fabricsInCategory,
+  articleUrl,
+} from '../lib/content';
+
+const fabrics = await getFabrics();
+const categories = await getCategories();
+const articles = (await getArticles()).slice(0, 3);
+const featured = fabrics.filter((f) => f.data.featured).slice(0, 8);
+
+const heroModules = import.meta.glob<{ default: ImageMetadata }>('../assets/hero.jpg', {
+  eager: true,
+});
+const hero = Object.values(heroModules)[0]?.default;
+
+const faq = [
+  {
+    question: 'A Rosolen Têxtil vende tecido por metro?',
+    answer:
+      'Sim. Todos os tecidos e malhas são vendidos por metro, com corte na hora na loja da Avenida da Saudade, em Ribeirão Preto. Para confecções e ateliês, trabalhamos também com preço de atacado por quantidade.',
+  },
+  {
+    question: 'Quais tipos de tecido a loja tem?',
+    answer:
+      'Tecidos planos para moda (tricoline, viscose, linho, crepes), alfaiataria e uniformes (oxford, gabardine, brim), malhas (viscolycra, helanca, suplex), tecidos de festa e noivas (cetim, tule, renda, paetê), além de cama, mesa, banho, decoração e artesanato.',
+  },
+  {
+    question: 'Como faço um orçamento?',
+    answer:
+      'Chame no WhatsApp (16) 99747-3969 com o nome do tecido, a metragem e, se quiser, uma foto da peça que pretende fazer. A equipe responde com disponibilidade, cores e valores. Você também pode ligar para (16) 3961-3969 ou visitar a loja.',
+  },
+  {
+    question: 'A loja atende confecções no atacado?',
+    answer:
+      'Sim. Desde 1995 a Rosolen Têxtil fornece tecidos e malhas nacionais e importados para confecções de Ribeirão Preto e região, com importação própria e parceria com as principais indústrias têxteis do país.',
+  },
+  {
+    question: 'Qual o horário de funcionamento?',
+    answer:
+      'De segunda a sexta, das 8h às 18h, e aos sábados, das 8h às 13h. A loja fica na Avenida da Saudade, 891, bairro Campos Elíseos, no polo de tecidos de Ribeirão Preto, com entrada acessível e estacionamento na rua.',
+  },
+  {
+    question: 'Vocês enviam tecido para outras cidades?',
+    answer:
+      'Sim, atendemos clientes de todo o Brasil. Fale com a equipe pelo WhatsApp para combinar a metragem, a forma de pagamento e o envio pelos Correios ou transportadora.',
+  },
+];
+
+const description =
+  'Loja de tecidos em Ribeirão Preto desde 1995. Tecidos planos e malhas por metro para moda, festa, uniformes, decoração e artesanato. Varejo e atacado na Av. da Saudade.';
+---
+
+<BaseLayout description={description} canonical="/" jsonLd={[faqSchema(faq)]}>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <span class="eyebrow">Avenida da Saudade, 891 · Ribeirão Preto</span>
+        <h1>Loja de tecidos em Ribeirão Preto desde 1995</h1>
+        <p class="lead">
+          Tecidos planos e malhas nacionais e importados, vendidos por metro, com corte na hora.
+          Varejo para quem costura em casa e atacado para confecções e ateliês.
+        </p>
+        <div class="cluster hero__actions">
+          <a
+            class="btn btn--whatsapp btn--lg"
+            href={whatsappLink()}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IconWhatsApp />
+            <span>Pedir orçamento</span>
+          </a>
+          <a class="btn btn--outline btn--lg" href="/tecidos/">
+            Ver todos os tecidos
+          </a>
+        </div>
+        <ul class="hero__trust" aria-label="Diferenciais">
+          <li>
+            <strong>Desde 1995</strong> no mesmo endereço
+          </li>
+          <li>
+            <strong>4,8 de 5</strong> no Google, com mais de 300 avaliações
+          </li>
+          <li>
+            <strong>Varejo e atacado</strong> para confecções
+          </li>
+          <li>
+            <strong>Mais de 100 tipos</strong> de tecidos e malhas
+          </li>
+        </ul>
+      </div>
+      <div class="hero__media">
+        {hero ? (
+          <Image
+            src={hero}
+            alt="Rolos de tecidos coloridos em prateleiras de loja de tecidos"
+            width={960}
+            height={720}
+            loading="eager"
+            fetchpriority="high"
+            format="webp"
+          />
+        ) : (
+          <div class="hero__pattern" aria-hidden="true" />
+        )}
+      </div>
+    </div>
+  </section>
+
+  <!-- Categorias -->
+  <section class="section" aria-labelledby="categorias-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Catálogo</span>
+        <h2 id="categorias-title">Tecidos para cada projeto</h2>
+        <p class="lead">
+          Navegue por categoria e encontre o tecido certo para roupas, festa, uniformes, decoração,
+          cama, mesa, banho e artesanato.
+        </p>
+      </div>
+      <div class="grid grid--4">
+        {categories.map((c, i) => (
+          <CategoryCard
+            category={c}
+            count={fabricsInCategory(fabrics, c.id).length}
+            eager={i < 4}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Destaques -->
+  {featured.length > 0 && (
+    <section class="section section--alt" aria-labelledby="destaques-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Mais procurados</span>
+          <h2 id="destaques-title">Tecidos em destaque</h2>
+          <p class="lead">
+            Os tecidos que mais saem da loja, com ficha técnica completa, ideias de uso, dicas de
+            costura e cuidados.
+          </p>
+        </div>
+        <div class="grid grid--4">
+          {featured.map((f) => (
+            <FabricCard fabric={f} />
+          ))}
+        </div>
+        <p class="text-center" style="margin-top: 2rem">
+          <a class="btn btn--secondary" href="/tecidos/">
+            Ver o catálogo completo
+          </a>
+        </p>
+      </div>
+    </section>
+  )}
+
+  <!-- Sobre -->
+  <section class="section" aria-labelledby="sobre-title">
+    <div class="container about">
+      <div class="about__text">
+        <span class="eyebrow">Sobre a loja</span>
+        <h2 id="sobre-title">Uma das mais tradicionais lojas de tecidos de Ribeirão Preto</h2>
+        <p>
+          A Rosolen Têxtil começou em 1995 e, desde o primeiro dia, está no mesmo endereço: a
+          Avenida da Saudade, no bairro Campos Elíseos, onde se concentra o comércio de tecidos de
+          Ribeirão Preto. Em uma loja ampla, reunimos tecidos planos e malhas para moda, festa,
+          uniformes e decoração, sempre com o que há de mais atual em cores e estampas.
+        </p>
+        <p>
+          Fazemos importação própria e somos parceiros das principais indústrias têxteis do país.
+          Isso nos permite oferecer variedade, novidade e preço competitivo tanto para quem compra
+          alguns metros quanto para confecções que compram em volume.
+        </p>
+        <p>
+          Ao lado, no número 881, a <strong>Rosolen Decorações</strong> completa o atendimento com
+          tecidos para cortinas, tapeçaria, TNT, tule e artesanato.
+        </p>
+        <a class="btn btn--outline" href="/sobre/">
+          Conheça nossa história
+        </a>
+      </div>
+      <ul class="about__facts">
+        <li>
+          <span>1995</span> ano de fundação
+        </li>
+        <li>
+          <span>4,8</span> nota no Google
+        </li>
+        <li>
+          <span>100+</span> tipos de tecidos e malhas
+        </li>
+        <li>
+          <span>2</span> lojas na Avenida da Saudade
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Como comprar -->
+  <section class="section section--primary" aria-labelledby="como-title">
+    <div class="container">
+      <div class="section-header section-header--center">
+        <span class="eyebrow">Como comprar</span>
+        <h2 id="como-title">Simples como deve ser</h2>
+      </div>
+      <ol class="steps">
+        <li>
+          <span class="steps__num">1</span>
+          <h3>Escolha o tecido</h3>
+          <p>
+            Explore o catálogo, veja composição, largura e usos de cada tecido e calcule a metragem
+            com as nossas tabelas de consumo.
+          </p>
+        </li>
+        <li>
+          <span class="steps__num">2</span>
+          <h3>Fale com a equipe</h3>
+          <p>
+            Chame no WhatsApp ou ligue. Enviamos fotos das cores e estampas disponíveis e tiramos
+            dúvidas sobre caimento, forro e acabamento.
+          </p>
+        </li>
+        <li>
+          <span class="steps__num">3</span>
+          <h3>Retire ou receba</h3>
+          <p>
+            Corte na hora na loja da Avenida da Saudade ou envio para todo o Brasil. Atacado com
+            condições especiais para confecções.
+          </p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Guia -->
+  {articles.length > 0 && (
+    <section class="section" aria-labelledby="guia-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Guia de tecidos</span>
+          <h2 id="guia-title">Aprenda a escolher, calcular e cuidar</h2>
+          <p class="lead">
+            Artigos práticos escritos pela equipe da loja para quem costura, decora ou produz.
+          </p>
+        </div>
+        <div class="grid grid--3">
+          {articles.map((a) => (
+            <article class="card">
+              <div class="card__body">
+                <p class="card__meta">{formatDate(a.data.pubDate)}</p>
+                <h3 class="card__title">
+                  <a href={articleUrl(a)}>{a.data.title}</a>
+                </h3>
+                <p class="card__text">{a.data.description}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+        <p style="margin-top: 1.5rem">
+          <a href="/guia/">Ver todos os artigos do guia →</a>
+        </p>
+      </div>
+    </section>
+  )}
+
+  <!-- Localização -->
+  <section class="section section--alt" aria-labelledby="local-title">
+    <div class="container local">
+      <div class="local__info">
+        <span class="eyebrow">Visite a loja</span>
+        <h2 id="local-title">No polo de tecidos de Ribeirão Preto</h2>
+        <ul class="local__list">
+          <li>
+            <IconMapPin />
+            <div>
+              <strong>Endereço</strong>
+              <p>{formatAddress()}</p>
+              <a href={site.mapsUrl} target="_blank" rel="noopener noreferrer">
+                Como chegar
+              </a>
+            </div>
+          </li>
+          <li>
+            <IconClock />
+            <div>
+              <strong>Horário</strong>
+              {site.openingHours.map((h) => (
+                <p>
+                  {h.label}: {h.opens} às {h.closes}
+                </p>
+              ))}
+              <p>Domingos e feriados: fechado</p>
+            </div>
+          </li>
+          <li>
+            <IconPhone />
+            <div>
+              <strong>Contato</strong>
+              <p>
+                <a href={telLink()}>{site.phoneDisplay}</a> ·
+                <a href={whatsappLink()} target="_blank" rel="noopener noreferrer">
+                  WhatsApp {site.whatsappDisplay}
+                </a>
+              </p>
+              <p>
+                <a href={`mailto:${site.email}`}>{site.email}</a>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="local__map">
+        <iframe
+          src={site.mapsEmbedUrl}
+          title="Mapa com a localização da Rosolen Têxtil em Ribeirão Preto"
+          loading="lazy"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-label="Perguntas frequentes">
+    <div class="container">
+      <Faq items={faq} title="Perguntas frequentes sobre a loja" />
+      <p style="margin-top: 1rem">
+        <a href="/perguntas-frequentes/">Ver todas as perguntas frequentes →</a>
+      </p>
+      <Cta />
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    background:
+      radial-gradient(1200px 500px at 10% -10%, var(--color-primary-soft), transparent 60%),
+      linear-gradient(180deg, #fff 0%, var(--color-bg) 100%);
+    padding-block: clamp(2.5rem, 6vw, 5rem) clamp(2rem, 5vw, 4rem);
+  }
+  .hero__inner {
+    display: grid;
+    gap: 2.5rem;
+    align-items: center;
+  }
+  @media (min-width: 960px) {
+    .hero__inner {
+      grid-template-columns: 1.1fr 1fr;
+    }
+  }
+  .hero h1 {
+    font-size: clamp(2.2rem, 5vw, 3.4rem);
+  }
+  .hero__actions {
+    margin: 1.5rem 0 2rem;
+  }
+  .hero__trust {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.6rem 1.5rem;
+    font-size: 0.95rem;
+    color: var(--color-muted);
+  }
+  .hero__trust li {
+    margin: 0;
+    padding-left: 1.4rem;
+    position: relative;
+  }
+  .hero__trust li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--color-success);
+    font-weight: 700;
+  }
+  .hero__trust strong {
+    color: var(--color-primary-dark);
+  }
+  .hero__media img,
+  .hero__pattern {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    object-fit: cover;
+  }
+  .hero__pattern {
+    background:
+      repeating-linear-gradient(90deg, rgb(31 58 95 / 0.18) 0 2px, transparent 2px 14px),
+      repeating-linear-gradient(0deg, rgb(194 85 47 / 0.18) 0 2px, transparent 2px 14px),
+      linear-gradient(135deg, #e4ebf5, #f8e6dd);
+  }
+
+  .about {
+    display: grid;
+    gap: 2.5rem;
+    align-items: center;
+  }
+  @media (min-width: 960px) {
+    .about {
+      grid-template-columns: 1.4fr 1fr;
+    }
+  }
+  .about__facts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .about__facts li {
+    margin: 0;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    text-align: center;
+    color: var(--color-muted);
+    font-size: 0.9rem;
+  }
+  .about__facts span {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    line-height: 1.1;
+    margin-bottom: 0.25rem;
+  }
+
+  .steps {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+    counter-reset: step;
+  }
+  .steps li {
+    margin: 0;
+    background: rgb(255 255 255 / 0.06);
+    border: 1px solid rgb(255 255 255 / 0.12);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+  }
+  .steps__num {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--color-accent);
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+  .steps h3 {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  .steps p {
+    margin: 0;
+    color: #d8e0ec;
+  }
+
+  .local {
+    display: grid;
+    gap: 2rem;
+  }
+  @media (min-width: 900px) {
+    .local {
+      grid-template-columns: 1fr 1.2fr;
+      align-items: start;
+    }
+  }
+  .local__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 1.25rem;
+  }
+  .local__list li {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+  }
+  .local__list :global(svg) {
+    width: 26px;
+    height: 26px;
+    color: var(--color-accent);
+    flex: none;
+    margin-top: 0.2rem;
+  }
+  .local__list p {
+    margin: 0.15rem 0;
+  }
+  .local__map iframe {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border: 0;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+    background: var(--color-surface-alt);
+  }
+</style>

@@ -1,0 +1,68 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Cta from '../../components/Cta.astro';
+import { breadcrumbSchema, itemListSchema, formatDate } from '../../lib/seo';
+import { getArticles, articleUrl } from '../../lib/content';
+
+const articles = await getArticles();
+const crumbs = [
+  { name: 'Início', href: '/' },
+  { name: 'Guia de tecidos', href: '/guia/' },
+];
+---
+
+<BaseLayout
+  title="Guia de Tecidos: Como Escolher, Calcular e Cuidar"
+  description="Artigos práticos da Rosolen Têxtil sobre tipos de tecido, consumo por peça, cortinas, uniformes, festa, malhas e cuidados de lavagem. Conteúdo de quem vende tecido há 30 anos."
+  canonical="/guia/"
+  jsonLd={[
+    breadcrumbSchema(crumbs),
+    itemListSchema(articles.map((a) => ({ name: a.data.title, url: articleUrl(a) }))),
+  ]}
+>
+  <div class="container section" style="padding-top: 2rem">
+    <Breadcrumbs items={crumbs} />
+    <header class="section-header">
+      <span class="eyebrow">Guia de tecidos</span>
+      <h1>Aprenda a escolher, calcular e cuidar dos tecidos</h1>
+      <p class="lead">
+        Guias escritos pela equipe da Rosolen Têxtil, em Ribeirão Preto, para ajudar costureiras,
+        ateliês, confecções e decoradores a acertar na escolha do tecido e na metragem.
+      </p>
+    </header>
+
+    {articles.length === 0 ? (
+      <p>Os primeiros artigos estão sendo preparados. Volte em breve.</p>
+    ) : (
+      <div class="grid grid--3">
+        {articles.map((a, i) => (
+          <article class="card">
+            {a.data.image && (
+              <div class="card__media">
+                <Image
+                  src={a.data.image}
+                  alt={a.data.imageAlt ?? a.data.title}
+                  width={640}
+                  height={480}
+                  loading={i < 3 ? 'eager' : 'lazy'}
+                  format="webp"
+                />
+              </div>
+            )}
+            <div class="card__body">
+              <p class="card__meta">{formatDate(a.data.pubDate)}</p>
+              <h2 class="card__title">
+                <a href={articleUrl(a)}>{a.data.title}</a>
+              </h2>
+              <p class="card__text">{a.data.description}</p>
+            </div>
+          </article>
+        ))}
+      </div>
+    )}
+
+    <Cta />
+  </div>
+</BaseLayout>

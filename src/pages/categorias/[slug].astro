@@ -1,0 +1,144 @@
+---
+import { Image } from 'astro:assets';
+import { render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import FabricCard from '../../components/FabricCard.astro';
+import Faq from '../../components/Faq.astro';
+import Cta from '../../components/Cta.astro';
+import { breadcrumbSchema, itemListSchema, faqSchema } from '../../lib/seo';
+import {
+  getFabrics,
+  getCategories,
+  fabricsInCategory,
+  fabricUrl,
+  categoryUrl,
+  type Category,
+} from '../../lib/content';
+
+export async function getStaticPaths() {
+  const categories = await getCategories();
+  return categories.map((category) => ({ params: { slug: category.id }, props: { category } }));
+}
+
+interface Props {
+  category: Category;
+}
+const { category } = Astro.props;
+const { data } = category;
+const { Content } = await render(category);
+
+const fabrics = fabricsInCategory(await getFabrics(), category.id);
+const url = categoryUrl(category);
+const crumbs = [
+  { name: 'Início', href: '/' },
+  { name: 'Categorias', href: '/categorias/' },
+  { name: data.shortName ?? data.title, href: url },
+];
+
+const jsonLd = [
+  breadcrumbSchema(crumbs),
+  itemListSchema(fabrics.map((f) => ({ name: f.data.title, url: fabricUrl(f) }))),
+  ...(data.faq.length ? [faqSchema(data.faq)] : []),
+];
+const whatsappMessage = `Olá! Estou procurando ${data.title.toLowerCase()} e gostaria de um orçamento.`;
+---
+
+<BaseLayout
+  title={data.seoTitle ?? `${data.title} por Metro em Ribeirão Preto`}
+  description={data.description}
+  canonical={url}
+  image={data.image?.src}
+  imageAlt={data.imageAlt ?? data.title}
+  jsonLd={jsonLd}
+>
+  <div class="container section" style="padding-top: 2rem">
+    <Breadcrumbs items={crumbs} />
+    <header class="cat__header">
+      <div>
+        <span class="eyebrow">Categoria</span>
+        <h1>{data.title}</h1>
+        <p class="lead">{data.intro}</p>
+      </div>
+      {data.image && (
+        <figure class="cat__media">
+          <Image
+            src={data.image}
+            alt={data.imageAlt ?? data.title}
+            width={800}
+            height={600}
+            loading="eager"
+            format="webp"
+          />
+          {data.imageCredit && (
+            <figcaption>
+              Foto: {data.imageCredit.author} · {data.imageCredit.source} ·{' '}
+              {data.imageCredit.license}
+            </figcaption>
+          )}
+        </figure>
+      )}
+    </header>
+
+    <section aria-labelledby="lista-title">
+      <h2 id="lista-title" class="cat__list-title">
+        {fabrics.length} {fabrics.length === 1 ? 'tecido' : 'tecidos'} nesta categoria
+      </h2>
+      <div class="grid grid--4">
+        {fabrics.map((f, i) => (
+          <FabricCard fabric={f} eager={i < 4} />
+        ))}
+      </div>
+    </section>
+
+    <div class="prose cat__prose">
+      <Content />
+    </div>
+
+    <Faq
+      items={data.faq}
+      title={`Perguntas frequentes sobre ${data.shortName?.toLowerCase() ?? data.title.toLowerCase()}`}
+    />
+
+    <Cta
+      title={`Precisa de ${data.title.toLowerCase()} em Ribeirão Preto?`}
+      message={whatsappMessage}
+    />
+  </div>
+</BaseLayout>
+
+<style>
+  .cat__header {
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 2.5rem;
+  }
+  @media (min-width: 900px) {
+    .cat__header {
+      grid-template-columns: 1.3fr 1fr;
+    }
+  }
+  .cat__media {
+    margin: 0;
+  }
+  .cat__media img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+  }
+  .cat__media figcaption {
+    font-size: 0.8rem;
+    color: var(--color-muted);
+    margin-top: 0.5rem;
+  }
+  .cat__list-title {
+    font-size: 1.3rem;
+    margin-bottom: 1.25rem;
+  }
+  .cat__prose {
+    margin-top: 3.5rem;
+  }
+</style>

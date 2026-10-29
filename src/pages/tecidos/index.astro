@@ -1,0 +1,179 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import FabricCard from '../../components/FabricCard.astro';
+import Cta from '../../components/Cta.astro';
+import { breadcrumbSchema, itemListSchema } from '../../lib/seo';
+import { getFabrics, getCategories, fabricUrl, categoryUrl } from '../../lib/content';
+
+const fabrics = await getFabrics();
+const categories = await getCategories();
+
+const groups = categories
+  .map((c) => ({ category: c, items: fabrics.filter((f) => f.data.category === c.id) }))
+  .filter((g) => g.items.length > 0);
+
+const crumbs = [
+  { name: 'Início', href: '/' },
+  { name: 'Tecidos', href: '/tecidos/' },
+];
+
+const title = 'Tecidos por Metro em Ribeirão Preto: Catálogo Completo';
+const description = `Catálogo com ${fabrics.length} tecidos e malhas vendidos por metro na Rosolen Têxtil, em Ribeirão Preto: composição, largura, gramatura, usos e dicas de costura.`;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonical="/tecidos/"
+  jsonLd={[
+    breadcrumbSchema(crumbs),
+    itemListSchema(fabrics.map((f) => ({ name: f.data.title, url: fabricUrl(f) }))),
+  ]}
+>
+  <div class="container section" style="padding-top: 2rem">
+    <Breadcrumbs items={crumbs} />
+    <header class="section-header">
+      <span class="eyebrow">Catálogo</span>
+      <h1>Todos os tecidos por metro</h1>
+      <p class="lead">
+        São {fabrics.length} tipos de tecidos e malhas à venda por metro na loja da Avenida da
+        Saudade, em Ribeirão Preto. Cada página traz a ficha técnica completa (composição, largura,
+        gramatura, elasticidade e transparência), ideias de uso, dicas de costura, cuidados de
+        lavagem e tabela de consumo.
+      </p>
+    </header>
+
+    <div class="toolbar">
+      <label class="toolbar__search">
+        <span class="visually-hidden">Buscar tecido pelo nome</span>
+        <input
+          type="search"
+          id="busca-tecido"
+          placeholder="Buscar tecido, composição ou uso (ex.: linho, elastano, cortina)"
+          autocomplete="off"
+        />
+      </label>
+      <nav class="toolbar__chips" aria-label="Ir para a categoria">
+        {groups.map((g) => (
+          <a class="chip" href={`#${g.category.id}`}>
+            {g.category.data.shortName ?? g.category.data.title}
+          </a>
+        ))}
+      </nav>
+    </div>
+
+    <p class="toolbar__empty" id="busca-vazia" hidden>
+      Nenhum tecido encontrado com esse termo. Fale com a equipe pelo WhatsApp: temos muitos outros
+      tecidos na loja.
+    </p>
+
+    {groups.map((g) => (
+      <section class="group" id={g.category.id} aria-labelledby={`${g.category.id}-title`}>
+        <div class="group__header">
+          <h2 id={`${g.category.id}-title`}>{g.category.data.title}</h2>
+          <a href={categoryUrl(g.category)}>Ver guia da categoria →</a>
+        </div>
+        <p class="group__intro">{g.category.data.intro}</p>
+        <div class="grid grid--4">
+          {g.items.map((f) => (
+            <div
+              class="fabric-item"
+              data-search={[
+                f.data.title,
+                f.data.shortName,
+                f.data.composition,
+                ...f.data.uses,
+                ...f.data.keywords,
+              ]
+                .join(' ')
+                .toLowerCase()}
+            >
+              <FabricCard fabric={f} />
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <Cta />
+  </div>
+</BaseLayout>
+
+<style>
+  .toolbar {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .toolbar__search input {
+    width: 100%;
+    padding: 0.9rem 1.1rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    font: inherit;
+    background: var(--color-surface);
+  }
+  .toolbar__chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .toolbar__chips .chip {
+    text-decoration: none;
+  }
+  .toolbar__chips .chip:hover {
+    background: var(--color-primary);
+    color: #fff;
+  }
+  .toolbar__empty {
+    padding: 1rem 1.25rem;
+    background: var(--color-accent-soft);
+    border-radius: var(--radius);
+  }
+  .group {
+    margin-top: 3rem;
+    scroll-margin-top: 90px;
+  }
+  .group__header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.5rem 1.5rem;
+  }
+  .group__intro {
+    color: var(--color-muted);
+    max-width: 760px;
+  }
+  .fabric-item[hidden] {
+    display: none;
+  }
+  .group[hidden] {
+    display: none;
+  }
+</style>
+
+<script>
+  const input = document.getElementById('busca-tecido') as HTMLInputElement | null;
+  const items = Array.from(document.querySelectorAll<HTMLElement>('.fabric-item'));
+  const groups = Array.from(document.querySelectorAll<HTMLElement>('.group'));
+  const empty = document.getElementById('busca-vazia');
+
+  const normalize = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+
+  input?.addEventListener('input', () => {
+    const q = normalize(input.value.trim());
+    let visible = 0;
+    for (const item of items) {
+      const match = q === '' || normalize(item.dataset.search ?? '').includes(q);
+      item.hidden = !match;
+      if (match) visible++;
+    }
+    for (const group of groups) {
+      const any = group.querySelector('.fabric-item:not([hidden])');
+      group.hidden = !any;
+    }
+    if (empty) empty.hidden = visible > 0;
+  });
+</script>

@@ -1,0 +1,138 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Cta from '../components/Cta.astro';
+import { site, formatAddress } from '../data/site';
+import { breadcrumbSchema, organizationId, absUrl } from '../lib/seo';
+
+const crumbs = [
+  { name: 'Início', href: '/' },
+  { name: 'Sobre', href: '/sobre/' },
+];
+const aboutPage = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  url: absUrl('/sobre/'),
+  name: 'Sobre a Rosolen Têxtil',
+  mainEntity: { '@id': organizationId() },
+};
+---
+
+<BaseLayout
+  title="Sobre a Rosolen Têxtil: Loja de Tecidos em Ribeirão Preto desde 1995"
+  description="Conheça a Rosolen Têxtil, loja de tecidos e malhas na Avenida da Saudade, em Ribeirão Preto, desde 1995. Importação própria, varejo, atacado para confecções e atendimento especializado."
+  canonical="/sobre/"
+  jsonLd={[breadcrumbSchema(crumbs), aboutPage]}
+>
+  <div class="container section" style="padding-top: 2rem">
+    <Breadcrumbs items={crumbs} />
+    <header class="section-header">
+      <span class="eyebrow">Sobre a loja</span>
+      <h1>Rosolen Têxtil: tecidos em Ribeirão Preto desde 1995</h1>
+      <p class="lead">
+        Trinta anos vendendo tecidos e malhas no mesmo endereço, para quem costura em casa, para
+        ateliês e para confecções de toda a região.
+      </p>
+    </header>
+
+    <div class="prose">
+      <h2>Nossa história</h2>
+      <p>
+        A Rosolen Têxtil iniciou suas atividades em 1995, na Avenida da Saudade, no bairro Campos
+        Elíseos, onde até hoje se concentra o comércio varejista e atacadista de tecidos de Ribeirão
+        Preto. Desde o início estamos no mesmo endereço, em uma instalação ampla, pensada para que o
+        cliente veja, toque e compare os tecidos antes de comprar.
+      </p>
+      <p>
+        Ao longo desses anos, a loja se tornou uma das mais tradicionais do ramo na cidade e na
+        região, conquistando clientes em todo o país. O segredo não mudou: variedade, novidade,
+        preço justo e um atendimento que entende de costura.
+      </p>
+
+      <h2>O que vendemos</h2>
+      <p>
+        Trabalhamos com <strong>tecidos planos e malhas, nacionais e importados</strong>, sempre
+        vendidos por metro. O catálogo acompanha o que há de mais atual no mundo da moda em cores,
+        estampas e texturas, e cobre todas as necessidades de quem produz:
+      </p>
+      <ul>
+        <li>
+          <a href="/categorias/tecidos-para-roupas/">Tecidos para roupas</a>: tricoline, viscose,
+          viscolinho, linho, crepes, chiffon e muito mais.
+        </li>
+        <li>
+          <a href="/categorias/alfaiataria-e-uniformes/">Alfaiataria e uniformes</a>: oxford,
+          gabardine, two way, brim, sarja, rip stop e jeans.
+        </li>
+        <li>
+          <a href="/categorias/tecidos-para-festa-e-noivas/">Festa e noivas</a>: cetim, tule,
+          organza, paetê e <a href="/categorias/rendas-e-bordados/">rendas</a>.
+        </li>
+        <li>
+          <a href="/categorias/malhas/">Malhas</a> e
+          <a href="/categorias/esportivos-e-fitness/">tecidos esportivos</a>: viscolycra, helanca,
+          suplex, dry fit, neoprene e PV.
+        </li>
+        <li>
+          <a href="/categorias/cama-mesa-e-banho/">Cama, mesa e banho</a>,
+          <a href="/categorias/tecidos-para-decoracao/">decoração</a> e
+          <a href="/categorias/artesanato-e-patchwork/">artesanato</a>.
+        </li>
+      </ul>
+
+      <h2>Importação própria e parceria com a indústria</h2>
+      <p>
+        Realizamos importação própria e somos parceiros das melhores indústrias de tecidos do Brasil
+        e de importadoras. Essa combinação permite oferecer, no mesmo balcão, o básico que toda
+        confecção precisa e as novidades de cada estação, com rapidez de reposição e preço
+        competitivo.
+      </p>
+
+      <h2>Varejo e atacado</h2>
+      <p>
+        Atendemos com a mesma atenção quem compra um metro para um projeto de fim de semana e quem
+        compra rolos inteiros para uma coleção. Para{' '}
+        <strong>confecções, ateliês, uniformes e decoradores</strong>, temos condições de atacado
+        por quantidade. Fale com a equipe pelo WhatsApp para receber a tabela e combinar entregas.
+      </p>
+
+      <h2>Rosolen Decorações</h2>
+      <p>
+        Ao lado da Rosolen Têxtil, no número 881 da Avenida da Saudade, fica a
+        <strong>{site.sisterStore.name}</strong>, especializada em
+        {site.sisterStore.description.toLowerCase()} Quem precisa de tecido para cortina, estofado,
+        toalha de mesa ou festa encontra ali larguras de 1,40 m a 3,00 m e atendimento dedicado a
+        decoração. Telefone: {site.sisterStore.phoneDisplay}.
+      </p>
+
+      <h2>O que dizem os clientes</h2>
+      <p>
+        No Google, a Rosolen Têxtil mantém nota 4,8 em mais de 300 avaliações. Os comentários mais
+        frequentes falam de preço, variedade e atendimento, e muitos clientes contam que encontraram
+        aqui o que antes buscavam em São Paulo.
+      </p>
+
+      <h2>Canais oficiais</h2>
+      <p>
+        Para sua segurança, nossos únicos canais de atendimento são os publicados neste site e nas
+        redes sociais oficiais: telefone {site.phoneDisplay}, WhatsApp {site.whatsappDisplay},
+        Instagram{' '}
+        <a href={site.social.instagram} target="_blank" rel="noopener noreferrer">
+          @rosolentextil
+        </a>
+        e Facebook. Não fazemos cobranças por outros números nem por perfis que não sejam esses.
+        Pagamentos à loja são feitos em nome de {site.legalName}, CNPJ {site.cnpj}.
+      </p>
+
+      <h2>Onde estamos</h2>
+      <p>
+        {formatAddress()}. De segunda a sexta, das {site.openingHours[0].opens} às
+        {site.openingHours[0].closes}; sábados, das {site.openingHours[1].opens} às
+        {site.openingHours[1].closes}. Entrada acessível para cadeirantes e estacionamento na rua.
+        Veja <a href="/contato/">como chegar</a>.
+      </p>
+    </div>
+
+    <Cta title="Venha conhecer a loja ou fale com a equipe" />
+  </div>
+</BaseLayout>
