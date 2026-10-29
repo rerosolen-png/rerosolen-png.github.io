@@ -15,7 +15,9 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "npm run check && npm run format:check",
-    "astro": "astro"
+    "astro": "astro",
+    "images:link": "node scripts/link-images.mjs",
+    "og": "node scripts/make-og.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
