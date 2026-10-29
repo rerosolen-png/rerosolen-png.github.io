@@ -145,7 +145,7 @@ Para outro host estático (Netlify, Vercel, Cloudflare Pages): comando de build 
 
 ## Fluxo de trabalho no GitHub
 
-- `main` é a branch de produção e está protegida: só recebe mudanças por pull request com o CI verde.
+- `main` é a branch de produção. Ative a proteção de branch (exigir CI verde e pull request) em *Settings → Branches* assim que o repositório for público ou tiver plano GitHub Pro; em repositório privado gratuito o GitHub não permite.
 - Crie branches curtas a partir de `main`: `feat/...`, `fix/...`, `content/...`, `chore/...`.
 - Commits seguem [Conventional Commits](https://www.conventionalcommits.org/pt-br/): `feat:`, `fix:`, `content:`,
   `docs:`, `chore:`, `ci:`, `refactor:`.
