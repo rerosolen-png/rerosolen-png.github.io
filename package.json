@@ -14,10 +14,11 @@
     "check": "astro check",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "lint": "npm run check && npm run format:check",
+    "lint": "npm run check && npm run format:check && npm run content:check",
     "astro": "astro",
     "images:link": "node scripts/link-images.mjs",
-    "og": "node scripts/make-og.mjs"
+    "og": "node scripts/make-og.mjs",
+    "content:check": "node scripts/check-content.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
@@ -27,6 +28,7 @@
     "@astrojs/check": "^0.9.12",
     "prettier": "^3.9.10",
     "prettier-plugin-astro": "^1.1.2",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "yaml": "^2.9.1"
   }
 }
