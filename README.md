@@ -4,7 +4,9 @@ Site estático da **Rosolen Têxtil**, loja de tecidos em Ribeirão Preto/SP (Av
 Construído com [Astro](https://astro.build) e otimizado para SEO local: uma página por tecido, categorias com
 guias de compra, artigos informativos, dados estruturados (schema.org) e sitemap automático.
 
-- **Produção:** https://www.rosolentextil.com.br (domínio registrado; ver [Publicação](#publicação))
+- **Site no ar:** https://rerosolen-png.github.io/ (endereço temporário do GitHub Pages)
+- **Domínio definitivo:** https://www.rosolentextil.com.br (registrado; falta apontar o DNS, ver [Publicação](#publicação))
+- **Repositório:** https://github.com/rerosolen-png/rerosolen-png.github.io (público)
 - **Stack:** Astro 7 (saída estática), TypeScript, CSS puro com design tokens, `@astrojs/sitemap`, Prettier
 - **Hospedagem:** GitHub Pages via GitHub Actions (qualquer host estático funciona: Netlify, Vercel, Cloudflare Pages)
 
@@ -130,26 +132,48 @@ próprias, remova a entrada correspondente do JSON e o campo `imageCredit` do fr
 2. Adicionar o site no **Perfil da Empresa no Google** (hoje o perfil não tem website cadastrado) e manter nome,
    endereço e telefone idênticos aos de `src/data/site.ts`.
 3. Colocar o link do site na bio do Instagram e na página do Facebook.
-4. Criar a imagem `public/og-default.jpg` (1200×630) com a fachada ou logotipo, usada ao compartilhar links.
+4. Trocar `public/og-default.jpg` (1200×630, usada ao compartilhar links) por uma imagem da fachada ou do
+   logotipo; hoje ela é gerada da foto ilustrativa da home com `npm run og`.
 5. Substituir gradualmente as fotos ilustrativas por fotos reais dos tecidos da loja.
 6. Publicar um artigo novo no guia a cada mês e atualizar `updatedDate` nos tecidos revisados.
 
 ## Publicação
 
-O fluxo `.github/workflows/deploy.yml` publica no **GitHub Pages** a cada push na branch `main`.
+O fluxo `.github/workflows/deploy.yml` publica no **GitHub Pages** a cada push na branch `main` (ou manualmente
+em _Actions → Deploy (GitHub Pages) → Run workflow_). O repositório é público, com _Settings → Pages → Source_
+definido como _GitHub Actions_.
 
-1. Repositório **público** (GitHub Pages gratuito) ou plano com Pages em repositório privado.
-2. Em _Settings → Pages_, defina _Source: GitHub Actions_.
-3. O arquivo `public/CNAME` já aponta para `www.rosolentextil.com.br`. No registro.br, configure o DNS:
+O repositório se chama `rerosolen-png.github.io` de propósito: um repositório com esse nome (_user site_) é servido
+na raiz `https://rerosolen-png.github.io/`. Com qualquer outro nome o GitHub serviria o site em um subcaminho
+(`/nome-do-repositorio/`), e os links absolutos do site (`/tecidos/...`, `/_astro/...`) quebrariam.
+
+**Estado atual:** site no ar em https://rerosolen-png.github.io/. Falta apontar o domínio próprio.
+
+**Como ativar www.rosolentextil.com.br**
+
+1. No [registro.br](https://registro.br), entre com a conta dona do domínio, abra `rosolentextil.com.br` e edite a
+   zona DNS (o DNS do domínio é hospedado no próprio registro.br). Crie os registros:
    - `www` → CNAME `rerosolen-png.github.io`
-   - domínio raiz → registros A `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-4. Em _Settings → Pages_, informe o domínio e marque _Enforce HTTPS_.
+   - domínio raiz (campo de nome em branco) → registros A `185.199.108.153`, `185.199.109.153`,
+     `185.199.110.153`, `185.199.111.153`
+2. Aguarde a propagação (de alguns minutos a algumas horas).
+3. Em _Settings → Pages → Custom domain_ do repositório, informe `www.rosolentextil.com.br` e salve. Pelo
+   terminal: `gh api -X PUT repos/rerosolen-png/rerosolen-png.github.io/pages -f cname=www.rosolentextil.com.br`.
+4. Quando o GitHub emitir o certificado (alguns minutos depois do passo 3), marque _Enforce HTTPS_.
+5. Recomendado: verifique o domínio na conta (_Settings do perfil → Pages → Add a domain_, registro TXT) para
+   impedir que outra conta do GitHub use o domínio.
+
+Com deploy via GitHub Actions, o arquivo `public/CNAME` é só servido como arquivo estático; o domínio precisa ser
+definido nas configurações do Pages (passo 3). Feito isso, `https://rerosolen-png.github.io/` passa a redirecionar
+para o domínio próprio, e os `canonical` e o sitemap, que já usam `www.rosolentextil.com.br`, ficam corretos.
 
 Para outro host estático (Netlify, Vercel, Cloudflare Pages): comando de build `npm run build`, pasta `dist`.
 
 ## Fluxo de trabalho no GitHub
 
-- `main` é a branch de produção. Ative a proteção de branch (exigir CI verde e pull request) em _Settings → Branches_ assim que o repositório for público ou tiver plano GitHub Pro; em repositório privado gratuito o GitHub não permite.
+- `main` é a branch de produção: todo push nela publica o site. A proteção de branch (exigir CI verde e pull
+  request) está disponível em _Settings → Branches_, já que o repositório é público; ative quando mais de uma
+  pessoa editar o site, pois ela bloqueia pushes diretos em `main`.
 - Crie branches curtas a partir de `main`: `feat/...`, `fix/...`, `content/...`, `chore/...`.
 - Commits seguem [Conventional Commits](https://www.conventionalcommits.org/pt-br/): `feat:`, `fix:`, `content:`,
   `docs:`, `chore:`, `ci:`, `refactor:`.
