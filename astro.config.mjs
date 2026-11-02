@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig, fontProviders } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 /**
@@ -11,6 +11,9 @@ import sitemap from '@astrojs/sitemap';
  *   estáveis (ex.: /tecidos/tricoline/), evitando conteúdo duplicado.
  * - `compressHTML: true` mantém o espaçamento entre elementos inline
  *   (o padrão 'jsx' do Astro 7 remove espaços entre tags).
+ * - `fonts`: as fontes são baixadas no build e servidas pelo próprio site
+ *   (sem requisições ao Google em produção), com fallbacks otimizados
+ *   para evitar "pulo" de layout. Ver src/styles/global.css.
  */
 export default defineConfig({
   site: 'https://www.rosolentextil.com.br',
@@ -20,6 +23,28 @@ export default defineConfig({
     format: 'directory',
     inlineStylesheets: 'auto',
   },
+  fonts: [
+    {
+      // Texto corrido, navegação e botões.
+      name: 'Inter',
+      cssVariable: '--font-inter',
+      provider: fontProviders.google(),
+      weights: ['400 700'],
+      styles: ['normal'],
+      subsets: ['latin'],
+      fallbacks: ['sans-serif'],
+    },
+    {
+      // Títulos.
+      name: 'Plus Jakarta Sans',
+      cssVariable: '--font-jakarta',
+      provider: fontProviders.google(),
+      weights: ['600 800'],
+      styles: ['normal'],
+      subsets: ['latin'],
+      fallbacks: ['sans-serif'],
+    },
+  ],
   integrations: [
     sitemap({
       filter: (page) => !page.includes('/404'),

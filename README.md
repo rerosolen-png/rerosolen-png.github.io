@@ -7,7 +7,7 @@ guias de compra, artigos informativos, dados estruturados (schema.org) e sitemap
 - **Site no ar:** https://rerosolen-png.github.io/ (endereço temporário do GitHub Pages)
 - **Domínio definitivo:** https://www.rosolentextil.com.br (registrado; falta apontar o DNS, ver [Publicação](#publicação))
 - **Repositório:** https://github.com/rerosolen-png/rerosolen-png.github.io (público)
-- **Stack:** Astro 7 (saída estática), TypeScript, CSS puro com design tokens, `@astrojs/sitemap`, Prettier
+- **Stack:** Astro 7 (saída estática), TypeScript, CSS puro com design tokens, fontes Inter e Plus Jakarta Sans self-hosted (Astro Fonts), `@astrojs/sitemap`, Prettier
 - **Hospedagem:** GitHub Pages via GitHub Actions (qualquer host estático funciona: Netlify, Vercel, Cloudflare Pages)
 
 ## Sumário
@@ -37,7 +37,8 @@ npm run format     # formata todos os arquivos
 npm run content:check   # valida frontmatter, descrições, slugs e links internos do conteúdo
 npm run images:optimize # redimensiona/comprime as fotos de src/assets (máx. 1600 px, JPEG q80)
 npm run images:link     # vincula fotos de src/assets ao frontmatter (image, imageAlt, imageCredit)
-npm run og              # regenera public/og-default.jpg a partir de src/assets/hero.jpg
+npm run og              # regenera public/og-default.jpg (foto do hero + logotipo)
+npm run logo            # regenera logo.svg, favicon e ícones a partir da fonte Brush Script MT (C:\Windows\Fonts)
 ```
 
 ## Estrutura do projeto

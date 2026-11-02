@@ -10,9 +10,9 @@
   --color-surface-alt: #f3eee6;
   --color-text: #1f2430;
   --color-muted: #5b6372;
-  --color-primary: #1f3a5f;
-  --color-primary-dark: #15283f;
-  --color-primary-soft: #e4ebf5;
+  --color-primary: #1d2b64;
+  --color-primary-dark: #000033;
+  --color-primary-soft: #e8ebf7;
   --color-accent: #c2552f;
   --color-accent-dark: #9e4324;
   --color-accent-soft: #f8e6dd;
@@ -21,8 +21,10 @@
   --color-whatsapp: #25d366;
   --color-whatsapp-dark: #1da851;
 
-  --font-sans: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif;
-  --font-serif: Georgia, 'Times New Roman', 'Noto Serif', serif;
+  --font-sans:
+    var(--font-inter), 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial,
+    sans-serif;
+  --font-heading: var(--font-jakarta), var(--font-sans);
 
   --radius-sm: 6px;
   --radius: 12px;
@@ -85,9 +87,10 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: var(--font-serif);
-  font-weight: 600;
-  line-height: 1.2;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
   color: var(--color-primary-dark);
   margin: 0 0 0.6em;
   text-wrap: balance;

@@ -19,7 +19,8 @@
     "images:link": "node scripts/link-images.mjs",
     "og": "node scripts/make-og.mjs",
     "content:check": "node scripts/check-content.mjs",
-    "images:optimize": "node scripts/optimize-assets.mjs"
+    "images:optimize": "node scripts/optimize-assets.mjs",
+    "logo": "node scripts/make-logo.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
@@ -27,6 +28,8 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.12",
+    "opentype.js": "^2.0.0",
+    "png-to-ico": "^3.0.2",
     "prettier": "^3.9.10",
     "prettier-plugin-astro": "^1.1.2",
     "typescript": "^6.0.3",
