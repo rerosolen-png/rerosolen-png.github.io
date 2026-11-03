@@ -57,10 +57,12 @@ faq:
 image: ../../assets/tecidos/liganete.jpg
 imageAlt: 'Tecido Liganete (Malha Fria): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'RAJIVVASUDEV'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Pointelle_Fabric.jpg'
+  author: 'ActionVance'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/pink-textile-UvisJMJmqAU?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@actionvance?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é a malha liganete

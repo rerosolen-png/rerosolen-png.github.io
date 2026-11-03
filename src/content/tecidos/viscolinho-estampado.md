@@ -54,10 +54,12 @@ faq:
 image: ../../assets/tecidos/viscolinho-estampado.jpg
 imageAlt: 'Tecido Viscolinho Estampado: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Mabalu'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Trompe_l%27oeil_printed_viscose_jersey_dresses_by_Maison_Martin_Margiela,_1996_and_2012.jpg'
+  author: 'Divazus Fabric Store'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-close-up-of-a-blue-and-purple-fabric-6EdxYTq8LTM?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@divazus?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido viscolinho estampado

@@ -57,10 +57,12 @@ faq:
 image: ../../assets/tecidos/helanca-escolar.jpg
 imageAlt: 'Tecido Helanca Escolar (Helanca Pesada): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Pratama A.'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Batik_Geblek_Renteng_School_Uniform_1.jpg'
+  author: 'ROBIN WORRALL'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/yellow-prefect-pin-QaYcPAO6SIc?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@robin_rednine?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é a malha helanca escolar

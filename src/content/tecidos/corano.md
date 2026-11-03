@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/corano.jpg
 imageAlt: 'Tecido Corano (Couro Sintético para Estofado): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Peter Lecroix'
-  source: 'Wikimedia Commons'
-  license: 'Public Domain'
-  url: 'https://commons.wikimedia.org/wiki/File:Imitation_Leather_(Belgium),_1920_(CH_18604689).jpg'
+  author: 'John Vid'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-close-up-of-an-orange-object-on-a-white-surface-u-QAcrZu8N8?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@vanvid?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido corano

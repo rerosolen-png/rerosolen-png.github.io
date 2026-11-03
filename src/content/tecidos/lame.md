@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/lame.jpg
 imageAlt: 'Tecido Lamê: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'https://www.momu.be/collectie/studiecollectie.html / Photo by Stany Dederen'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Woven_Fabric_(ST223)_-_MoMu_Antwerp.jpg'
+  author: 'Ashes Sitoula'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-close-up-view-of-a-gold-cloth-TQKxlJ6Gl3o?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@awesome?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido lamê

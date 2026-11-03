@@ -57,10 +57,12 @@ faq:
 image: ../../assets/tecidos/soft.jpg
 imageAlt: 'Tecido Soft (Tecido Soft): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Rico Cilliers (Processing) colormass (Photography)'
-  source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Knitted_fleece_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
+  author: 'Alexander Grey'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/closeup-photography-of-blue-textile-XeEvy_ofGNk?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@sharonmccutcheon?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido soft

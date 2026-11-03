@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/chiffon.jpg
 imageAlt: 'Tecido Chiffon: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'User:ShenkarArchive'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 3.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Chiffon_2162_Dress.jpg'
+  author: 'OneYard Fabric'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-close-up-view-of-a-white-fabric-PIKl7SQi6Qw?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@oneyard?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido chiffon

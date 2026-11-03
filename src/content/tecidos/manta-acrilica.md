@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/manta-acrilica.jpg
 imageAlt: 'Tecido Manta Acrílica para Enchimento: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'KamillaŚ'
-  source: 'Wikimedia Commons'
-  license: 'CC BY 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Polyfill.jpg'
+  author: 'Kristina Tochilko'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/folded-white-lace-fabric-3Lijgv4bVPQ?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@tochilko?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é a manta acrílica

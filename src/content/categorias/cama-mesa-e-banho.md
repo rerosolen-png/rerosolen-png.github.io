@@ -22,10 +22,12 @@ faq:
 image: ../../assets/categorias/cama-mesa-e-banho.jpg
 imageAlt: 'Tecidos para Cama, Mesa e Banho: foto ilustrativa'
 imageCredit:
-  author: 'PattayaPatrol'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:DSC_8578_A_luxurious_vintage-style_bedroom_with_a_draped_fabric_ceiling_ornate_chandelier_patterned_wallpaper_plush_seating_and_a_bed_dressed_in_floral_pillows_and_textured_linens.jpg'
+  author: 'Deconovo'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/white-bed-pillow-on-brown-wooden-bed-frame-gVKmonDbotU?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@deconovo?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## Como escolher tecidos para cama, mesa e banho

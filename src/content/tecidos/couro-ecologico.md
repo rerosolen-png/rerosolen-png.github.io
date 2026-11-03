@@ -57,10 +57,10 @@ faq:
 image: ../../assets/tecidos/couro-ecologico.jpg
 imageAlt: 'Tecido Couro Ecológico (Sintético): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'San Diego Air & Space Museum Archives'
+  author: 'Tuanvn291089'
   source: 'Wikimedia Commons'
-  license: 'Public Domain'
-  url: 'https://commons.wikimedia.org/wiki/File:122007sco002_Image_of_Curatorial_Object_(54689672270).jpg'
+  license: 'CC BY-SA 3.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Synthetic_Leather.jpg'
 ---
 
 ## O que é o tecido couro ecológico

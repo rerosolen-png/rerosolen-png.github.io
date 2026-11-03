@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/oxford-estampado.jpg
 imageAlt: 'Tecido Oxford Estampado para Toalhas: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'The original uploader was Paulnasca at English Wikipedia .'
-  source: 'Wikimedia Commons'
-  license: 'CC BY 2.5'
-  url: 'https://commons.wikimedia.org/wiki/File:Tablecloth_romanian_2closeup.jpg'
+  author: 'Isabela Kronemberger'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/white-green-and-teal-floral-textile-0rUc4_00L-A?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@kronemberger?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido oxford estampado

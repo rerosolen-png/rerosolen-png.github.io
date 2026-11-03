@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/bengaline.jpg
 imageAlt: 'Tecido Bengaline: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Rico Cilliers colormass'
-  source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Bi_stretch_arm_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
+  author: 'Second Breakfast'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-red-cloth-textured-with-a-pattern-uZ82-B7fC8o?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@breakfast2?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido bengaline

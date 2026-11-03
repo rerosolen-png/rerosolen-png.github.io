@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/juta.jpg
 imageAlt: 'Tecido Juta por Metro: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Rico Cilliers (Processing) colormass (Photography)'
-  source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Hessian_380_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
+  author: 'Ashes Sitoula'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/coarse-light-colored-woven-fabric-texture-tRWS5eTCC90?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@awesome?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é a juta

@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/jacquard.jpg
 imageAlt: 'Tecido Jacquard para Decoração: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Rico Cilliers (Processing) colormass (Photography)'
-  source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Primary_flat_-_Quatrefoil_Jacquard_Fabric_(Rico_Cilliers_and_colormass_via_Poly_Haven).webp'
+  author: 'Divazus Fabric Store'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/black-red-and-white-floral-textile-BLRfp2cHBRI?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@divazus?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido jacquard para decoração

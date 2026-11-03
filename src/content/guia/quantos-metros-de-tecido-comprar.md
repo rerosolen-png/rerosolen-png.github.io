@@ -10,10 +10,12 @@ draft: false
 image: ../../assets/guia/quantos-metros-de-tecido-comprar.jpg
 imageAlt: 'Quantos metros de tecido comprar: tabela de consumo por peça: imagem ilustrativa'
 imageCredit:
-  author: 'Yejianfei'
-  source: 'Wikimedia Commons'
-  license: 'CC BY 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Chinese_tape_measure.jpg'
+  author: 'Diana Polekhina'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/silver-and-black-necklace-on-yellow-textile-iUfusOthmgQ?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@diana_pole?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 Para a maioria das peças adultas, a conta fica entre **1 m e 3 m de tecido**: uma blusa simples leva cerca de 1,20 m, uma camisa de manga longa de 1,80 m a 2,00 m, uma calça de 1,50 m a 1,80 m e um vestido midi de 2,50 m a 3,00 m, sempre considerando tecidos de 1,40 m a 1,50 m de largura. Peças longas, rodadas, com estampa direcional ou tamanhos grandes pedem mais; malhas e tecidos largos pedem menos.

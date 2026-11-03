@@ -56,10 +56,10 @@ faq:
 image: ../../assets/tecidos/tricoline-com-elastano.jpg
 imageAlt: 'Tecido Tricoline com Elastano: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Tobias ToMar Maier'
+  author: 'Pink Sherbet Photography from Utah, USA'
   source: 'Wikimedia Commons'
-  license: 'CC BY-SA 3.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Tights_-_opaque_-_sheer_to_waist_style_in_white_-_cotton_and_nylon_fabric_mix_-_panty_section_close_up_in_black_and_white_as_they_might_be_worn_on_the_skin.jpg'
+  license: 'CC BY 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Pink_Woven_Cotton_Silk_Fabric_Texture_Free_Creative_Commons_(6962346249).jpg'
 ---
 
 ## O que é o tecido tricoline com elastano

@@ -57,10 +57,10 @@ faq:
 image: ../../assets/tecidos/sarja-cru.jpg
 imageAlt: 'Tecido Sarja de Algodão Cru: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Unknown artist Unknown artist'
+  author: 'Olgierd Rudak'
   source: 'Wikimedia Commons'
-  license: 'Public Domain'
-  url: 'https://commons.wikimedia.org/wiki/File:Textile,_19th_century_(CH_18480331).jpg'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Undyed_denim_cotton_broken_twill.jpg'
 ---
 
 ## O que é o tecido sarja de algodão cru

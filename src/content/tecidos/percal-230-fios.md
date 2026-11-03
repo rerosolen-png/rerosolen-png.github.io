@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/percal-230-fios.jpg
 imageAlt: 'Tecido Percal 230 Fios: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'CWikiP2000'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Silk_Bedsheet.jpg'
+  author: 'Marizan Coetser'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-close-up-of-a-hand-qiqee4vYS0I?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@ghost_kitten?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido percal 230 fios

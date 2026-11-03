@@ -1,6 +1,7 @@
 ---
 import { Image, getImage } from 'astro:assets';
 import { render } from 'astro:content';
+import ImageCredit from '../../components/ImageCredit.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import FabricCard from '../../components/FabricCard.astro';
@@ -87,12 +88,7 @@ const crumbs = [
             fetchpriority="high"
             format="webp"
           />
-          {data.imageCredit && (
-            <figcaption>
-              Foto: {data.imageCredit.author} · {data.imageCredit.source} ·{' '}
-              {data.imageCredit.license}
-            </figcaption>
-          )}
+          {data.imageCredit && <ImageCredit credit={data.imageCredit} />}
         </figure>
       )}
     </header>

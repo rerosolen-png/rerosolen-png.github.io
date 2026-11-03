@@ -1,0 +1,49 @@
+---
+/**
+ * Legenda de crédito de uma foto ilustrativa: autor (com link para o perfil,
+ * quando houver), banco de imagens, licença e link para o original.
+ * Bancos como o Unsplash pedem o crédito ao fotógrafo e ao banco com link.
+ */
+export interface Props {
+  credit: {
+    author: string;
+    source: string;
+    license: string;
+    url?: string;
+    authorUrl?: string;
+    sourceUrl?: string;
+  };
+  class?: string;
+}
+const { credit, class: className } = Astro.props;
+const ext = { target: '_blank', rel: 'noopener noreferrer nofollow' };
+---
+
+<figcaption class={className}>
+  Foto:{' '}
+  {credit.authorUrl ? (
+    <a href={credit.authorUrl} {...ext}>
+      {credit.author}
+    </a>
+  ) : (
+    credit.author
+  )}
+  {' · '}
+  {credit.sourceUrl ? (
+    <a href={credit.sourceUrl} {...ext}>
+      {credit.source}
+    </a>
+  ) : (
+    credit.source
+  )}
+  {' · '}
+  {credit.license}
+  {credit.url && (
+    <>
+      {' · '}
+      <a href={credit.url} {...ext}>
+        fonte
+      </a>
+    </>
+  )}
+</figcaption>

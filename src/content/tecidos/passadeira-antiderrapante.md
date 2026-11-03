@@ -57,10 +57,12 @@ faq:
 image: ../../assets/tecidos/passadeira-antiderrapante.jpg
 imageAlt: 'Tecido Passadeira Antiderrapante por Metro: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Draco flavus'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 3.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Non_slip_mat.jpg'
+  author: 'Sina Saadatmand'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/person-in-blue-denim-jeans-standing-on-white-blue-and-red-area-rug-gB9hryu1q40?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@sinasaadatmand?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é a passadeira antiderrapante

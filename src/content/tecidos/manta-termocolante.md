@@ -57,10 +57,12 @@ faq:
 image: ../../assets/tecidos/manta-termocolante.jpg
 imageAlt: 'Tecido Entretela Termocolante (Manta R1 e R2): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Messer Galeazzo'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Canapina_e_crine_di_giacca_doppiopetto.jpg'
+  author: 'Francesco Ungaro'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/teal-and-white-textured-surface-l_8NQsEvakc?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@francesco_ungaro?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é a entretela termocolante

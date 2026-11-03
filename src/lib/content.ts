@@ -59,6 +59,8 @@ export interface ImageCredit {
   license: string;
   licenseUrl?: string;
   url?: string;
+  authorUrl?: string;
+  sourceUrl?: string;
 }
 
 /** Créditos de imagens (src/data/image-credits.json), se o arquivo existir. */

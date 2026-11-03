@@ -16,10 +16,12 @@ faq:
 image: ../../assets/categorias/rendas-e-bordados.jpg
 imageAlt: 'Rendas e Bordados: foto ilustrativa'
 imageCredit:
-  author: 'Julian Lupyan'
-  source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:White_Lace_Display_in_Mykonos,_Greece.jpg'
+  author: 'Divazus Fabric Store'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-close-up-of-a-white-lace-on-a-black-background-hD2Fs7Aa504?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@divazus?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## Como escolher rendas e bordados

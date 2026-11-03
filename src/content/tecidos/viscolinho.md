@@ -55,10 +55,12 @@ faq:
 image: ../../assets/tecidos/viscolinho.jpg
 imageAlt: 'Tecido Viscolinho Liso: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'TrudiJ'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Crinkle_challis_fabric.jpg'
+  author: 'Logan Voss'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-solid-green-textured-background-ew6FfSoN5MA?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@loganvoss?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido viscolinho

@@ -17,10 +17,12 @@ draft: false
 image: ../../assets/guia/tricoline-ou-viscose-qual-escolher.jpg
 imageAlt: 'Tricoline ou viscose: qual tecido escolher para cada peça: imagem ilustrativa'
 imageCredit:
-  author: 'Shiva Theerthagiri'
-  source: 'Wikimedia Commons'
-  license: 'CC BY 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Cotton_printed_fabric.jpg'
+  author: 'Museum of New Zealand Te Papa Tongarewa'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/delicate-floral-pattern-with-pink-and-blue-flowers-3qWVu_WvaoE?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@tepapa?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 A resposta curta: escolha a **tricoline** quando a peça precisa de estrutura, forma e facilidade de costura (camisas, saias com pregas, roupas infantis, patchwork) e escolha a **viscose** quando o que você quer é caimento fluido, movimento e toque fresco sobre a pele (vestidos soltos, batas, calças pantalona, kimonos). Os dois são tecidos planos, leves e frescos, mas se comportam de maneira oposta no corpo.

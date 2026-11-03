@@ -22,10 +22,12 @@ faq:
 image: ../../assets/categorias/forros-e-entretelas.jpg
 imageAlt: 'Forros e Entretelas: foto ilustrativa'
 imageCredit:
-  author: 'Unknown author Unknown author'
-  source: 'Wikimedia Commons'
-  license: 'CC BY 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Fabric_length_(AM_4718-1).jpg'
+  author: 'Susan Wilkinson'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/white-silk-fabric-with-soft-folds-zp6wHVSm-0c?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@susan_wilkinson?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## Como escolher forros e entretelas

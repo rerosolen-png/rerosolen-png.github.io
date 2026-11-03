@@ -16,10 +16,12 @@ faq:
 image: ../../assets/categorias/malhas.jpg
 imageAlt: 'Malhas por Metro: foto ilustrativa'
 imageCredit:
-  author: 'teslar'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 3.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Interlockjersey.jpg'
+  author: 'Divazus Fabric Store'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-close-up-view-of-a-blue-fabric-3LV4ztmNkwQ?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@divazus?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## Como escolher malhas

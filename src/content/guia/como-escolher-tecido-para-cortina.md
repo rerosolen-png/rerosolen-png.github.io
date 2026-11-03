@@ -10,10 +10,12 @@ draft: false
 image: ../../assets/guia/como-escolher-tecido-para-cortina.jpg
 imageAlt: 'Como escolher tecido para cortina: voil, oxford, blackout ou jacquard: imagem ilustrativa'
 imageCredit:
-  author: 'Orlova Maria orlovamaria'
-  source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Windows_Curtains_Tbilisi_(Unsplash).jpg'
+  author: 'J Shim'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/white-window-curtain-during-daytime-UHhlWF-hVE4?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@uncertainthink?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 Para escolher o tecido da cortina, parta da função do ambiente: **voil** para quem quer luz difusa e leveza (salas, varandas e cozinhas), **oxford** para uma cortina lisa, encorpada e fácil de cuidar (salas, escritórios e quartos de criança), **blackout** para bloquear a luz e ajudar no sono (quartos e home theater) e **jacquard** para um visual mais clássico e decorado (salas de jantar e ambientes formais). Em muitos projetos a melhor resposta é combinar dois deles: um voil na frente e um blackout atrás.

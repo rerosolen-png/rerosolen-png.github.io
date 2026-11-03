@@ -36,8 +36,8 @@ function pageFor(key: string): string | null {
       <h1>Créditos de imagens</h1>
       <p class="lead">
         Parte das fotografias deste site é ilustrativa e foi obtida em bancos de imagens com
-        licenças abertas (Creative Commons e domínio público). Agradecemos aos autores listados
-        abaixo. As demais fotos pertencem à Rosolen Têxtil.
+        licenças livres (Unsplash, Creative Commons e domínio público). Agradecemos aos fotógrafos
+        listados abaixo. As demais fotos pertencem à Rosolen Têxtil.
       </p>
     </header>
 
@@ -69,8 +69,24 @@ function pageFor(key: string): string | null {
                     (c.title ?? '')
                   )}
                 </td>
-                <td>{c.author}</td>
-                <td>{c.source}</td>
+                <td>
+                  {c.authorUrl ? (
+                    <a href={c.authorUrl} target="_blank" rel="noopener noreferrer nofollow">
+                      {c.author}
+                    </a>
+                  ) : (
+                    c.author
+                  )}
+                </td>
+                <td>
+                  {c.sourceUrl ? (
+                    <a href={c.sourceUrl} target="_blank" rel="noopener noreferrer nofollow">
+                      {c.source}
+                    </a>
+                  ) : (
+                    c.source
+                  )}
+                </td>
                 <td>
                   {c.licenseUrl ? (
                     <a href={c.licenseUrl} target="_blank" rel="noopener noreferrer nofollow">

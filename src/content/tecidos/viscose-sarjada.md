@@ -55,10 +55,12 @@ faq:
 image: ../../assets/tecidos/viscose-sarjada.jpg
 imageAlt: 'Tecido Viscose Sarjada: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Rico Cilliers (Processing) colormass (Photography)'
-  source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Denim_fabric_04_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).png'
+  author: 'Olga Kovalski'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-close-up-of-a-blue-cloth-due17P1-fSM?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@kovalskihelga?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido viscose sarjada

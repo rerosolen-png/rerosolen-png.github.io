@@ -57,10 +57,12 @@ faq:
 image: ../../assets/tecidos/crepe-alfaiataria.jpg
 imageAlt: 'Tecido Crepe de Alfaiataria com Elastano: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'This file is part of the Smithsonian Institution''s Open Access collection. Their website states : "We have released these images and data into the Public Domain as Creative Commons Zero (CC0) , meaning you can use, transform, and share our open access assets without asking permission from the Smithsonian."'
-  source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Untitled_(Strip_Quilt_with_Suiting)-saam_2016.5.45.jpg'
+  author: 'SIL Group'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-person-cutting-a-piece-of-fabric-with-a-pair-of-scissors-oshVSMH6JZQ?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@silgroup?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido crepe de alfaiataria com elastano

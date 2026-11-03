@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/cetim-bucol.jpg
 imageAlt: 'Tecido Cetim Bucol (Cetim Pesado para Noivas): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Henri-Horace Roland Delaporte (French, ca. 1724 - 1793)'
-  source: 'Wikimedia Commons'
-  license: 'Public Domain'
-  url: 'https://commons.wikimedia.org/wiki/File:Roland_Delaporte_A_still_life_with_a_boulliette_lamp,_a_sheet_music,_and_a_white_satin_cloth.jpg'
+  author: 'Jatin Gajjar'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-close-up-view-of-a-teal-colored-fabric-dQO-3ud96rQ?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@j3gajjar?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido cetim bucol

@@ -57,10 +57,12 @@ faq:
 image: ../../assets/tecidos/laise.jpg
 imageAlt: 'Tecido Laise (Lese): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Anne-Lise Reinsfelt / Norwegian Museum of Cultural History'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Collar_broderie_anglaise.jpg'
+  author: 'Divazus Fabric Store'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/white-and-black-floral-textile-Ccg4x0kKHow?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@divazus?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido laise

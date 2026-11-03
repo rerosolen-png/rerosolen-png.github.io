@@ -22,10 +22,12 @@ faq:
 image: ../../assets/categorias/tecidos-para-roupas.jpg
 imageAlt: 'Tecidos para Roupas: foto ilustrativa'
 imageCredit:
-  author: 'P1898'
-  source: 'Wikimedia Commons'
-  license: 'CC BY 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Cotton_textiles_October_11_2026_ready_to_wear_03.jpg'
+  author: 'Bernd 📷 Dittrich'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/three-rolls-of-colorful-fabric-stacked-horizontally-fAgfKFooz1A?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@hdbernd?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## Como escolher tecidos para roupas

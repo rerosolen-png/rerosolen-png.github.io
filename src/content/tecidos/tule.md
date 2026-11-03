@@ -57,10 +57,10 @@ faq:
 image: ../../assets/tecidos/tule.jpg
 imageAlt: 'Tecido Tule por Metro (1,20 m e 2,40 m): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Rijksmuseum'
+  author: 'The wub'
   source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Tr%C3%A8s_Parisien,_1923,_No._3_Cr%C3%A9ations_ROBERT..Diablesse,_BI-1966-1051-3-9.jpg'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Tutu_worn_by_Darcey_Bussell_in_Sylvia,_2004.jpg'
 ---
 
 ## O que é o tecido tule

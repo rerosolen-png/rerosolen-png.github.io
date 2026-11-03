@@ -57,10 +57,12 @@ faq:
 image: ../../assets/tecidos/oxford.jpg
 imageAlt: 'Tecido Oxford: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Chris Hoare'
-  source: 'Wikimedia Commons'
-  license: 'CC BY 2.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Oxford_cloth.jpg'
+  author: 'David Vonlanthen'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/woven-off-white-canvas-fabric-texture-EQpm2Xrx6mA?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@vonlanda?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido oxford

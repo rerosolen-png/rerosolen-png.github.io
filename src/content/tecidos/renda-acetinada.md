@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/renda-acetinada.jpg
 imageAlt: 'Tecido Renda Acetinada Bordada: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Smirkybec'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Irish_crochet_lace_with_a_fabric_insert.jpg'
+  author: 'Anita Austvika'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/delicate-white-lace-fabric-on-a-soft-pink-background-FKfcLoQfeoU?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@anitaaustvika?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido renda acetinada bordada

@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/atoalhado-100-algodao.jpg
 imageAlt: 'Tecido Atoalhado 100% Algodão: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Daderot'
-  source: 'Wikimedia Commons'
-  license: 'Public Domain'
-  url: 'https://commons.wikimedia.org/wiki/File:Hand_towel,_Ottoman,_1800s,_embroidery,_silk_on_cotton_-_Museum_f%C3%BCr_V%C3%B6lkerkunde_Dresden_-_DSC08173.JPG'
+  author: 'LumenSoft Technologies'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/assorted-color-towels-dTNq6oYQQFY?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@candelarms?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido atoalhado 100% algodão

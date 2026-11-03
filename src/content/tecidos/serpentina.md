@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/serpentina.jpg
 imageAlt: 'Tecido Tecido Serpentina: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'https://www.momu.be/collectie/studiecollectie.html / Photo by Stany Dederen'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Woven_Fabric_(ST224)_-_MoMu_Antwerp.jpg'
+  author: 'Nataliya Melnychuk'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/close-up-of-a-textured-golden-fabric-with-soft-folds-_BkDSrjoRZs?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@natinati?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido serpentina

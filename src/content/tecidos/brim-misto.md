@@ -57,10 +57,12 @@ faq:
 image: ../../assets/tecidos/brim-misto.jpg
 imageAlt: 'Tecido Brim Misto: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'John Kennicutt, U.S. Marine Corps'
-  source: 'Wikimedia Commons'
-  license: 'Public Domain'
-  url: 'https://commons.wikimedia.org/wiki/File:Drill_instructor_at_the_Officer_Candidate_School.jpg'
+  author: 'engin akyurt'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/brown-textile-in-close-up-image-epgqiRNfNHw?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@enginakyurt?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido brim misto

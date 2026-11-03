@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/linho-com-elastano.jpg
 imageAlt: 'Tecido Linho com Elastano: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Jason Jacobs from Honolulu, USA'
-  source: 'Wikimedia Commons'
-  license: 'CC BY 2.0'
-  url: 'https://commons.wikimedia.org/wiki/File:A_little_Aloha%5E_(Explored)_-_Flickr_-_jijake1977.jpg'
+  author: 'EZcurtain Life'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/close-up-of-beige-textured-fabric-folded-into-a-swirl-qUWPSUiw1rU?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@ezcurtainlife?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido linho com elastano

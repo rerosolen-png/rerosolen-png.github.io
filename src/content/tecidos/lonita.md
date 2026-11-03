@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/lonita.jpg
 imageAlt: 'Tecido Lonita de Algodão Cru: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Clescelius'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 3.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Heavy_duty_work_pants_can_be_made_from_cotton_duck_%22canvas%22.JPG'
+  author: 'Marcus Urbenz'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/brown-and-black-knit-textile-Xag89-CFc0s?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@marcusurbenz?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é a lonita de algodão cru

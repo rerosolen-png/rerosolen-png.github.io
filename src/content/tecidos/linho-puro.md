@@ -55,10 +55,12 @@ faq:
 image: ../../assets/tecidos/linho-puro.jpg
 imageAlt: 'Tecido Linho Puro 100% Linho: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Александр Сигачёв'
-  source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Museum_of_Linen_manufacture_by_merchants_Lokalov_-_fabric_sample_-_2025-08_-_p12.jpg'
+  author: 'Kier in Sight Archives'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-close-up-of-a-piece-of-cloth-kwepwyvPWmM?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@kierinsightarchives?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido linho puro

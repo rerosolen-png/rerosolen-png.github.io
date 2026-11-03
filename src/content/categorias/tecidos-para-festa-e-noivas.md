@@ -22,10 +22,12 @@ faq:
 image: ../../assets/categorias/tecidos-para-festa-e-noivas.jpg
 imageAlt: 'Tecidos para Festa e Noivas: foto ilustrativa'
 imageCredit:
-  author: 'Rico Cilliers (Processing) colormass (Photography)'
-  source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Crepe_satin_(Rico_Cilliers_and_colormass_via_Poly_Haven).png'
+  author: 'Katy Duclos'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/white-lace-wedding-dress-rmTkwrmd4dc?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@katdu_photograph?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## Como escolher tecidos para festa e noivas

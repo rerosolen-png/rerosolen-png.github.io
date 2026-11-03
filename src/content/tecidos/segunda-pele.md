@@ -57,10 +57,12 @@ faq:
 image: ../../assets/tecidos/segunda-pele.jpg
 imageAlt: 'Tecido Crepe Segunda Pele (Forro de Malha): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Shiva Theerthagiri'
-  source: 'Wikimedia Commons'
-  license: 'CC BY 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Group_of_net_fabric.jpg'
+  author: 'Divazus Fabric Store'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/white-braille-paper-on-black-textile-Ko3p-x7ulF0?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@divazus?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é a malha crepe segunda pele

@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/algodao-cru.jpg
 imageAlt: 'Tecido Algodão Cru (Tela): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Clem Rutter, Rochester, Kent.'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 3.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Calico_Sample.JPG'
+  author: 'Berkin Üregen'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/gray-textile-on-brown-wooden-table-sZ1w4T9cyb0?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@berkinuregen?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o algodão cru

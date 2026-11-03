@@ -25,10 +25,12 @@ draft: false
 image: ../../assets/guia/tipos-de-malha-para-costura.jpg
 imageAlt: 'Tipos de malha para costura: viscolycra, suplex, helanca, PV, neoprene e mais: imagem ilustrativa'
 imageCredit:
-  author: 'Photos Public Domain'
-  source: 'Wikimedia Commons'
-  license: 'Public Domain'
-  url: 'https://commons.wikimedia.org/wiki/File:Blue_Gray_knit_texture.jpg'
+  author: 'Ekaterina Grosheva'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/blue-green-and-brown-textile-wgRD0Lfe43Q?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@kitkat93?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 Malha é todo tecido feito por laçadas de fio, em vez de fios cruzados como nos tecidos planos. É isso que dá elasticidade natural, mesmo sem elastano. Para costura, as mais usadas são a **viscolycra** (blusas e vestidos macios), o **suplex** (fitness e praia), a **helanca** (uniformes e esportivo), a **malha PV** (camisetas), o **neoprene** (peças estruturadas), a **ribana** (golas e punhos), a **malha penteada** (camisetas de algodão), a **canelada** (croppeds e vestidos justos) e a **liganete** (lingerie e pijama).

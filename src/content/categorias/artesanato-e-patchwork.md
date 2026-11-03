@@ -22,10 +22,12 @@ faq:
 image: ../../assets/categorias/artesanato-e-patchwork.jpg
 imageAlt: 'Tecidos para Artesanato e Patchwork: foto ilustrativa'
 imageCredit:
-  author: 'jude from new york, usa'
-  source: 'Wikimedia Commons'
-  license: 'CC BY 2.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Green_patchwork_quilt_sewn_by_hand.jpg'
+  author: 'Dinh Pham'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/sewing-silk-and-scissors-dG35-kUxv34?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@onesummerday11?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## Como escolher tecidos para artesanato e patchwork

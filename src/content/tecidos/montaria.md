@@ -57,10 +57,12 @@ faq:
 image: ../../assets/tecidos/montaria.jpg
 imageAlt: 'Tecido Malha Montaria: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'teslar'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 3.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Singlejersey.jpg'
+  author: 'EZcurtain Life'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/textured-gray-fabric-with-gentle-folds-f3W2UuF6PA8?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@ezcurtainlife?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é a malha montaria

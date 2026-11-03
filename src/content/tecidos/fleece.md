@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/fleece.jpg
 imageAlt: 'Tecido Fleece (Microfleece e Coral Fleece): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Rico Cilliers (Processing) colormass (Photography)'
-  source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Polar_fleece_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
+  author: 'Andreas Fickl'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/assorted-color-textiles-xrrL3AhYOps?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@afafa?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido fleece

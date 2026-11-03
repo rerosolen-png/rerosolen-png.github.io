@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/tactel.jpg
 imageAlt: 'Tecido Tactel: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Ridderspoor'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Windjack_-_Windbreaker.jpg'
+  author: 'Divazus Fabric Store'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-close-up-of-a-blue-fabric-c7lMlWsAjIo?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@divazus?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido tactel

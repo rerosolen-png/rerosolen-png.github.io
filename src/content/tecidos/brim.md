@@ -57,10 +57,10 @@ faq:
 image: ../../assets/tecidos/brim.jpg
 imageAlt: 'Tecido Brim 100% Algodão: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Junkyardsparkle'
+  author: 'Olgierd Rudak'
   source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:2mm_diamond_drill_bits_macro.jpg'
+  license: 'CC BY-SA 4.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Broken_twill_denim_Wrangler_13MWZ_jeans_(2026-01-21).jpg'
 ---
 
 ## O que é o tecido brim 100% algodão

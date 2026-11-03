@@ -59,7 +59,7 @@ imageCredit:
   author: 'Rico Cilliers (Processing) colormass (Photography)'
   source: 'Wikimedia Commons'
   license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Jersey_melange_anisotropy_strength_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
+  url: 'https://commons.wikimedia.org/wiki/File:Jersey_melange_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
 ---
 
 ## O que é o tecido oxford melange

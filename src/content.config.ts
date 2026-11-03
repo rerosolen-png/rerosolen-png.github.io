@@ -8,6 +8,10 @@ const imageCredit = z.object({
   source: z.string(),
   license: z.string(),
   url: z.url().optional(),
+  /** Página do autor (ex.: perfil no Unsplash). */
+  authorUrl: z.url().optional(),
+  /** Página do banco de imagens. */
+  sourceUrl: z.url().optional(),
 });
 
 const faqItem = z.object({ question: z.string(), answer: z.string() });

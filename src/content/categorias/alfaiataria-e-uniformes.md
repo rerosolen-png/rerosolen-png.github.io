@@ -22,10 +22,12 @@ faq:
 image: ../../assets/categorias/alfaiataria-e-uniformes.jpg
 imageAlt: 'Tecidos para Alfaiataria e Uniformes: foto ilustrativa'
 imageCredit:
-  author: 'tanakawho'
-  source: 'Wikimedia Commons'
-  license: 'CC BY 2.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Tweed_fabric.jpg'
+  author: 'Araf Ibne Alam'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/several-suits-are-on-display-in-a-shop-Z164NLbealo?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@5milliseconds?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## Como escolher tecidos para alfaiataria e uniformes

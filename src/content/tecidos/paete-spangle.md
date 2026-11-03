@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/paete-spangle.jpg
 imageAlt: 'Tecido Paetê Spangle (Lantejoulas Redondas): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Rawpixel Ltd'
-  source: 'Wikimedia Commons'
-  license: 'CC BY 2.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Colorful_sequin_glitter_textured_background_abstract_(27663447838).jpg'
+  author: 'Fredrik Solli Wandem'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-close-up-of-a-mosaic-tile-wall-zr0CehhArdw?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@fredrikwandem?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido paetê spangle

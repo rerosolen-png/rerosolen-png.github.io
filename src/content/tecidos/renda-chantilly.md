@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/renda-chantilly.jpg
 imageAlt: 'Tecido Renda Chantilly: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'This file was contributed to Wikimedia Commons by Camp Chesterfield as part of a cooperation project. The donation was facilitated by the Digital Public Library of America , via its partner Indiana Memory . Record in source catalog DPLA identifier: 729981e6280344189e7980169ebbf251 Camp Chesterfield identifier: http://indianamemory.contentdm.oclc.org/cdm/ref/collection/CampChesterfield/id/5570'
-  source: 'Wikimedia Commons'
-  license: 'Public Domain'
-  url: 'https://commons.wikimedia.org/wiki/File:Chantilly_Lace_Mantilla_-_DPLA_-_729981e6280344189e7980169ebbf251_(page_1).jpg'
+  author: 'Thea Hdc'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/blue-and-white-floral-textile-7Y4o5dmxzIQ?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@lihene_co?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido renda chantilly

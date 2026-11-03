@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/percal-400-fios.jpg
 imageAlt: 'Tecido Percal 400 Fios 100% Algodão: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Monster4711'
-  source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Bettwaesche.jpg'
+  author: 'Franco Debartolo'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-modern-bedroom-with-a-large-bed-and-white-bench-R4C2tIp-3C4?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@francotheshooter?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido percal 400 fios

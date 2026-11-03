@@ -42,19 +42,40 @@ for (const col of collections) {
       console.warn(`[skip] ${col.name}/${file}: frontmatter não encontrado`);
       continue;
     }
-    if (/^image:/m.test(fm[1])) continue;
-
     const title = (fm[1].match(/^title:\s*['"]?(.+?)['"]?\s*$/m) ?? [])[1] ?? slug;
     const credit = credits[`${col.name}/${slug}`];
+    const creditLines = credit
+      ? [
+          'imageCredit:',
+          `  author: ${q(credit.author ?? 'Desconhecido')}`,
+          `  source: ${q(credit.source ?? '')}`,
+          `  license: ${q(credit.license ?? '')}`,
+          ...(credit.url ? [`  url: ${q(credit.url)}`] : []),
+          ...(credit.authorUrl ? [`  authorUrl: ${q(credit.authorUrl)}`] : []),
+          ...(credit.sourceUrl ? [`  sourceUrl: ${q(credit.sourceUrl)}`] : []),
+        ]
+      : [];
 
-    const lines = [`image: ../../assets/${col.name}/${slug}.jpg`, `imageAlt: ${q(col.alt(title))}`];
-    if (credit) {
-      lines.push('imageCredit:');
-      lines.push(`  author: ${q(credit.author ?? 'Desconhecido')}`);
-      lines.push(`  source: ${q(credit.source ?? '')}`);
-      lines.push(`  license: ${q(credit.license ?? '')}`);
-      if (credit.url) lines.push(`  url: ${q(credit.url)}`);
+    if (/^image:/m.test(fm[1])) {
+      // Já vinculado: só sincroniza o bloco imageCredit com src/data/image-credits.json
+      // (necessário quando a foto é trocada por outra de autor/licença diferentes).
+      if (!credit) continue;
+      const block = fm[1].match(/^imageCredit:\n(?:[ \t]+.*\n?)*/m);
+      const current = block ? block[0].replace(/\n$/, '') : null;
+      const next = creditLines.join('\n');
+      if (current === next) continue;
+      const newFm = current ? fm[1].replace(current, next) : `${fm[1]}\n${next}`;
+      writeFileSync(path, src.replace(fm[0], `---\n${newFm}\n---`), 'utf8');
+      linked++;
+      console.log(`[crédito] ${col.name}/${slug}`);
+      continue;
     }
+
+    const lines = [
+      `image: ../../assets/${col.name}/${slug}.jpg`,
+      `imageAlt: ${q(col.alt(title))}`,
+      ...creditLines,
+    ];
 
     const updated = src.replace(fm[0], `---\n${fm[1]}\n${lines.join('\n')}\n---`);
     writeFileSync(path, updated, 'utf8');

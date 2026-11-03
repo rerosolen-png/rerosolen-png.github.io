@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/oxfordine.jpg
 imageAlt: 'Tecido Oxfordine (Camisaria): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'The Portable Antiquities Scheme, Julie Shoemark, 2016-08-04 16:21:06'
-  source: 'Wikimedia Commons'
-  license: 'CC BY 2.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Roman_Oxfordshire_red-brown_slipped_ware_vessel_(FindID_797880).jpg'
+  author: 'engin akyurt'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/blue-textile-in-close-up-photography-iwBPEw_Oq5k?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@enginakyurt?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido oxfordine

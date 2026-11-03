@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/oxford-pet.jpg
 imageAlt: 'Tecido Oxford Pet (Estampas para Pets): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'https://www.momu.be/collectie/studiecollectie.html / Photo by Stany Dederen'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Printed_Fabric_(ST240)_-_Printed_Textile_-_MoMu_Antwerp.jpg'
+  author: 'Michael Marais'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/black-and-white-checkered-textile-cK_B9anZlCg?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@michael_marais?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o oxford pet

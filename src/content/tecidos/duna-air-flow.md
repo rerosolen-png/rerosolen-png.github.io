@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/duna-air-flow.jpg
 imageAlt: 'Tecido Duna Air Flow: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Göran Schmidt'
-  source: 'Wikimedia Commons'
-  license: 'Public Domain'
-  url: 'https://commons.wikimedia.org/wiki/File:F%C3%B6rmiddagskl%C3%A4nning,_drottning_Victoria_-_Livrustkammaren_-_15799_01.jpg'
+  author: 'Divazus Fabric Store'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/blue-textile-in-close-up-image-3_B71cMNLW8?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@divazus?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido duna air flow

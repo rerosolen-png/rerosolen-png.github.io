@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/tecido-impermeavel.jpg
 imageAlt: 'Tecido Tecido Impermeável Estampado: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Gower'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 3.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Oilcloth_cerata.jpg'
+  author: 'frame harirak'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/water-dew-closeup-photography-zNyubxRIf4I?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@framemily?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido impermeável estampado

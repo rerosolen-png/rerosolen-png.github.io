@@ -57,10 +57,12 @@ faq:
 image: ../../assets/tecidos/two-way.jpg
 imageAlt: 'Tecido Two Way (Alfaiataria com Elastano): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Rico Cilliers (Processing) colormass (Photography)'
-  source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Caban_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
+  author: 'Azzedine Rouichi'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/colorful-linen-fabric-folds-B5mBJSvtgx8?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@rouichi?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido two way

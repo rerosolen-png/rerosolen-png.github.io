@@ -57,10 +57,12 @@ faq:
 image: ../../assets/tecidos/tricoline-misto.jpg
 imageAlt: 'Tecido Tricoline Mista (Poliéster e Algodão): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Suyash Dwivedi'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Macro_image_of_Cotton_Fabric.jpg'
+  author: 'Nimble Made'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/white-and-purple-button-up-shirt-kY8hmUQV9Ek?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@nimblemade?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o tecido tricoline mista

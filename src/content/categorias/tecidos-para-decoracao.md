@@ -22,10 +22,12 @@ faq:
 image: ../../assets/categorias/tecidos-para-decoracao.jpg
 imageAlt: 'Tecidos para Decoração: foto ilustrativa'
 imageCredit:
-  author: 'This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy'
-  source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Drapery_fabric_MET_DP207447.jpg'
+  author: 'Victor Volkov'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-bunch-of-different-colors-of-fabric-stb9o3RE5lI?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@lensyfoxography?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## Como escolher tecidos para decoração

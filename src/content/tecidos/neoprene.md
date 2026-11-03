@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/neoprene.jpg
 imageAlt: 'Tecido Neoprene (Scuba): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Hannah Emily M'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Grey_Neoprene_Waist_Trainer.jpg'
+  author: 'Divazus Fabric Store'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-close-up-shot-of-a-blue-fabric-igoVsyTcP98?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@divazus?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é a malha neoprene

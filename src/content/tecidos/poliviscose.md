@@ -57,10 +57,10 @@ faq:
 image: ../../assets/tecidos/poliviscose.jpg
 imageAlt: 'Tecido Poliviscose (Alfaiataria para Ternos): foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Textile and Fibre Technology, CSIRO'
+  author: 'Very Quiet'
   source: 'Wikimedia Commons'
-  license: 'CC BY 3.0'
-  url: 'https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_1854_Easycare_Fabric_Suit.jpg'
+  license: 'CC BY-SA 2.0'
+  url: 'https://commons.wikimedia.org/wiki/File:Tweed_(3510266081).jpg'
 ---
 
 ## O que é o tecido poliviscose

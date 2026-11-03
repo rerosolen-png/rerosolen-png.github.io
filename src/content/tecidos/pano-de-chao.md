@@ -55,10 +55,12 @@ faq:
 image: ../../assets/tecidos/pano-de-chao.jpg
 imageAlt: 'Tecido Pano de Chão por Metro: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Philippe Alès'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 3.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Texture_of_blue_cleaning_cloth.JPG'
+  author: 'Anton'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/hands-cleaning-surface-with-spray-bottle-y-bjqTUUw2Q?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@uniqueton?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é o pano de chão por metro

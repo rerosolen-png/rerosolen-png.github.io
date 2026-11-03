@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/malha-penteada.jpg
 imageAlt: 'Tecido Malha Penteada 30/1 100% Algodão: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Rico Cilliers (Processing) colormass (Photography)'
-  source: 'Wikimedia Commons'
-  license: 'CC0 1.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Cotton_jersey_diff_8k_(Rico_Cilliers_and_colormass_via_Poly_Haven).jpg'
+  author: 'Lena Kudryavtseva'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/green-crew-neck-shirt-and-gray-crew-neck-shirt-itUsEU7GgDU?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@lenakuld?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é a malha penteada 30/1

@@ -56,10 +56,12 @@ faq:
 image: ../../assets/tecidos/manta-termica.jpg
 imageAlt: 'Tecido Manta Térmica Aluminizada: foto ilustrativa da textura e do caimento'
 imageCredit:
-  author: 'Alieneta Firdausi'
-  source: 'Wikimedia Commons'
-  license: 'CC BY-SA 4.0'
-  url: 'https://commons.wikimedia.org/wiki/File:Scanned_Aluminum_Foil.png'
+  author: 'Klim Sergeev'
+  source: 'Unsplash'
+  license: 'Unsplash License'
+  url: 'https://unsplash.com/photos/a-close-up-view-of-a-blue-blanket-wd5JNpAl3Ts?utm_source=rosolen_textil&utm_medium=referral'
+  authorUrl: 'https://unsplash.com/@klimsergeev?utm_source=rosolen_textil&utm_medium=referral'
+  sourceUrl: 'https://unsplash.com/?utm_source=rosolen_textil&utm_medium=referral'
 ---
 
 ## O que é a manta térmica aluminizada
